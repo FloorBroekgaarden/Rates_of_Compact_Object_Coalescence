@@ -8,8 +8,10 @@ To make the figures from the paper, put all the data (at least 26 files, unless 
 
 ### Additional figures
 Variations of the figures that are available for use / to use in presentations can be found in the following two slide decks:
+(more are on the way)
 
 Vertical figures: https://docs.google.com/presentation/d/1GqJ0k2zpnxBGwIYNeQ0BfsLSU7H2942gspL-PN_iaJY/edit?usp=sharing 
+Horizontal figures: https://docs.google.com/presentation/d/1so_qDcb6yYyLi7ZMf0rcivqHF4P2_IlJaI38jHkWbgw/edit?usp=sharing 
 
 
 ### Reference
