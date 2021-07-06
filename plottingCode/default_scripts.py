@@ -423,6 +423,13 @@ def layoutAxesNoXlabel(ax, nameX='', nameY='', \
     return ax
 
 
+
+
+
+
+
+
+
 def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered=None, plotmedians=False):
     """    
     
@@ -673,6 +680,228 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     
     
     
+#### SUMMARY PLOTS CODE 
+
+
+
+def make_summary_figure(DCOtype='BHNS', path_to_data_directory='path/'):
+    
+    
+    ncols, nrows=1,1
+    
+    # all data files are structured (in path / file name ) to start with the following
+    DCOdirectoryPath = path_to_data_directory + dictDCOdirectory[DCOtype]+'_rates_'
+    
+    if DCOtype in ['BHBH']:
+        s_text = r'Local merging BH-BH rate' 
+        
+        names =   [DCOdirectoryPath+'observations-GWs.csv',\
+                   DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
+                   DCOdirectoryPath+'population-III.csv',DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'globular-clusters.csv',\
+                  DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv', 
+                    DCOdirectoryPath+'primordial.csv']
+        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'triples','dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
+       
+
+        
+    elif DCOtype=='BHNS': 
+        s_text = r'Local merging NS-BH rate' 
+        
+        names =   [DCOdirectoryPath+'observations-GWs.csv',\
+                   DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
+                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'globular-clusters.csv',\
+                  DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv'\
+                   ]
+        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
+
+
+    elif DCOtype=='NSNS':
+        
+        s_text = r'Local merging NS-NS rate'
+        
+        names = [DCOdirectoryPath+'observations-GWs.csv', DCOdirectoryPath+'observations-sGRBs.csv',\
+                 DCOdirectoryPath+'observations-kilonovae.csv' ,\
+                  DCOdirectoryPath+'observations-pulsars.csv',\
+                 DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'triples.csv',\
+                 DCOdirectoryPath+'globular-clusters.csv',\
+                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv'\
+                  ] 
+        
+        rate_labels = ['GWs', 'sGRBs', 'kilonovae', 'pulsars', \
+                       'isolated binaries',  'triples',   'dynamical: GC', 'dynamical: NC',  'dynamical: YSC'] 
+        
+
+    
+    # size of the figure 
+    d1_, d2_ = 18,12
+    d1, d2 = d1_, d2_
+    f, axe= plt.subplots(ncols=ncols,nrows=nrows,figsize=(d1,d2), gridspec_kw={"width_ratios":[1], "height_ratios":[1]})     
+    
+    
+    text_DCO = r'\textbf{%s}'%DCOtype + '\n' + r'\textbf{merger rates}'
+    textbox_props = dict(boxstyle='round', facecolor='gray', alpha=0.1)
+    
+    
+    
+        
+    plot_summary_rates(axe=axe, df_names=names, df_colordict=name_colors, df_labels=rate_labels, DCOtype=DCOtype)
+    make_up_axes_summary(axe, DCOtype, df_names=names)
+    
+    draw_vlines(axe=axe, v_values=[1E-4, 1E-3, 1E-2, 1E-1, 1E0, 1E1, 1E2, 1E3, 1E4, 1E5])
+
+    
+    plt.title(s_text, fontsize=34,  pad=20)
+        
+    plt.tight_layout()
+    plt.subplots_adjust(wspace=0, hspace=0)#2)
+    plt.savefig('./Rates_' +DCOtype + '_' + 'summary'+ '.png', dpi=300, transparent=False)#,\
+    plt.savefig('./Rates_' +DCOtype + '_' + 'summary'+ '.pdf')#,\
+#                bbox_extra_artists=(lgd,), bbox_inches='tight')
+    plt.show()
+
+    plt.close()    
+    
+
+
+def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
+    """ creates several things that are axes related"""
+
+    xmin,xmax = 1E-3, 1E5
+        
+    # axes layout and mark up 
+    axe.set_xscale('log')
+    xlabel = r'$\rm{Rate} \, \, [\rm{Gpc}^{-3} \, \rm{yr}^{-1}]$'
+    
+    bps_names = []
+    codes_names = []
+   
+
+    v_height=0
+    yticks=[]    
+    for ind_file, csv_filename in enumerate(df_names):
+        
+        df = pd.read_csv(csv_filename, header=0, skiprows=[0,1,2,3,4,6,7,8,9,10,11,12,13])
+
+        df = df.iloc[:,1::2]
+
+        rate_max_list = []
+        codes_list = []
+
+        v_height+= -1
+
+        
+
+        
+        # add blank line after each channel 
+        v_height+= -1 
+
+#     axe.set_yticks(yticks)
+#     axe.set_yticklabels(bps_names, rotation=0, fontsize=18)
+    axe.set_yticks([])
+#     axe.set_yticklabels([])
+    
+    axe.set_xlim(xmin, xmax)
+
+    
+
+    # add x labels on top
+    ax2x = axe.twiny()
+    ax2x.set_xscale('log')   
+    ax2x.set_xlim(xmin, xmax)
+    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, second=True, labelpad=4)
+
+    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, labelpad=4)
+
+    
+    
+
+    return 
+
+
+
+def plot_summary_rates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS'):
+    """
+    axe: axe to plot the figure on 
+    df_names: names of the textfiles with the data  
+    df_colordict: color map for the data files 
+    df_labels: map to the label names of the data files  
+    DCOtype: Double Compact object type, options are 'BHNS', 'BHBH' or 'NSNS'  
+    ordered: way to order the different studies within a sub group. 
+    Ordered Options are 'year', 'code' (based on code names) and 'max' (based on maximum rates; under construction)
+    """
+
+    v_height=0
+    for ind_file, csv_filename in enumerate(df_names):
+        
+        v_height_top = int(v_height) +.5
+
+        combined_rates = np.asarray([])
+
+        df = pd.read_csv(csv_filename, header=0, skiprows=[0,1,2,3,4,6,7,8])
+        df = df.iloc[:,1::2]
+        
+
+        
+        
+        v_height+= -0.5
+        for ind_n, name in enumerate(df.columns):
+
+            rate = df[name]
+            mask_notna = (df[name].notna())
+            rate = rate[mask_notna]
+            
+            # add rate to combined rates for this group
+            combined_rates = np.concatenate((combined_rates, rate))
+            
+
+                
+            switchLabelLeft=False
+            # if plotting the first rate, add in text which type of formation channel we are plotting 
+            if ind_n==(0): #len(df.columns)-1
+                dict_name = df_labels[ind_file]
+                # plot the following ones as exception somewhere else:
+#                 if ((DCOtype=='BHNS') & (dict_name=='isolated binaries')) | ((DCOtype=='NSNS') & (dict_name=='isolated binaries')) | ((DCOtype=='BHBH') & (dict_name=='isolated binaries')):
+#                     switchLabelLeft = True
+#                 elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars'):
+#                     switchLabelLeft = True 
+                
+                if switchLabelLeft==True:
+                    axe.text(2*1E-3, v_height+0.6, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[df_labels[ind_file]], ha = 'left', va='center', weight = 'bold')
+                else:
+                    axe.text(8*1E4,  v_height+0.6, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[df_labels[ind_file]], ha = 'right', va='center', weight = 'bold')
+
+
+        print(df_labels[ind_file])
+        if df_labels[ind_file]!='kilonovae':
+            plot_using_plotting_style(axe, ps=5, x_=np.asarray(combined_rates), y_=v_height*np.ones_like(combined_rates), color=df_colordict[df_labels[ind_file]])
+            # plot median with black point 
+            plot_using_plotting_style(axe, ps=12, x_=np.median(combined_rates), y_=v_height*np.ones(1), color='k')
+        else:
+            plot_using_plotting_style(axe, ps=3, x_=np.asarray(combined_rates), y_=v_height*np.ones_like(combined_rates), color=df_colordict[df_labels[ind_file]])
+           
+                    
+        v_height+= -1.5
+
+
+        
+#         v_height+= -0.5
+
+        v_height_bottom = int(v_height)+0.5
+
+        
+        if ind_file!=(len(df_names)-1):   
+            axe.plot([1E-3, 1E5],  [v_height+0.5]*2, lw=1.5, c='gray', ls=':', zorder=0)
+    
+    axe.set_ylim(v_height, 0.5)
+    
+    
+    
+    return 
+
+
+
 
 
 
