@@ -821,6 +821,80 @@ def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
 
 
 
+
+
+
+
+
+def plot_using_plotting_style_summary(axe, ps, x_, y_, color):
+    """ uses the plotting style (integer ps between 0 and 30) 
+    to plot the data given the plottingstyle that is given in the csv file 
+    
+    This is the same as the function above `plot_using_plotting_style` 
+    but only contains the upper and lower limits
+
+    the dictionary is: 
+
+    1: only upper limit(s) 
+    2: only lower limit(s) 
+    3: interval without center value
+    4: interval with center value   (90% confidence interval or so) 
+    5: interval with range of simulation values 
+    6: interval with range of simulation values last point is upper limit 
+    7: interval with range of simulation values first point is lower limit 
+    8: (two confidence intervals)  range + two center values (weird one) 
+    9: interval with range of simulation values , first one is fiducial 
+    10; interval with range of simulation values use ylim to add lower limit 
+    11; interval with range of simulation values , first two are fiducial 
+    12: single estimate without error bars 
+    13; interval with range of simulation values , first three are fiducial 
+    14; interval with range of simulation values use ylim to add upper limit 
+    15: interval, upper 3 are upper limits 
+    16: two upper limits 
+    17: interval with range of simulation values first point is upper limit 
+    18: interval with range of simulation values first point is upper limit  +   2 upper ones are upper limits
+
+    """ 
+    
+    # draw upper/lower limit: 
+    if ps in [1,2,6,7, 14, 15 , 16, 17 , 18 ]:
+        msize = 400
+        if ps in [1,6,14]:
+            mstyle = 8 # upper limit 
+            axe.scatter(np.max(x_), np.max(y_), s=msize, c='k', zorder=1E7, marker=mstyle)
+        elif ps in [17, 18]:
+            mstyle=8 # upper limit  (lower limit)
+        # draw upper or lower limit
+            axe.scatter(np.min(x_), np.min(y_), s=msize, c='k', zorder=1E7, marker=mstyle)            
+        elif ps in [2,7]:
+            mstyle=9 # lower limit 
+        # draw upper or lower limit
+            axe.scatter(np.min(x_), np.min(y_), s=msize, c='k', zorder=1E7, marker=mstyle)
+        elif ps in [14]:
+            mstyle=8
+            # 1E4 is upper limit 
+            axe.scatter(0.99*1E5, np.max(y_), s=msize, c='cyan', zorder=1E7, marker=mstyle)
+        elif ps in [15]:
+            mstyle=8
+            # top 3 are upper limit  
+            axe.scatter(x_[-3:], y_[-3:], s=msize, c='k', zorder=1E7, marker=mstyle)
+        elif ps in [18]:
+            mstyle=8
+            # top 2 are upper limit  
+            axe.scatter(x_[-2:], y_[-2:], s=msize, c='k', zorder=1E7, marker=mstyle)
+        elif ps in [16]:
+            mstyle=8
+            # top 3 are upper limit  
+            axe.scatter(x_[-2:], y_[-2:], s=msize, c='k', zorder=1E7, marker=mstyle)
+        elif ps in [10]:
+            mstyle=9
+            # 1E-3 is lower limit y axis 
+            axe.scatter(1E-3, np.max(y_), s=msize, c='cyan', zorder=1E7, marker=mstyle)
+
+    
+    return 
+
+
 def plot_summary_rates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS'):
     """
     axe: axe to plot the figure on 
@@ -838,23 +912,43 @@ def plot_summary_rates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS'):
         v_height_top = int(v_height) +.5
 
         combined_rates = np.asarray([])
+        combined_rates_min_max = np.asarray([])
 
         df = pd.read_csv(csv_filename, header=0, skiprows=[0,1,2,3,4,6,7,8])
         df = df.iloc[:,1::2]
         
 
-        
+        # obtain plotting style / limit type 
+        df_ps = pd.read_csv(csv_filename, header=0, skiprows=[0,1,2,3,4,6,8])
+        df_ps = df_ps.iloc[:,1::2]
+
         
         v_height+= -0.5
+        min_, max_ = 1E5, 1E-4
         for ind_n, name in enumerate(df.columns):
 
             rate = df[name]
             mask_notna = (df[name].notna())
             rate = rate[mask_notna]
             
+            # get plotting style for this study
+            ps = df_ps[name][0]
+
+
+
             # add rate to combined rates for this group
-            combined_rates = np.concatenate((combined_rates, rate))
+            # if it is a credible interval: only add median 
+            if ps==4:
+                combined_rates = np.concatenate((combined_rates, [rate[1]]))
+                # overall min and max 
+                min_ = np.min([min_, np.min(np.concatenate((combined_rates, [rate[0]])))])
+                max_ = np.max([max_, np.max(np.concatenate((combined_rates, [rate[2]])))])
+            else:
+                combined_rates = np.concatenate((combined_rates, rate))
             
+            # if upper or lower limit, plot this seperately on top of overall limit 
+            if ps in [1, 2, 6, 7, 15, 16, 17, 18]:
+                plot_using_plotting_style_summary(axe, ps=ps, x_=np.asarray(rate), y_=v_height*np.ones_like(rate), color=df_colordict[df_labels[ind_file]])
 
                 
             switchLabelLeft=False
@@ -871,6 +965,10 @@ def plot_summary_rates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS'):
                     axe.text(2*1E-3, v_height+0.6, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[df_labels[ind_file]], ha = 'left', va='center', weight = 'bold')
                 else:
                     axe.text(8*1E4,  v_height+0.6, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[df_labels[ind_file]], ha = 'right', va='center', weight = 'bold')
+
+        if ps==4:
+            # add the minimum and maximum of the range. 
+            combined_rates = np.concatenate((combined_rates, [min_, max_]))
 
 
         print(df_labels[ind_file])
