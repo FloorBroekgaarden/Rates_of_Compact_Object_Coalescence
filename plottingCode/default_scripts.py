@@ -168,8 +168,7 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
     ax2x = axe.twiny()
     ax2x.set_xscale('log')   
     ax2x.set_xlim(xmin, xmax)
-    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, second=True, labelpad=4)
-
+    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, second=True, labelpad=20)
     axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, labelpad=4)
     
 #     # SET OBSERVATIONAL GW LIMITs
