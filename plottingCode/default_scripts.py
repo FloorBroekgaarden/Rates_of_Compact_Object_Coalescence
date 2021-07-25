@@ -236,39 +236,48 @@ def plot_using_plotting_style(axe, ps, x_, y_, color):
     """ 
     
     # draw upper/lower limit: 
-    if ps in [1,2,6,7, 14, 15 , 16, 17 , 18 ]:
+    if ps in [1,2,6,7, 10, 12, 14, 15 , 16, 17 , 18, 19 ]:
         msize = 400
         if ps in [1,6,14]:
-            mstyle = 8 # upper limit 
+            mstyle = 4 # upper limit 
             axe.scatter(np.max(x_), np.max(y_), s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [17, 18]:
-            mstyle=8 # upper limit  (lower limit)
+            mstyle=4 # upper limit  (lower limit)
         # draw upper or lower limit
             axe.scatter(np.min(x_), np.min(y_), s=msize, c='k', zorder=1E6, marker=mstyle)            
         elif ps in [2,7]:
-            mstyle=9 # lower limit 
+            mstyle=5 # lower limit 
         # draw upper or lower limit
             axe.scatter(np.min(x_), np.min(y_), s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [14]:
-            mstyle=8
+            mstyle=4
             # 1E4 is upper limit 
             axe.scatter(0.99*1E5, np.max(y_), s=msize, c='cyan', zorder=1E6, marker=mstyle)
         elif ps in [15]:
-            mstyle=8
+            mstyle=4
             # top 3 are upper limit  
             axe.scatter(x_[-3:], y_[-3:], s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [18]:
-            mstyle=8
+            mstyle=4
             # top 2 are upper limit  
             axe.scatter(x_[-2:], y_[-2:], s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [16]:
-            mstyle=8
+            mstyle=4
             # top 3 are upper limit  
             axe.scatter(x_[-2:], y_[-2:], s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [10]:
-            mstyle=9
+            mstyle=5
             # 1E-3 is lower limit y axis 
             axe.scatter(1E-3, np.max(y_), s=msize, c='cyan', zorder=1E6, marker=mstyle)
+        elif ps in [12]:
+            msize = 125
+            axe.scatter(x_, y_, s=msize, c=np.asarray([color]), zorder=1E2, marker='o') 
+        elif ps in [19]:
+            mstyle=4
+            # 1E-3 is upper lower limit y axis 
+            axe.scatter(1E-3, np.max(y_), s=msize, c='cyan', zorder=1E6, marker=mstyle)
+
+
 
     # draw error bar 
     msize = 125
@@ -286,12 +295,7 @@ def plot_using_plotting_style(axe, ps, x_, y_, color):
         else:
             axe.scatter(x_, y_, s=msize, color=[color], zorder=1E2, marker='o') 
 
-    if ps==10:
-            xmin=1E-3
-            axe.scatter(xmin, np.max(y_), s=msize+50, c='k', zorder=1E3, marker=4)
-    elif ps==12:
-        axe.scatter(x_, y_, s=msize, c=np.asarray([color]), zorder=1E2, marker='o')  
-        
+ 
     return 
 
 
@@ -548,9 +552,10 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
             elif (min(rate)>1E5):
                 axe.text(1E5/1.5, v_height, s=colum_list[ind_n], ha='right', va='center', fontsize=fs-5)   
             # plot on the right side 
-            elif (min(rate)<=2*1E-2) :
+            elif ((min(rate)<=2*1E-2) & (max(rate)>1E-3)):
                 axe.text(max(rate)*1.25, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
-
+            elif ((min(rate)<=2*1E-2) & (max(rate)<=1E-3)):
+                axe.text(1E-3*1.35, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
                 
             switchLabelLeft=False
             # if plotting the first rate, add in text which type of formation channel we are plotting 
