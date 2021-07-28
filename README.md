@@ -5,6 +5,8 @@ This scripts (jupyter notebook) in this github directory can be used to reproduc
 
 To make the figures from the paper, put all the data (at least 26 files, unless you are only interested in reproducing one of the Compact Object flavors) in one directory and run the jupyter notebook in https://github.com/FloorBroekgaarden/Rates_of_Compact_Object_Coalescence/tree/main/plottingCode/Make_figures_Mandel_and_Broekgaarden_2021_COC_rates_review.ipynb 
 
+An example of one of the figures that the main code will repruduce is given below. 
+
 
 ### Additional figures
 Variations of the figures that are available for use / to use in presentations can be found in the following two slide decks:
@@ -40,4 +42,5 @@ Floor Broekgaarden: floor.broekgaarden@cfa.harvard.edu
  
 
 
+![alt text](https://github.com/Rates_of_Compact_Object_Coalescence/plottingCode/Rates_BHBH_yearsorted_.png?raw=true)
 
