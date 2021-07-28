@@ -42,5 +42,5 @@ Floor Broekgaarden: floor.broekgaarden@cfa.harvard.edu
  
 
 
-![alt text](https://github.com/Rates_of_Compact_Object_Coalescence/plottingCode/Rates_BHBH_yearsorted_.png?raw=true)
+![alt text](https://github.com/FloorBroekgaarden/Rates_of_Compact_Object_Coalescence/blob/main/plottingCode/Rates_BHBH_yearsorted_.png?raw=true)
 
