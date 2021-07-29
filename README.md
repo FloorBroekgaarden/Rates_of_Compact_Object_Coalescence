@@ -22,9 +22,10 @@ Horizontal figures: https://docs.google.com/presentation/d/1so_qDcb6yYyLi7ZMf0rc
 If you use this data/code for publication, please cite both the paper: Mandel & Broekgaarden (2021) and the dataset on Zenodo through it's doi https://zenodo.org/record/5072401 doi: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5072401.svg)](https://doi.org/10.5281/zenodo.5072401)
 
 an example bib is: 
+
 @MISC{ZenodoReview:2021,
        author = {{Broekgaarden}, F.~S. and {Mandel}, I.},
-        title = "{Dataset from: Rates of Compact Object Coalescence}",
+        title = "{Dataset from: Rates of Compact Object Coalescences}",
      keywords = {Merger rates,  Compact object coalescence, BHBH, NSBH, NSNS, gravitational waves, double compact object},
          year = 2021,
         month = jul,
