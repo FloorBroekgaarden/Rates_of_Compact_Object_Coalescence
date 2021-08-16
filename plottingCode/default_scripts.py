@@ -589,6 +589,7 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
             super_median = np.median(medians_list)
             axe.fill_between(x=[super_median/1.5, super_median*1.5], y1=[v_height_bottom]*2, y2=[v_height_top]*2, color=df_colordict[labelname], alpha=0.2, zorder=1)
 
+    print('the total vertical length of the %s plot reaches: %s'%(DCOtype, v_height), 'this is information floor uses for deciding the length of the figure - ignore this')
 
     return 
 
@@ -604,6 +605,8 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     # all data files are structured (in path / file name ) to start with the following
     DCOdirectoryPath = path_to_data_directory + dictDCOdirectory[DCOtype]+'_rates_'
     
+    v_height_BBH = 111  # obtained from the printed information, used to scale the length of the figures 
+
     if DCOtype in ['BHBH']:
         s_text = r'Local merging BH-BH rate' 
         
@@ -614,7 +617,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv', 
                     DCOdirectoryPath+'primordial.csv']
         rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'triples','dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
-        d1_, d2_ = 20,28
+        d1_, d2_ = 20,29
        
 
         
@@ -629,7 +632,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
                    ]
         rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
-        d2_ = 22*(55/99) +6
+        d2_ = 22*(60/v_height_BBH ) +6
 
     elif DCOtype=='NSNS':
         
@@ -648,7 +651,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
         # size of figure
         d1_ = 20
-        d2_ = 22*(70/99) +6
+        d2_ = 22*(77/v_height_BBH) +6
     
     d1, d2 = d1_, d2_
     f, axe= plt.subplots(ncols=ncols,nrows=nrows,figsize=(d1,d2), gridspec_kw={"width_ratios":[1], "height_ratios":[1]})     
