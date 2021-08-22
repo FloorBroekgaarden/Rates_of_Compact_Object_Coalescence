@@ -38,10 +38,33 @@ rc('axes', linewidth=2)
 # Some global dictionaries to take care of labels and coloring:
 all_names = [ 'GWs', 'sGRBs', 'kilonovae', 'pulsars',\
                        'isolated binaries',  'CHE','pop-III','triples', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',  'primordial']
-colors = sns.color_palette("husl", len(all_names))   
+
+# colors for each group
+c_GW = 'orangered'
+c_GRB = sns.color_palette("husl", 12)[0] #  sns.color_palette("husl", 20)[1] 
+c_kn = sns.color_palette("husl", 12)[1] #'darkgoldenrod' #sns.color_palette("husl", 20)[3]
+c_psr =  sns.color_palette("husl", 12)[2]# "orange"
+
+c_iso = sns.color_palette("husl", 12)[4] #  sns.color_palette("husl", 20)[6] #'limegreen'
+c_che = sns.color_palette("husl", 12)[5] #"forestgreen" #sns.color_palette("husl", 20)[8]
+c_popIII = sns.color_palette("husl", 12)[6] # "c" #"turquoise" # sns.color_palette("husl", 20)[12]
+c_trip = sns.color_palette("husl", 12)[7] #"royalblue" #sns.color_palette("husl", 20)[13]
+
+c_GC =  sns.color_palette("husl", 12)[9] #sns.color_palette("husl", 20)[15] 
+c_NC = sns.color_palette("husl", 12)[10] # "blueviolet" #
+c_YC =  sns.color_palette("husl", 12)[11] # "magenta"
+
+c_prim = "royalblue" #"brown"
+
+
+colors = [c_GW, c_GRB, c_kn, c_psr, c_iso, c_che, c_popIII, c_trip, c_GC, c_NC, c_YC, c_prim]
+
+# automatic rainbow: 
+# colors = sns.color_palette("husl", len(all_names))   
+
 name_colors = dict(zip(all_names, colors))
 name_labels = [ r'Gravitational waves', r'Short gamma-ray bursts', r'Kilonovae',  r'Galactic double neutron stars',\
-                       r'Isolated binary evolution',  r'Chemically homogeneous evolution', r'Population III stars', r'Triples', r'Globular clusters', r'Nuclear star clusters',  r'Young/Open stellar clusters', r'Primordial']
+                       r'Isolated binary evolution',  r'Chemically homogeneous evolution', r'Population III stars', r'Triples/Multiples', r'Globular clusters', r'Nuclear star clusters',  r'Young/Open star clusters', r'Primordial']
 names_label_dict = dict(zip(all_names, name_labels))
 dictDCOdirectory = {'BHBH':'BH-BH', 'BHNS': 'NS-BH', 'NSNS':'NS-NS'}
 
@@ -75,7 +98,9 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
         
     # axes layout and mark up 
     axe.set_xscale('log')
-    xlabel = r'$\rm{Rate} \, \, [\rm{Gpc}^{-3} \, \rm{yr}^{-1}]$'
+    DCOname_dict = {'BHNS':'NS-BH', 'BHBH':'BH-BH', 'NSNS':'NS-NS'}
+    xlabel = r'$\rm{Local } \  \textbf{%s} \ $'%DCOname_dict[DCOtype] + r'$\textbf{merger} \ \textbf{rate} \ \textbf{density} \ \, [\rm{Gpc}^{-3} \, \rm{yr}^{-1}]$'
+    
     
     bps_names = []
     codes_names = []
@@ -168,37 +193,8 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
     ax2x = axe.twiny()
     ax2x.set_xscale('log')   
     ax2x.set_xlim(xmin, xmax)
-    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, second=True, labelpad=20)
-    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, labelpad=4)
-    
-#     # SET OBSERVATIONAL GW LIMITs
-    
-#     DCOtypeIndexDict = {'BHBH':0, 'BHNS':1, 'NSNS':2}
-#     ind_t=DCOtypeIndexDict[DCOtype]
-    
-#     xx = np.linspace(-100, 100, 100)
-#     min_obs_rate = np.ones_like(xx)*ObservedRatesList[ind_t][0]
-#     max_obs_rate = np.ones_like(xx)*ObservedRatesList[ind_t][1]
-#     if DCOtype in ['BHBH','NSNS', 'BHNS']:
-#         axe.fill_betweenx(y=xx, x1=min_obs_rate, x2=max_obs_rate, alpha=0.2, color=DCOtypeColorsDict[DCOtype], zorder=2)
-
-        
-        
-        
-
-#     elif DCOtype =='BHBH':
-#         # for BHBH rates also plot intrinsic z=0 estimated rates based on a redshift model
-#         min_obs_rate2 = np.ones_like(xx)*BHBHratez0[0]
-#         max_obs_rate2 = np.ones_like(xx)*BHBHratez0[1]
-#         axe.fill_betweenx(y=xx, x1=min_obs_rate2, x2=max_obs_rate2,  alpha=0.2, color=DCOtypeColorsDict[DCOtype], zorder=0)
-#         axe.plot(min_obs_rate, xx,  c='k', linestyle=':', lw=1., alpha=0.5)
-#         axe.plot(max_obs_rate, xx,  c='k', linestyle=':', lw=1., alpha=0.5)
-
-#     # for BHNS plot that its a upper limit
-#     if DCOtype=='BHNS':
-#         axe.scatter(max_obs_rate, xx, marker=8, color=DCOtypeColorsDict[DCOtype], zorder=0, s=180)    
-
-    
+    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=20)
+    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
     
 
     return 
@@ -232,7 +228,7 @@ def plot_using_plotting_style(axe, ps, x_, y_, color):
     16: two upper limits 
     17: interval with range of simulation values first point is upper limit 
     18: interval with range of simulation values first point is upper limit  +   2 upper ones are upper limits
-
+    
     """ 
     
     # draw upper/lower limit: 
@@ -566,11 +562,14 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
                     switchLabelLeft = True
                 elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars'):
                     switchLabelLeft = True 
-                    
+                elif ((DCOtype=='NSNS') & (dict_name=='triples')) :
+                    switchLabelLeft = True                    
                 if switchLabelLeft==True:
-                    axe.text(2*1E-3, v_height+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[labelname], ha = 'left', va='center', weight = 'bold')
+                    axe.text(1.15*1E-3, v_height+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'left', va='center', weight = 'bold')
+                elif (DCOtype=='BHBH') & (dict_name == 'CHE'):
+                    axe.text(9*1E4,  v_height+0.3-1.5, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'right', va='center', weight = 'bold')
                 else:
-                    axe.text(8*1E4,  v_height+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+2, color=df_colordict[labelname], ha = 'right', va='center', weight = 'bold')
+                    axe.text(9*1E4,  v_height+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'right', va='center', weight = 'bold')
 
             v_height+= -1  # height of rate to plot on vertical axes  
 
@@ -672,7 +671,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     else:
         stringg ='_'
     
-    plt.title(s_text, fontsize=34,  pad=20)
+    # plt.title(s_text, fontsize=34,  pad=20)
         
     plt.tight_layout()
     plt.subplots_adjust(wspace=0, hspace=0)#2)
@@ -779,7 +778,9 @@ def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
         
     # axes layout and mark up 
     axe.set_xscale('log')
-    xlabel = r'$\rm{Rate} \, \, [\rm{Gpc}^{-3} \, \rm{yr}^{-1}]$'
+
+    DCOname_dict = {'BHNS':'NS-BH', 'BHBH':'BH-BH', 'NSNS':'NS-NS'}
+    xlabel = r'$\rm{Local } \  \textbf{%s} \ $'%DCOname_dict[DCOtype] + r'$\textbf{merger} \ \textbf{rate} \ \textbf{density} \ \, [\rm{Gpc}^{-3} \, \rm{yr}^{-1}]$'
     
     bps_names = []
     codes_names = []
@@ -817,9 +818,9 @@ def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
     ax2x = axe.twiny()
     ax2x.set_xscale('log')   
     ax2x.set_xlim(xmin, xmax)
-    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, second=True, labelpad=4)
+    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=4)
 
-    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+4, setMinor=False, labelpad=4)
+    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
 
     
     
