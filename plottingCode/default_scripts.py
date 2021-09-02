@@ -228,15 +228,20 @@ def plot_using_plotting_style(axe, ps, x_, y_, color):
     16: two upper limits 
     17: interval with range of simulation values first point is upper limit 
     18: interval with range of simulation values first point is upper limit  +   2 upper ones are upper limits
+    19:
+    20: 
     
     """ 
     
     # draw upper/lower limit: 
-    if ps in [1,2,6,7, 10, 12, 14, 15 , 16, 17 , 18, 19 ]:
+    if ps in [1,2,6,7, 10, 12, 14, 15 , 16, 17 , 18, 19, 20 ]:
         msize = 400
         if ps in [1,6,14]:
             mstyle = 4 # upper limit 
             axe.scatter(np.max(x_), np.max(y_), s=msize, c='k', zorder=1E6, marker=mstyle)
+        if ps in [20]:
+            mstyle =  8 # upper limit but triangle more to the left 
+            axe.scatter(1.05*np.max(x_), np.max(y_), s=msize, c='k', zorder=1E6, marker=mstyle)
         elif ps in [17, 18]:
             mstyle=4 # upper limit  (lower limit)
         # draw upper or lower limit
@@ -534,9 +539,9 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
 
             # read in plotting style 
             ps = df_ps[name][0]
-            if ps in range(20):
+            if ps in range(100):
                 plot_using_plotting_style(axe, ps, x_=np.asarray(rate), y_=v_height*np.ones_like(rate), color=df_colordict[labelname])
-            else: 
+            else: # if undefined 
                 plot_using_plotting_style(axe, ps=3, x_=np.asarray(rate), y_=v_height*np.ones_like(rate), color=df_colordict[labelname])
 
             medians_list.append(np.median(rate))
