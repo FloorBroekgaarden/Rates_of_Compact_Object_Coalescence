@@ -63,7 +63,7 @@ colors = [c_GW, c_GRB, c_kn, c_psr, c_iso, c_che, c_popIII, c_trip, c_GC, c_NC, 
 # colors = sns.color_palette("husl", len(all_names))   
 
 name_colors = dict(zip(all_names, colors))
-name_labels = [ r'Gravitational waves', r'Short gamma-ray bursts', r'Kilonovae',  r'Galactic double neutron stars',\
+name_labels = [ r'Gravitational waves', r'Short gamma-ray bursts', r'Kilonovae',  r'Galactic pulsar binaries',\
                        r'Isolated binary evolution',  r'Chemically homogeneous evolution', r'Population III stars', r'Triples/Multiples', r'Globular clusters', r'Nuclear star clusters',  r'Young/Open star clusters', r'Primordial']
 names_label_dict = dict(zip(all_names, name_labels))
 dictDCOdirectory = {'BHBH':'BH-BH', 'BHNS': 'NS-BH', 'NSNS':'NS-NS'}
@@ -565,7 +565,7 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
                 # plot the following ones as exception somewhere else:
                 if ((DCOtype=='BHNS') & (dict_name=='isolated binaries')) | ((DCOtype=='NSNS') & (dict_name=='isolated binaries')):
                     switchLabelLeft = True
-                elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars'):
+                elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars') | (DCOtype=='BHNS') & (dict_name=='pulsars'):
                     switchLabelLeft = True 
                 elif ((DCOtype=='NSNS') & (dict_name=='triples')) :
                     switchLabelLeft = True                    
@@ -629,12 +629,13 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         s_text = r'Local merging NS-BH rate' 
         
         names =   [DCOdirectoryPath+'observations-GWs.csv',\
+                    DCOdirectoryPath+'observations-pulsars.csv',\
                    DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
                    DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'triples.csv',\
                    DCOdirectoryPath+'globular-clusters.csv',\
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv'\
                    ]
-        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
+        rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
         d2_ = 22*(60/v_height_BBH ) +6
 
