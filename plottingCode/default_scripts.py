@@ -609,7 +609,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     # all data files are structured (in path / file name ) to start with the following
     DCOdirectoryPath = path_to_data_directory + dictDCOdirectory[DCOtype]+'_rates_'
     
-    v_height_BBH = 111  # obtained from the printed information, used to scale the length of the figures 
+    v_height_BBH = 114  # obtained from the printed information, used to scale the length of the figures 
 
     if DCOtype in ['BHBH']:
         s_text = r'Local merging BH-BH rate' 
@@ -637,7 +637,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
                    ]
         rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
-        d2_ = 22*(60/v_height_BBH ) +6
+        d2_ = 22*(67/v_height_BBH ) +6
 
     elif DCOtype=='NSNS':
         
@@ -656,7 +656,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
         # size of figure
         d1_ = 20
-        d2_ = 22*(77/v_height_BBH) +6
+        d2_ = 22*(83/v_height_BBH) +6
     
     d1, d2 = d1_, d2_
     f, axe= plt.subplots(ncols=ncols,nrows=nrows,figsize=(d1,d2), gridspec_kw={"width_ratios":[1], "height_ratios":[1]})     
