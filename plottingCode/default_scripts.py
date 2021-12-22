@@ -637,7 +637,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
                    ]
         rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
-        d2_ = 22*(67/v_height_BBH ) +6
+        d2_ = 22*(67/v_height_BBH )+6
 
     elif DCOtype=='NSNS':
         
