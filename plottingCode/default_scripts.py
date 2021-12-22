@@ -91,7 +91,7 @@ def draw_vlines(axe, v_values):
 
 
 
-def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
+def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None, version='ArXiv'):
     """ creates several things that are axes related"""
 
     xmin,xmax = 1E-3, 1E5
@@ -107,11 +107,10 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
    
 
     v_height=0
-    yticks=[]    
+    yticks=[]   
     for ind_file, csv_filename in enumerate(df_names):
         
         df = pd.read_csv(csv_filename, header=0, skiprows=[0,1,2,3,4,6,7,8,9,10,11,12,13])
-
         df = df.iloc[:,1::2]
 
         rate_max_list = []
@@ -160,16 +159,13 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
             sorted_ind = np.argsort(np.asarray(codes_list))
         
             colum_list_sorted = df.columns[sorted_ind]
-            codes_list_sorted = np.asarray(codes_list)[sorted_ind]
-            
+            codes_list_sorted = np.asarray(codes_list)[sorted_ind]     
         
         else:
             colum_list_sorted = df.columns        
             codes_list_sorted = codes 
             
-            
-        
-        
+
         
         for ind_m, bps_model in enumerate(colum_list_sorted):
             bps_names.append(r'\textbf{%s}'%(bps_model) )
@@ -180,22 +176,21 @@ def make_up_axes(axe=None, DCOtype='BHNS',  df_names=['a', 'b'], ordered=None):
         # add blank line after each channel 
         v_height+= -1 
 
-#     axe.set_yticks(yticks)
-#     axe.set_yticklabels(bps_names, rotation=0, fontsize=18)
     axe.set_yticks([])
-#     axe.set_yticklabels([])
+
     
     axe.set_xlim(xmin, xmax)
     axe.set_ylim(-len(bps_names) -2*len(df_names)+0.5, 0.5)
     
-
-    # add x labels on top
-    ax2x = axe.twiny()
-    ax2x.set_xscale('log')   
-    ax2x.set_xlim(xmin, xmax)
-    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=20)
-    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
+    if version=='ArXiv':
+        # add x labels on top
+        ax2x = axe.twiny()
+        ax2x.set_xscale('log')   
+        ax2x.set_xlim(xmin, xmax)
+        ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=20)
     
+    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
+
 
     return 
     
@@ -434,7 +429,7 @@ def layoutAxesNoXlabel(ax, nameX='', nameY='', \
 
 
 
-def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered=None, plotmedians=False):
+def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered=None, plotmedians=False, version='ArXiv'):
     """    
     
     axe: axe to plot the figure on 
@@ -548,6 +543,7 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
 
 
             ## ADD LABELS to the left of the measurements 
+#             if version=='ArXiv':
             if (min(rate)>2*1E-2) & (min(rate)<=1E5):
                 axe.text(min(rate)/1.25, v_height, s=colum_list[ind_n], ha='right', va='center', fontsize=fs-5)
             elif (min(rate)>1E5):
@@ -557,7 +553,7 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
                 axe.text(max(rate)*1.25, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
             elif ((min(rate)<=2*1E-2) & (max(rate)<=1E-3)):
                 axe.text(1E-3*1.35, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
-                
+
             switchLabelLeft=False
             # if plotting the first rate, add in text which type of formation channel we are plotting 
             if ind_n==(0): #len(df.columns)-1
@@ -565,7 +561,7 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
                 # plot the following ones as exception somewhere else:
                 if ((DCOtype=='BHNS') & (dict_name=='isolated binaries')) | ((DCOtype=='NSNS') & (dict_name=='isolated binaries')):
                     switchLabelLeft = True
-                elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars') | (DCOtype=='BHNS') & (dict_name=='pulsars'):
+                elif (DCOtype=='NSNS') & (dict_name=='GWs') | (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars') | (DCOtype=='BHNS') & (dict_name=='pulsars'):
                     switchLabelLeft = True 
                 elif ((DCOtype=='NSNS') & (dict_name=='triples')) :
                     switchLabelLeft = True                    
@@ -599,11 +595,9 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
 
 
 
-
-
-def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_directory='path/'):
+def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_directory='path/', version='ArXiv'):
     
-    
+    cm = 1/2.54
     ncols, nrows=1,1
     
     # all data files are structured (in path / file name ) to start with the following
@@ -622,6 +616,8 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
                     DCOdirectoryPath+'primordial.csv']
         rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'triples','dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
         d1_, d2_ = 20,29
+        if version=='LRR':
+            d1_, d2_ =  17.7, 29  #  11.9*cm, 19.5*cm
        
 
         
@@ -638,6 +634,10 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
         d2_ = 22*(67/v_height_BBH )+6
+        if version=='LRR':
+            d1_, d2_ =  17.7, 29* (67/v_height_BBH )  #  11.9*cm, 19.5*cm
+#         if version=='LRR':
+#             d1_, d2_ = 11.9*cm, 19.5*cm * (67/v_height_BBH )
 
     elif DCOtype=='NSNS':
         
@@ -657,7 +657,11 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         # size of figure
         d1_ = 20
         d2_ = 22*(83/v_height_BBH) +6
-    
+        if version=='LRR':
+            d1_, d2_ =  17.7, 29* (83/v_height_BBH )  #  11.9*cm, 19.5*cm
+#         if version=='LRR':
+#             d1_, d2_ = 11.9*cm, 19.5*cm * (67/v_height_BBH )
+            
     d1, d2 = d1_, d2_
     f, axe= plt.subplots(ncols=ncols,nrows=nrows,figsize=(d1,d2), gridspec_kw={"width_ratios":[1], "height_ratios":[1]})     
     
@@ -668,8 +672,8 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     
     
         
-    plotDCOrates(axe=axe, df_names=names, df_colordict=name_colors, df_labels=rate_labels, DCOtype=DCOtype, ordered=ordered, plotmedians=plotmedians)
-    make_up_axes(axe, DCOtype, df_names=names,ordered=ordered)
+    plotDCOrates(axe=axe, df_names=names, df_colordict=name_colors, df_labels=rate_labels, DCOtype=DCOtype, ordered=ordered, plotmedians=plotmedians, version=version)
+    make_up_axes(axe, DCOtype, df_names=names,ordered=ordered, version=version)
     
     draw_vlines(axe=axe, v_values=[1E-4, 1E-3, 1E-2, 1E-1, 1E0, 1E1, 1E2, 1E3, 1E4, 1E5])
     if plotmedians==True:
@@ -681,9 +685,13 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
     plt.tight_layout()
     plt.subplots_adjust(wspace=0, hspace=0)#2)
-    plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ '.png', dpi=300, transparent=False)#,\
-    plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ '.pdf')#,\
-#                bbox_extra_artists=(lgd,), bbox_inches='tight')
+    if version =='LRR':
+        plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ 'versionLRR.png', dpi=300, transparent=False)#,\
+        plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ 'versionLRR.pdf')#,\    
+    else:
+        plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ '.png', dpi=300, transparent=False)#,\
+        plt.savefig('./Rates_' +DCOtype + '_' + ordered + 'sorted' +stringg+ '.pdf')#,\
+
     plt.show()
 
     plt.close()    
@@ -692,6 +700,14 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     
     
     
+
+
+
+
+
+
+
+
 #### SUMMARY PLOTS CODE 
 
 
@@ -806,29 +822,24 @@ def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
         v_height+= -1
 
         
-
-        
         # add blank line after each channel 
         v_height+= -1 
 
-#     axe.set_yticks(yticks)
-#     axe.set_yticklabels(bps_names, rotation=0, fontsize=18)
+
     axe.set_yticks([])
-#     axe.set_yticklabels([])
-    
     axe.set_xlim(xmin, xmax)
 
     
+    if version=='ArXiv':
+        # add x labels on top
+        ax2x = axe.twiny()
+        ax2x.set_xscale('log')   
+        ax2x.set_xlim(xmin, xmax)
+        ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=4)
 
-    # add x labels on top
-    ax2x = axe.twiny()
-    ax2x.set_xscale('log')   
-    ax2x.set_xlim(xmin, xmax)
-    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=4)
+        axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
 
-    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
 
-    
     
 
     return 
@@ -996,9 +1007,6 @@ def plot_summary_rates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS'):
                     
         v_height+= -1.5
 
-
-        
-#         v_height+= -0.5
 
         v_height_bottom = int(v_height)+0.5
 
