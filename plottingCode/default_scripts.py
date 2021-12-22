@@ -830,14 +830,13 @@ def make_up_axes_summary(axe=None, DCOtype='BHNS',  df_names=['a', 'b']):
     axe.set_xlim(xmin, xmax)
 
     
-    if version=='ArXiv':
-        # add x labels on top
-        ax2x = axe.twiny()
-        ax2x.set_xscale('log')   
-        ax2x.set_xlim(xmin, xmax)
-        ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=4)
+    # add x labels on top
+    ax2x = axe.twiny()
+    ax2x.set_xscale('log')   
+    ax2x.set_xlim(xmin, xmax)
+    ax2x = layoutAxesNoYlabel(ax2x, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, second=True, labelpad=4)
 
-        axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
+    axe = layoutAxesNoYlabel(axe, nameX=xlabel, nameY=r'NA', fontsize=fs+6, setMinor=False, labelpad=4)
 
 
     
