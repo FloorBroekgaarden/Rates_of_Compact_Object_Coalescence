@@ -24,15 +24,28 @@ If you use this data/code for publication, please cite both the paper: Mandel & 
 an example bib is: 
 
 @MISC{ZenodoReview:2021,
-       author = {{Broekgaarden}, F.~S. and {Mandel}, I.},
-        title = "{Dataset from: Rates of Compact Object Coalescences}",
-     keywords = {Merger rates,  Compact object coalescence, BHBH, NSBH, NSNS, gravitational waves, double compact object},
-         year = 2022,
-        month = jan,
-          eid = {10.5281/zenodo.5847743},
-          doi = {10.5281/zenodo.5847743},
-      version = {5},
-    publisher = {Zenodo},
+  author       = {Floor Broekgaarden and
+                  Ilya Mandel},
+  title        = {{Data set from: Rates of Compact Object 
+                   Coalescences}},
+  month        = nov,
+  year         = 2021,
+  note         = {{Version 5 has small changes in some of the label 
+                   names, and has removed the Mandhai 2018 rates
+                   since these authors quote SGRB rates and not BNS
+                   rates.  Version 4 has additional rates from recent
+                   papers and is updated to include the GWTC-3
+                   results  11/19/21. This is the version that was
+                   used for the re-submitted paper. Version 3 has
+                   additional rates that we added after receiving
+                   useful feedback from the community (post ArXiv
+                   submission) Version 2 has updated and additional
+                   rates that we added. Version of the data that was
+                   used for the first ArXiv submission.}},
+  publisher    = {Zenodo},
+  version      = 5,
+  doi          = {10.5281/zenodo.5847743},
+  url          = {https://doi.org/10.5281/zenodo.5847743}
 }
 
 
