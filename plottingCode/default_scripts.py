@@ -544,7 +544,11 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
 
             ## ADD LABELS to the left of the measurements 
 #             if version=='ArXiv':
-            if (min(rate)>2*1E-2) & (min(rate)<=1E5):
+            if (version=='LRR') & (DCOtype=='BHNS') & ((colum_list[ind_n] =="Mennekens and Vanbeveren (2014)") | (colum_list[ind_n] =="O'Shaughnessy et al. (2010)")):
+                # plot on the right side
+                axe.text(max(rate)*1.25, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
+
+            elif (min(rate)>2*1E-2) & (min(rate)<=1E5):
                 axe.text(min(rate)/1.25, v_height, s=colum_list[ind_n], ha='right', va='center', fontsize=fs-5)
             elif (min(rate)>1E5):
                 axe.text(1E5/1.5, v_height, s=colum_list[ind_n], ha='right', va='center', fontsize=fs-5)   
