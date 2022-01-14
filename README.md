@@ -12,8 +12,7 @@ An example of one of the figures that the main code will repruduce is given belo
 Variations of the figures that are available for use / to use in presentations can be found in the following two slide decks:
 (more are on the way)
 
-Vertical figures: https://docs.google.com/presentation/d/1GqJ0k2zpnxBGwIYNeQ0BfsLSU7H2942gspL-PN_iaJY/edit?usp=sharing 
-
+Extra Vertical figures: https://github.com/FloorBroekgaarden/Rates_of_Compact_Object_Coalescence/tree/main/plottingCode/Extra_figures 
 
 
 
