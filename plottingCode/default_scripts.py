@@ -607,7 +607,7 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
     # all data files are structured (in path / file name ) to start with the following
     DCOdirectoryPath = path_to_data_directory + dictDCOdirectory[DCOtype]+'_rates_'
     
-    v_height_BBH = 114  # obtained from the printed information, used to scale the length of the figures 
+    v_height_BBH = 121  # obtained from the printed information, used to scale the length of the figures 
 
     if DCOtype in ['BHBH']:
         s_text = r'Local merging BH-BH rate' 
