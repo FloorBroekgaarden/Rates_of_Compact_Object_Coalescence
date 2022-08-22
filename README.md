@@ -1,7 +1,7 @@
 # Rates_of_Compact_Object_Coalescence
 
 # Introduction
-This scripts (jupyter notebook) in this github directory can be used to reproduce the main figures (the three figures with the rates) from the review paper by Mandel & Broekgaarden (2021) on "Rates of Compact Object Coalescence". In order to reproduce the figures one needs to download the data that is available on https://zenodo.org/record/5232245 doi:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5847743.svg)](https://zenodo.org/record/5847743) !Make sure to use the latest version of the dataset!
+This scripts (jupyter notebook) in this github directory can be used to reproduce the main figures (the three figures with the rates) from the review paper by Mandel & Broekgaarden (2021) on "Rates of Compact Object Coalescence". In order to reproduce the figures one needs to download the data that is available on https://zenodo.org/record/7015954 doi:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7015954.svg)](https://zenodo.org/record/7015954) !Make sure to use the latest version of the dataset! [and note that version 5 creates the published version, whereas version 6 of the data is ahead and corresponds with the ArXiv version]
 
 To make the figures from the paper, put all the data (at least 26 files, unless you are only interested in reproducing one of the Compact Object flavors) in one directory and run the jupyter notebook in https://github.com/FloorBroekgaarden/Rates_of_Compact_Object_Coalescence/tree/main/plottingCode/Make_figures_Mandel_and_Broekgaarden_2021_COC_rates_review.ipynb 
 
@@ -18,7 +18,7 @@ Extra Vertical figures: https://github.com/FloorBroekgaarden/Rates_of_Compact_Ob
 
 
 ### Reference
-If you use this data/code for publication, please cite both the paper: Mandel & Broekgaarden (2021) and the dataset on Zenodo through it's doi https://zenodo.org/record/5847743 doi: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5847743.svg)](https://zenodo.org/record/5847743)
+If you use this data/code for publication, please cite both the paper: Mandel & Broekgaarden (2021) and the dataset on Zenodo through it's doi https://zenodo.org/record/7015954 doi: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7015954.svg)](https://zenodo.org/record/7015954)
 
 an example bib is: 
 
@@ -42,9 +42,9 @@ an example bib is:
                    rates that we added. Version of the data that was
                    used for the first ArXiv submission.}},
   publisher    = {Zenodo},
-  version      = 5,
-  doi          = {10.5281/zenodo.5847743},
-  url          = {https://doi.org/10.5281/zenodo.5847743}
+  version      = 6,
+  doi          = {10.5281/zenodo.7015954},
+  url          = {https://doi.org/10.5281/zenodo.7015954}
 }
 
 
