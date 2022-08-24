@@ -1,7 +1,7 @@
 # Rates_of_Compact_Object_Coalescence
 
 # Introduction
-This scripts (jupyter notebook) in this github directory can be used to reproduce the main figures (the three figures with the rates) from the review paper by Mandel & Broekgaarden (2021) on "Rates of Compact Object Coalescence". In order to reproduce the figures one needs to download the data that is available on https://zenodo.org/record/7015954 doi:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7015954.svg)](https://zenodo.org/record/7015954) !Make sure to use the latest version of the dataset! [and note that version 5 creates the published version, whereas version 6 of the data is ahead and corresponds with the ArXiv version]
+This scripts (jupyter notebook) in this github directory can be used to reproduce the main figures (the three figures with the rates) from the review paper by Mandel & Broekgaarden (2021) on "Rates of Compact Object Coalescence". In order to reproduce the figures one needs to download the data that is available on https://zenodo.org/record/7017532 doi:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7017532.svg)](https://zenodo.org/record/7017532) !Make sure to use the latest version of the dataset! [and note that version 5 creates the published version, whereas version 6 of the data is ahead and corresponds with the ArXiv version]
 
 To make the figures from the paper, put all the data (at least 26 files, unless you are only interested in reproducing one of the Compact Object flavors) in one directory and run the jupyter notebook in https://github.com/FloorBroekgaarden/Rates_of_Compact_Object_Coalescence/tree/main/plottingCode/Make_figures_Mandel_and_Broekgaarden_2021_COC_rates_review.ipynb 
 
@@ -27,26 +27,43 @@ an example bib is:
                   Ilya Mandel},
   title        = {{Data set from: Rates of Compact Object 
                    Coalescences}},
-  month        = nov,
-  year         = 2021,
-  note         = {{Version 5 has small changes in some of the label 
+  month        = aug,
+  year         = 2022,
+  note         = {{Version 7 has fixed a few small typos from version 
+                   6, and has the flybys channel in a separate csv
+                   file and class version 6 includes the following
+                   changes:   - Updated GWTC-3 BHBH, NSBH and NSNS
+                   rates with latest version population paper   -
+                   Kinugawa et al. (2020) -\&gt; changed to Kinugawa
+                   et al. (2021) and updated the rates (we
+                   accidentaly quoted the wrong rates from the wrong
+                   paper)   - Added Nuclear star cluster dynamics,
+                   with SMBH from Fragione et al. (2019) for BHBH,
+                   NSBH, and NSNS rates  - Boekholt et al. (2022)
+                   added under AGN rates  - added Stegmann (2022) to
+                   triple channels   - added Olejek (2022)  - Added
+                   Raveh et al. (2022)  - added Zevin et al. (2022)
+                   - added Codazzo et al (2022)   - added Michaely
+                   \&amp; Naoz (2022)  - added Briel et al. (2022)   -
+                   added Dorozsmai and Toonen (2022)  Version 5 [used
+                   for published version of Living Reviews in
+                   relativity] has small changes in some of the label
                    names, and has removed the Mandhai 2018 rates
                    since these authors quote SGRB rates and not BNS
-                   rates.  Version 4 has additional rates from recent
-                   papers and is updated to include the GWTC-3
+                   rates.   Version 4 has additional rates from
+                   recent papers and is updated to include the GWTC-3
                    results  11/19/21. This is the version that was
-                   used for the re-submitted paper. Version 3 has
+                   used for the re-submitted paper.  Version 3 has
                    additional rates that we added after receiving
                    useful feedback from the community (post ArXiv
-                   submission) Version 2 has updated and additional
+                   submission)  Version 2 has updated and additional
                    rates that we added. Version of the data that was
                    used for the first ArXiv submission.}},
   publisher    = {Zenodo},
-  version      = 6,
-  doi          = {10.5281/zenodo.7015954},
-  url          = {https://doi.org/10.5281/zenodo.7015954}
+  version      = 7,
+  doi          = {10.5281/zenodo.7017532},
+  url          = {https://doi.org/10.5281/zenodo.7017532}
 }
-
 
 
 For any questions or inquiry, please email one of or both the authors: 
