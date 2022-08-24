@@ -37,34 +37,35 @@ rc('axes', linewidth=2)
 
 # Some global dictionaries to take care of labels and coloring:
 all_names = [ 'GWs', 'sGRBs', 'kilonovae', 'pulsars',\
-                       'isolated binaries',  'CHE','pop-III','triples', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',  'primordial']
+                       'isolated binaries',  'CHE','pop-III', 'flybys', 'triples', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',  'primordial']
 
 # colors for each group
 c_GW = 'orangered'
-c_GRB = sns.color_palette("husl", 12)[0] #  sns.color_palette("husl", 20)[1] 
-c_kn = sns.color_palette("husl", 12)[1] #'darkgoldenrod' #sns.color_palette("husl", 20)[3]
-c_psr =  sns.color_palette("husl", 12)[2]# "orange"
+c_GRB = sns.color_palette("husl", 13)[0] #  sns.color_palette("husl", 20)[1] 
+c_kn = sns.color_palette("husl", 13)[1] #'darkgoldenrod' #sns.color_palette("husl", 20)[3]
+c_psr =  sns.color_palette("husl", 13)[2]# "orange"
 
-c_iso = sns.color_palette("husl", 12)[4] #  sns.color_palette("husl", 20)[6] #'limegreen'
-c_che = sns.color_palette("husl", 12)[5] #"forestgreen" #sns.color_palette("husl", 20)[8]
-c_popIII = sns.color_palette("husl", 12)[6] # "c" #"turquoise" # sns.color_palette("husl", 20)[12]
-c_trip = sns.color_palette("husl", 12)[7] #"royalblue" #sns.color_palette("husl", 20)[13]
+c_iso = sns.color_palette("husl", 13)[4] #  sns.color_palette("husl", 20)[6] #'limegreen'
+c_che = sns.color_palette("husl", 13)[5] #"forestgreen" #sns.color_palette("husl", 20)[8]
+c_popIII = sns.color_palette("husl", 13)[6] # "c" #"turquoise" # sns.color_palette("husl", 20)[12]
+c_flybys = sns.color_palette("husl", 13)[7]
+c_trip = sns.color_palette("husl", 13)[8] #"royalblue" #sns.color_palette("husl", 20)[13]
 
-c_GC =  sns.color_palette("husl", 12)[9] #sns.color_palette("husl", 20)[15] 
-c_NC = sns.color_palette("husl", 12)[10] # "blueviolet" #
-c_YC =  sns.color_palette("husl", 12)[11] # "magenta"
+c_GC =  sns.color_palette("husl", 13)[10] #sns.color_palette("husl", 20)[15] 
+c_NC = sns.color_palette("husl", 13)[11] # "blueviolet" #
+c_YC =  sns.color_palette("husl", 13)[12] # "magenta"
 
 c_prim = "royalblue" #"brown"
 
 
-colors = [c_GW, c_GRB, c_kn, c_psr, c_iso, c_che, c_popIII, c_trip, c_GC, c_NC, c_YC, c_prim]
+colors = [c_GW, c_GRB, c_kn, c_psr, c_iso, c_che, c_popIII, c_flybys, c_trip, c_GC, c_NC, c_YC, c_prim]
 
 # automatic rainbow: 
 # colors = sns.color_palette("husl", len(all_names))   
 
 name_colors = dict(zip(all_names, colors))
 name_labels = [ r'Gravitational waves', r'Short gamma-ray bursts', r'Kilonovae',  r'Galactic pulsar binaries',\
-                       r'Isolated binary evolution',  r'Chemically homogeneous evolution', r'Population III stars', r'Triples/Multiples', r'Globular clusters', r'Nuclear star clusters',  r'Young/Open star clusters', r'Primordial']
+                       r'Isolated binary evolution',  r'Chemically homogeneous evolution', r'Population III stars', r'Wide isolated binaries $+$ flybys', r'Triples/Multiples', r'Globular clusters', r'Nuclear star clusters',  r'Young/Open star clusters', r'Primordial']
 names_label_dict = dict(zip(all_names, name_labels))
 dictDCOdirectory = {'BHBH':'BH-BH', 'BHNS': 'NS-BH', 'NSNS':'NS-NS'}
 
@@ -559,18 +560,23 @@ def plotDCOrates(axe, df_names, df_colordict, df_labels, DCOtype='BHNS', ordered
                 axe.text(1E-3*1.35, v_height, s=colum_list[ind_n], ha='left', va='center', fontsize=fs-5)
 
             switchLabelLeft=False
+            moveSlightlyLower=False
             # if plotting the first rate, add in text which type of formation channel we are plotting 
             if ind_n==(0): #len(df.columns)-1
                 dict_name = df_labels[ind_file]
                 # plot the following ones as exception somewhere else:
                 if ((DCOtype=='BHNS') & (dict_name=='isolated binaries')) | ((DCOtype=='NSNS') & (dict_name=='isolated binaries')):
                     switchLabelLeft = True
-                elif (DCOtype=='NSNS') & (dict_name=='GWs') | (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars') | (DCOtype=='BHNS') & (dict_name=='pulsars'):
-                    switchLabelLeft = True 
+                elif (DCOtype=='NSNS') & (dict_name=='sGRBs') | (DCOtype=='NSNS') & (dict_name=='kilonovae') | (DCOtype=='NSNS') & (dict_name=='pulsars') | (DCOtype=='BHNS') & (dict_name=='pulsars'):
+                    switchLabelLeft = True
+                    if (DCOtype=='NSNS') & (dict_name=='sGRBs'):
+                        moveSlightlyLower=True
                 elif ((DCOtype=='NSNS') & (dict_name=='triples')) :
                     switchLabelLeft = True                    
-                if switchLabelLeft==True:
+                if (switchLabelLeft==True) & (moveSlightlyLower==False):
                     axe.text(1.15*1E-3, v_height+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'left', va='center', weight = 'bold')
+                elif (switchLabelLeft==True) & (moveSlightlyLower==True):
+                    axe.text(1.15*1E-3, v_height-1.3+0.3, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'left', va='center', weight = 'bold')
                 elif (DCOtype=='BHBH') & (dict_name == 'CHE'):
                     axe.text(9*1E4,  v_height+0.3-1.5, s=r'\textbf{%s}'%names_label_dict[dict_name] , rotation = 0, fontsize = fs+8, color=df_colordict[labelname], ha = 'right', va='center', weight = 'bold')
                 else:
@@ -614,11 +620,11 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
         names =   [DCOdirectoryPath+'observations-GWs.csv',\
                    DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
-                   DCOdirectoryPath+'population-III.csv',DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'flybys.csv', DCOdirectoryPath+'triples.csv',\
                    DCOdirectoryPath+'globular-clusters.csv',\
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv', 
                     DCOdirectoryPath+'primordial.csv']
-        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'triples','dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
+        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'flybys', 'triples', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
         d1_, d2_ = 20,29
         if version=='LRR':
             d1_, d2_ =  17.7, 29  #  11.9*cm, 19.5*cm
@@ -631,15 +637,15 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         names =   [DCOdirectoryPath+'observations-GWs.csv',\
                     DCOdirectoryPath+'observations-pulsars.csv',\
                    DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
-                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'flybys.csv', DCOdirectoryPath+'triples.csv',\
                    DCOdirectoryPath+'globular-clusters.csv',\
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv'\
                    ]
-        rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
+        rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'flybys', 'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
-        d2_ = 22*(67/v_height_BBH )+6
+        d2_ = 22*(73/v_height_BBH )+6
         if version=='LRR':
-            d1_, d2_ =  17.7, 29* (67/v_height_BBH )  #  11.9*cm, 19.5*cm
+            d1_, d2_ =  17.7, 29* (73/v_height_BBH ) +3 #  11.9*cm, 19.5*cm
 #         if version=='LRR':
 #             d1_, d2_ = 11.9*cm, 19.5*cm * (67/v_height_BBH )
 
@@ -660,9 +666,9 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
         # size of figure
         d1_ = 20
-        d2_ = 22*(83/v_height_BBH) +6
+        d2_ = 22*(86/v_height_BBH) +6
         if version=='LRR':
-            d1_, d2_ =  17.7, 29* (83/v_height_BBH )  #  11.9*cm, 19.5*cm
+            d1_, d2_ =  17.7, 29* (86/v_height_BBH ) +4 #  11.9*cm, 19.5*cm
 #         if version=='LRR':
 #             d1_, d2_ = 11.9*cm, 19.5*cm * (67/v_height_BBH )
             
