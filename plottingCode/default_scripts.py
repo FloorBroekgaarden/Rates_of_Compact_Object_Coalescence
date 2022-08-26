@@ -48,8 +48,8 @@ c_psr =  sns.color_palette("husl", 13)[2]# "orange"
 c_iso = sns.color_palette("husl", 13)[4] #  sns.color_palette("husl", 20)[6] #'limegreen'
 c_che = sns.color_palette("husl", 13)[5] #"forestgreen" #sns.color_palette("husl", 20)[8]
 c_popIII = sns.color_palette("husl", 13)[6] # "c" #"turquoise" # sns.color_palette("husl", 20)[12]
-c_flybys = sns.color_palette("husl", 13)[7]
-c_trip = sns.color_palette("husl", 13)[8] #"royalblue" #sns.color_palette("husl", 20)[13]
+c_trip = sns.color_palette("husl", 13)[7] #"royalblue" #sns.color_palette("husl", 20)[13]
+c_flybys = sns.color_palette("husl", 13)[8]
 
 c_GC =  sns.color_palette("husl", 13)[10] #sns.color_palette("husl", 20)[15] 
 c_NC = sns.color_palette("husl", 13)[11] # "blueviolet" #
@@ -620,11 +620,11 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         
         names =   [DCOdirectoryPath+'observations-GWs.csv',\
                    DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
-                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'flybys.csv', DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'population-III.csv',  DCOdirectoryPath+'triples.csv', DCOdirectoryPath+'flybys.csv',\
                    DCOdirectoryPath+'globular-clusters.csv',\
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv', 
                     DCOdirectoryPath+'primordial.csv']
-        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III', 'flybys', 'triples', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
+        rate_labels = ['GWs','isolated binaries', 'CHE', 'pop-III',  'triples', 'flybys', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC',    'primordial']
         d1_, d2_ = 20,29
         if version=='LRR':
             d1_, d2_ =  17.7, 29  #  11.9*cm, 19.5*cm
@@ -637,11 +637,11 @@ def make_figure(DCOtype='BHNS', ordered='max', plotmedians=False, path_to_data_d
         names =   [DCOdirectoryPath+'observations-GWs.csv',\
                     DCOdirectoryPath+'observations-pulsars.csv',\
                    DCOdirectoryPath+'isolated-binary-evolution.csv', DCOdirectoryPath+'CHE.csv',
-                   DCOdirectoryPath+'population-III.csv', DCOdirectoryPath+'flybys.csv', DCOdirectoryPath+'triples.csv',\
+                   DCOdirectoryPath+'population-III.csv',  DCOdirectoryPath+'triples.csv', DCOdirectoryPath+'flybys.csv',\
                    DCOdirectoryPath+'globular-clusters.csv',\
                   DCOdirectoryPath+'nuclear-clusters.csv', DCOdirectoryPath+'young-stellar-clusters.csv'\
                    ]
-        rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',  'flybys', 'triples' , 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
+        rate_labels = ['GWs','pulsars','isolated binaries', 'CHE', 'pop-III',   'triples' , 'flybys', 'dynamical: GC', 'dynamical: NC',  'dynamical: YSC']
         d1_ = 20 
         d2_ = 22*(73/v_height_BBH )+6
         if version=='LRR':
