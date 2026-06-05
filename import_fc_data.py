@@ -55,7 +55,7 @@ SKIP_LINKS = {"not used", "not_used"}
 
 # ── Per-paper display metadata (keyed by label_author abbreviation) ───────────
 # label_author → (human label, first_author, study_key)
-PAPER_INFO: dict[str, tuple[str, str, str]] = {
+PAPER_INFO = {
     "BO24":   ("Boesky et al. (2024)",    "Boesky",    "Boesky_2024_COMPAS"),
     "RO25":   ("Riley et al. (2025)",     "Riley",     "Riley_2025_StarTrack"),
     "RO23":   ("Riley et al. (2023)",     "Riley",     "Riley_2023_StarTrack"),
@@ -74,7 +74,7 @@ PAPER_INFO: dict[str, tuple[str, str, str]] = {
 }
 
 # ── Column mapping: new CSV column ← simulation_specs column name ─────────────
-PARAM_MAP: dict[str, str] = {
+PARAM_MAP = {
     "sigma_kick":            "sigma",
     "sigma_stripped_SN":     "sigma_strippedSN",
     "alpha_CE":              "alpha",
@@ -118,7 +118,7 @@ def _should_skip(model: str, link: str) -> bool:
     return any(re.search(p, model) for p in SKIP_PATTERNS)
 
 
-def _urls_from_link(link: str) -> tuple[str, str]:
+def _urls_from_link(link):
     """Split a single URL into (ads_url, arxiv_url)."""
     link = link.strip()
     if not link or link in SKIP_LINKS:
@@ -154,12 +154,12 @@ def main() -> None:
             existing[col] = ""
 
     # Track which (DCO type, study_key) pairs already exist
-    existing_keys: set[tuple[str, str]] = set(
+    existing_keys = set(
         zip(existing["compact_object_type"], existing["study_key"])
     )
 
-    new_rows: list[dict] = []
-    unknown_authors: set[str] = set()
+    new_rows = []
+    unknown_authors = set()
 
     # 3. Process each DCO type
     for dco_type, rate_filename in RATE_FILES.items():

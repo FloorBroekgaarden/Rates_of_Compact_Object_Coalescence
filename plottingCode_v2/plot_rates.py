@@ -114,6 +114,7 @@ def draw_study(
     group: pd.DataFrame,
     y: float,
     color,
+    alpha: float = 1.0,
 ) -> None:
     """
     Draw one study (a group of rows sharing the same study_key + DCO type)
@@ -126,6 +127,7 @@ def draw_study(
       single_value          → single dot
       upper_limit           → downward-triangle marker at maximum
       lower_limit           → upward-triangle marker at minimum
+    Pass alpha < 1 to dim superseded studies.
     """
     ps = group["plotting_style"].iloc[0]
     rates = _rates_for_group(group)
@@ -138,39 +140,39 @@ def draw_study(
     Y = np.full_like(rates, y)
 
     if ps == "single_value":
-        ax.scatter(rates[0], y, s=DOT_S, c=[color], zorder=100, marker="o")
+        ax.scatter(rates[0], y, s=DOT_S, c=[color], zorder=100, marker="o", alpha=alpha)
         return
 
     if ps == "upper_limit":
-        ax.scatter(rates[-1], y, s=LIM_S, c="k", zorder=1e6, marker=4)   # ▽
+        ax.scatter(rates[-1], y, s=LIM_S, c="k", zorder=1e6, marker=4, alpha=alpha)
         return
 
     if ps == "lower_limit":
-        ax.scatter(rates[0], y, s=LIM_S, c="k", zorder=1e6, marker=5)    # △
+        ax.scatter(rates[0], y, s=LIM_S, c="k", zorder=1e6, marker=5, alpha=alpha)
         return
 
     # For all range-based styles: draw horizontal error bar
     ax.errorbar(
         x=[rates.min(), rates.max()], y=[y, y], yerr=[0.42, 0.42],
-        color=color, lw=LWIDTH, ecolor=color, zorder=5,
+        color=color, lw=LWIDTH, ecolor=color, zorder=5, alpha=alpha,
     )
     ax.errorbar(
         x=[rates.min(), rates.max()], y=[y, y], yerr=[0.42, 0.42],
-        fmt="o", lw=3.5, ecolor="k", color="k", zorder=1e5,
+        fmt="o", lw=3.5, ecolor="k", color="k", zorder=1e5, alpha=alpha,
     )
-    ax.scatter(rates, Y, s=DOT_S, color=[color], zorder=100, marker="o")
+    ax.scatter(rates, Y, s=DOT_S, color=[color], zorder=100, marker="o", alpha=alpha)
 
     if ps == "range_with_upper_limit":
-        ax.scatter(rates.max(), y, s=LIM_S, c="k", zorder=1e6, marker=4)
+        ax.scatter(rates.max(), y, s=LIM_S, c="k", zorder=1e6, marker=4, alpha=alpha)
     elif ps == "range_with_lower_limit":
-        ax.scatter(rates.min(), y, s=LIM_S, c="k", zorder=1e6, marker=5)
+        ax.scatter(rates.min(), y, s=LIM_S, c="k", zorder=1e6, marker=5, alpha=alpha)
 
     if ps == "credible_interval":
         # highlight centre value
         central_rows = group[group["rate_type"] == "central"]
         if not central_rows.empty:
             cx = central_rows["rate_Gpc3yr"].iloc[0]
-            ax.scatter(cx, y, s=DOT_S, c="k", zorder=1e6, marker="o")
+            ax.scatter(cx, y, s=DOT_S, c="k", zorder=1e6, marker="o", alpha=alpha)
 
 
 # ── Main figure function ───────────────────────────────────────────────────────
@@ -182,18 +184,25 @@ def make_figure(
     order: Literal["year", "max_rate"] = "year",
     fig_width: float = 20,
     save_path: str | Path | None = None,
+    include_superseded: bool = True,
+    dim_superseded: bool = True,
+    superseded_alpha: float = 0.30,
 ) -> tuple[plt.Figure, plt.Axes]:
     """
     Build a horizontal-rate-density figure for `dco_type`.
 
     Parameters
     ----------
-    dco_type : "BH-BH" | "NS-BH" | "NS-NS"
-    channels : list of formation-channel names to include (in display order)
-    data_dir : path to Data_Mandel_and_Broekgaarden_2026/
-    order    : sort studies within each channel by "year" or "max_rate"
-    fig_width: figure width in inches
-    save_path: if given, save figure to this path (PNG + PDF)
+    dco_type          : "BH-BH" | "NS-BH" | "NS-NS"
+    channels          : list of formation-channel names to include (in display order)
+    data_dir          : path to Data_Mandel_and_Broekgaarden_2026/
+    order             : sort studies within each channel by "year" or "max_rate"
+    fig_width         : figure width in inches
+    save_path         : if given, save figure to this path (PNG + PDF)
+    include_superseded: if False, drop studies with superseded==True entirely
+    dim_superseded    : if True (and include_superseded=True), draw superseded
+                        studies at `superseded_alpha` opacity
+    superseded_alpha  : alpha value for superseded studies (default 0.30)
     """
     xmin, xmax = 1e-3, 1e5
 
@@ -211,6 +220,14 @@ def make_figure(
         raise ValueError("No data found for the requested channels / DCO type.")
 
     df_all = pd.concat(frames, ignore_index=True)
+
+    # Normalise superseded column (may be absent in some channel CSVs)
+    if "superseded" not in df_all.columns:
+        df_all["superseded"] = False
+    df_all["superseded"] = df_all["superseded"].astype(str).str.lower() == "true"
+
+    if not include_superseded:
+        df_all = df_all[~df_all["superseded"]]
 
     # ── Determine y positions and collect y-tick labels ──────────────────
     y_pos: dict[tuple[str, str], float] = {}  # (channel, study_key) → y
@@ -282,18 +299,23 @@ def make_figure(
             if key not in y_pos:
                 continue
             yv = y_pos[key]
-            draw_study(ax, group, yv, color)
 
-            # Study label to the left of the data
+            is_sup = bool(group["superseded"].iloc[0]) if "superseded" in group.columns else False
+            alpha  = superseded_alpha if (is_sup and dim_superseded) else 1.0
+
+            draw_study(ax, group, yv, color, alpha=alpha)
+
+            # Study label to the left (or right) of the data
             rates = _rates_for_group(group)
             if len(rates) == 0:
                 continue
+            label_text = group["label"].iloc[0]
             if rates.min() > 2e-2:
-                ax.text(rates.min() / 1.25, yv, group["label"].iloc[0],
-                        ha="right", va="center", fontsize=FONTSIZE - 5)
+                ax.text(rates.min() / 1.25, yv, label_text,
+                        ha="right", va="center", fontsize=FONTSIZE - 5, alpha=alpha)
             else:
-                ax.text(rates.max() * 1.25, yv, group["label"].iloc[0],
-                        ha="left", va="center", fontsize=FONTSIZE - 5)
+                ax.text(rates.max() * 1.25, yv, label_text,
+                        ha="left", va="center", fontsize=FONTSIZE - 5, alpha=alpha)
 
         # Channel label
         if ch in channel_label_positions:
