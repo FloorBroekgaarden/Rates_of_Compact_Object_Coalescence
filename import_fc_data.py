@@ -64,11 +64,13 @@ PAPER_INFO = {
     "Sg25":   ("Sgalletta et al. (2025)", "Sgalletta", "Sgalletta_2025_SEVN"),
     "PE25":   ("Pellouin et al. (2025)",  "Pellouin",  "Pellouin_2025_COSMIC"),
     "Xing24": ("Xing et al. (2024)",      "Xing",      "Xing_2024_POSYDON"),
-    # van Son models (not in 2021 review)
-    "VS22":   ("van Son et al. (2022)",   "van Son",   "vanSon_2022_COMPAS"),
-    "VS23":   ("van Son et al. (2023)",   "van Son",   "vanSon_2023_COMPAS"),
-    "vS22":   ("van Son et al. (2022)",   "van Son",   "vanSon_2022_COMPAS"),
-    "vS23":   ("van Son et al. (2023)",   "van Son",   "vanSon_2023_COMPAS"),
+    # van Son models (not in 2021 review) — label_author in file is "vSon22"/"vSon23"
+    "vSon22":   ("van Son et al. (2022)", "van Son",   "vanSon_2022_COMPAS"),
+    "vSon23":   ("van Son et al. (2023)", "van Son",   "vanSon_2023_COMPAS"),
+    "VS22":     ("van Son et al. (2022)", "van Son",   "vanSon_2022_COMPAS"),
+    "VS23":     ("van Son et al. (2023)", "van Son",   "vanSon_2023_COMPAS"),
+    "vS22":     ("van Son et al. (2022)", "van Son",   "vanSon_2022_COMPAS"),
+    "vS23":     ("van Son et al. (2023)", "van Son",   "vanSon_2023_COMPAS"),
     "vanSon22": ("van Son et al. (2022)", "van Son",   "vanSon_2022_COMPAS"),
     "vanSon23": ("van Son et al. (2023)", "van Son",   "vanSon_2023_COMPAS"),
 }
@@ -112,9 +114,11 @@ def _fetch(url: str) -> pd.DataFrame:
     return pd.read_csv(StringIO(content), dtype=str)
 
 
-def _should_skip(model: str, link: str) -> bool:
+def _should_skip(model: str, link: str, label_auth: str = "") -> bool:
     if link.strip().lower() in SKIP_LINKS:
         return True
+    if label_auth in ("nan", "NaN", "label_author", ""):
+        return True  # no valid specs entry for this model
     return any(re.search(p, model) for p in SKIP_PATTERNS)
 
 
@@ -177,11 +181,14 @@ def main() -> None:
         skipped_existing = skipped_pattern = added = 0
 
         for _, row in merged.iterrows():
-            model   = str(row["model"]).strip()
-            link    = str(row.get("link_to_paper", "")).strip()
-            rate_s  = str(row.get(RATE_COL, "")).strip()
+            model      = str(row["model"]).strip()
+            link       = str(row.get("link_to_paper", "")).strip()
+            rate_s     = str(row.get(RATE_COL, "")).strip()
+            label_auth = str(row.get("label_author", "")).strip()
+            year_val   = str(row.get("year", "")).strip()
+            code_val   = str(row.get("code", "")).strip()
 
-            if _should_skip(model, link):
+            if _should_skip(model, link, label_auth):
                 skipped_pattern += 1
                 continue
 
@@ -189,10 +196,6 @@ def main() -> None:
                 rate_f = float(rate_s)
             except (ValueError, TypeError):
                 continue
-
-            label_auth = str(row.get("label_author", "")).strip()
-            year_val   = str(row.get("year", "")).strip()
-            code_val   = str(row.get("code", "")).strip()
 
             if label_auth in PAPER_INFO:
                 label, first_author, study_key = PAPER_INFO[label_auth]
