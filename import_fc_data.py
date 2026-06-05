@@ -175,6 +175,9 @@ def main() -> None:
             print(f"  WARNING: '{RATE_COL}' not found. Available: {list(rates.columns)}")
             continue
 
+        # Strip whitespace before joining — trailing spaces in rate file break exact match
+        rates["model"] = rates["model"].str.strip()
+        specs["model"]  = specs["model"].str.strip()
         merged = rates[["model", RATE_COL]].merge(specs, on="model", how="left")
         print(f"  {len(merged)} models in rate file")
 
