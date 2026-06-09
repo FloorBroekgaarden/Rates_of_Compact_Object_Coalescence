@@ -104,6 +104,13 @@ def load_all(
 
 # ── Drawing helpers ────────────────────────────────────────────────────────────
 
+_LATEX_ESCAPES = str.maketrans({"&": r"\&", "%": r"\%", "#": r"\#", "$": r"\$"})
+
+def _tex(s: str) -> str:
+    """Escape LaTeX special characters in a plain-text label string."""
+    return s.translate(_LATEX_ESCAPES)
+
+
 def _rates_for_group(group: pd.DataFrame) -> np.ndarray:
     """Return all rate values for a study group as a sorted array."""
     return np.sort(group["rate_Gpc3yr"].dropna().to_numpy())
@@ -309,7 +316,7 @@ def make_figure(
             rates = _rates_for_group(group)
             if len(rates) == 0:
                 continue
-            label_text = group["label"].iloc[0]
+            label_text = _tex(group["label"].iloc[0])
             if rates.min() > 2e-2:
                 ax.text(rates.min() / 1.25, yv, label_text,
                         ha="right", va="center", fontsize=FONTSIZE - 5, alpha=alpha)
