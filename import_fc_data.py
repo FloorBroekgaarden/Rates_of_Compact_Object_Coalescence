@@ -57,8 +57,8 @@ SKIP_LINKS = {"not used", "not_used"}
 # label_author → (human label, first_author, study_key)
 PAPER_INFO = {
     "BO24":   ("Boesky et al. (2024)",    "Boesky",    "Boesky_2024_COMPAS"),
-    "RO25":   ("Riley et al. (2025)",     "Riley",     "Riley_2025_StarTrack"),
-    "RO23":   ("Riley et al. (2023)",     "Riley",     "Riley_2023_StarTrack"),
+    "RO25":   ("Romagnolo et al. (2025)", "Romagnolo", "Romagnolo_2025_StarTrack"),
+    "RO23":   ("Romagnolo et al. (2023)", "Romagnolo", "Romagnolo_2023_StarTrack"),
     "Hen23":  ("Hendriks et al. (2023)",  "Hendriks",  "Hendriks_2023_binaryc"),
     "Li25":   ("Li et al. (2025)",        "Li",        "Li_2025_MOBSE"),
     "Sg25":   ("Sgalletta et al. (2025)", "Sgalletta", "Sgalletta_2025_SEVN"),
