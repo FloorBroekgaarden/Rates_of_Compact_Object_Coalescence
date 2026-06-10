@@ -1,0 +1,7 @@
+compact_object_type,formation_channel,study_key,label,first_author,year,month,ads_url,arxiv_url,code,plotting_style,rate_Gpc3yr,rate_type,submodel,notes
+BH-BH,primordial,Bird_2016,Bird et al. (2016),Bird,2016,5,https://ui.adsabs.harvard.edu/abs/2016PhRvL.116t1301B/abstract,https://arxiv.org/abs/1603.00464,,range_with_upper_limit,0.02,,,
+BH-BH,primordial,Bird_2016,Bird et al. (2016),Bird,2016,5,https://ui.adsabs.harvard.edu/abs/2016PhRvL.116t1301B/abstract,https://arxiv.org/abs/1603.00464,,range_with_upper_limit,3.0,upper,,upper limit
+BH-BH,primordial,AliHamoud_2018,Ali-Haïmoud et al. (2018),Ali-Ha¨ımoud,2018,,https://ui.adsabs.harvard.edu/abs/2017PhRvD..96l3523A/abstract,https://arxiv.org/pdf/1709.06576.pdf,,range,0.2,lower,,lower limit
+BH-BH,primordial,AliHamoud_2018,Ali-Haïmoud et al. (2018),Ali-Ha¨ımoud,2018,,https://ui.adsabs.harvard.edu/abs/2017PhRvD..96l3523A/abstract,https://arxiv.org/pdf/1709.06576.pdf,,range,100000.0,upper,,upper limit
+BH-BH,primordial,Raidal_2019,Raidal et al. (2019),,2019,2,https://ui.adsabs.harvard.edu/abs/2019JCAP...02..018R/abstract,https://arxiv.org/abs/1812.01930,,range_with_upper_limit,6.0,,,
+BH-BH,primordial,Raidal_2019,Raidal et al. (2019),,2019,2,https://ui.adsabs.harvard.edu/abs/2019JCAP...02..018R/abstract,https://arxiv.org/abs/1812.01930,,range_with_upper_limit,10000.0,upper,,upper limit

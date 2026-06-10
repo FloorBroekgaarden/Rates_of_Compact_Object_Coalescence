@@ -1,0 +1,4 @@
+compact_object_type,formation_channel,study_key,label,first_author,year,month,ads_url,arxiv_url,code,plotting_style,rate_Gpc3yr,rate_type,submodel,notes
+BH-BH,flybys,Raveh_2022_COMPAS,Raveh et al. (2022),Raveh et al. (2022),2022,8,https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.4246R/abstract,https://arxiv.org/pdf/2204.12506.pdf,COMPAS,range,1.0,,,
+BH-BH,flybys,Raveh_2022_COMPAS,Raveh et al. (2022),Raveh et al. (2022),2022,8,https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.4246R/abstract,https://arxiv.org/pdf/2204.12506.pdf,COMPAS,range,20.0,,,
+NS-BH,flybys,Michaely_2022,Michaely and Naoz (2022),Michaely and Naoz (2022),2022,5,https://ui.adsabs.harvard.edu/abs/2022arXiv220515040M/abstract,https://arxiv.org/pdf/2205.15040.pdf,,single_value,40.0,single,,

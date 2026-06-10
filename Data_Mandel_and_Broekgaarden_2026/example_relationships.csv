@@ -1,0 +1,156 @@
+from_modelname,to_modelname,using,travel_label,from_option,to_option,color code,legend,code
+B22-A-fiducial,B22-A-fiducial,none,fiducial,1.00,1.00,1,Broekgaarden (2022),COMPAS
+B22-B-beta0-25,B22-C-beta0-5,beta,$\beta \uparrow$ ,0.25,0.50,1,Broekgaarden (2022),COMPAS
+B22-C-beta0-5,B22-D-beta0-75,beta,$\beta \uparrow$ ,0.50,0.75,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-E-unstableBB,caseBB stability,unstable caseBB,always stable,always unstable,1,Broekgaarden (2022),COMPAS
+B22-E-unstableBB,B22-F-unstableBB-optimistic,optimistic ,optimistic CE ,pessimistic,optimistic ,1,Broekgaarden (2022),COMPAS
+B22-H-alpha0-5,B22-G-alpha0-1,alpha,$\alpha \downarrow$ ,0.50,0.10,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-H-alpha0-5,alpha,$\alpha \downarrow$ ,1.00,0.50,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-I-alpha2,alpha,$\alpha \uparrow$ ,1.00,2.00,1,Broekgaarden (2022),COMPAS
+B22-I-alpha2,B22-J-alpha10,alpha,$\alpha \uparrow$ ,2.00,10.00,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-K-optimisticCE,optimistic ,optimistic CE ,pessimistic,optimistic ,1,Broekgaarden (2022),COMPAS
+B22-K-optimisticCE,B22-F-unstableBB-optimistic,caseBB stability,unstable caseBB,always stable,always unstable,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-L-rapid,supernova,rapid SN,delayed,rapid,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-M-max-mNS:2,NS mass ,NS mass $\downarrow$ ,2.50,2.00,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-N-max-mNS:3,NS mass ,NS mass $\uparrow$ ,2.50,3.00,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-O-noPISN,PISN,no PISN,with PISN ,no PISN,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-P-sigma:100,sigma,$\sigma_{cc} \downarrow$,265.00,100.00,1,Broekgaarden (2022),COMPAS
+B22-P-sigma:100,B22-Q-sigma:30,sigma,$\sigma_{cc} \downarrow$,100.00,30.00,1,Broekgaarden (2022),COMPAS
+B22-R-noBHkick,B22-Q-sigma:30,sigma ,no BH kick,0.00,30.00,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-S-fWR:0-1,wind,$f_\rm{WR} \ \downarrow$,1.00,0.10,1,Broekgaarden (2022),COMPAS
+B22-A-fiducial,B22-T-fWR:5,wind,$f_\rm{WR} \ \uparrow$,1.00,5.00,1,Broekgaarden (2022),COMPAS
+B21-alpha0-35,B21-alpha0-2,alpha,$\alpha \downarrow$ ,0.35,0.20,2,Bavera (2021),POSYDON
+B21-alpha0-5,B21-alpha0-35,alpha,$\alpha \downarrow$ ,0.50,0.35,2,Bavera (2021),POSYDON
+B21-alpha0-75,B21-alpha0-5,alpha,$\alpha \downarrow$ ,0.75,0.50,2,Bavera (2021),POSYDON
+B21-alpha1,B21-alpha0-75,alpha,$\alpha \downarrow$ ,1.00,0.75,2,Bavera (2021),POSYDON
+B21-alpha1,B21-alpha1,fiducial,fiducial,1.00,1.00,2,Bavera (2021),POSYDON
+B21-alpha1,B21-alpha2,alpha,$\alpha \uparrow$ ,1.00,2.00,2,Bavera (2021),POSYDON
+B21-alpha2,B21-alpha5,alpha,$\alpha \uparrow$ ,2.00,5.00,2,Bavera (2021),POSYDON
+B21-alpha1,B21-eddington-1E3,eddington accretion,$\dot{M}_{\rm{edd}} \ \uparrow$,eddington,"1,000.00",2,Bavera (2021),POSYDON
+B21-eddington-1E3,B21-eddington-1E5,eddington accretion,$\dot{M}_{\rm{edd}} \ \uparrow$,eddington,"100,000.00",2,Bavera (2021),POSYDON
+B21-eddington-1E5,B21-eddington-1E9,eddington accretion,$\dot{M}_{\rm{edd}} \ \uparrow$,eddington,"1,000,000,000.00",2,Bavera (2021),POSYDON
+B21-alpha1,B21-noRLOFatZAMS,priors,noRLOFatZAMS,RLOFatZAMS,noRLOFatZAMS,2,Bavera (2021),POSYDON
+B21-alpha1,B21-logU-SanaPrior,priors,SanaPrior,not Sana uniform prior,Sana uniform prior,2,Bavera (2021),POSYDON
+B21-logU-SanaPrior,B21-logU-noRLOFatZAMS,priors,SanaPrior,RLOFatZAMS,noRLOFatZAMS,2,Bavera (2021),POSYDON
+B21-noRLOFatZAMS,B21-logU-noRLOFatZAMS,priors,SanaPrior,not Sana uniform prior,Sana uniform prior,2,Bavera (2021),POSYDON
+B21-qcrit-Belczynski,B21-qcrit-Claeys,stability,qcrit change,Belczynski,Claeys,2,Bavera (2021),POSYDON
+RG21-SN:N20,RG21-SN:rapid,supernova,rapid SN,N20,rapid,3,Roman-Garza (2022),POSYDON
+RG21-SN:rapid,RG21-SN:delayed,supernova,delayed SN,rapid,delayed,3,Roman-Garza (2022),POSYDON
+RG21-SN:delayed,RG21-SN:N20,supernova,N20,delayed,N20,3,Roman-Garza (2022),POSYDON
+RG21-ESCN:Full-SN:N20,RG21-ESCN:Full-SN:rapid,supernova,rapid SN,N20,rapid,3,Roman-Garza (2022),POSYDON
+RG21-ESCN:Full-SN:rapid,RG21-ECSN:Full-SN:delayed,supernova,delayed SN,rapid,delayed,3,Roman-Garza (2022),POSYDON
+RG21-ECSN:Full-SN:delayed,RG21-ESCN:Full-SN:N20,supernova,N20,delayed,N20,3,Roman-Garza (2022),POSYDON
+RG21-SN:N20,RG21-ESCN:Full-SN:N20,ECSN,add ECSN + 265 kick for NS ,no ECSN,add ECSN,3,Roman-Garza (2022),POSYDON
+RG21-SN:rapid,RG21-ESCN:Full-SN:rapid,ECSN,add ECSN + 265 kick for NS ,no ECSN,add ECSN,3,Roman-Garza (2022),POSYDON
+RG21-SN:delayed,RG21-ECSN:Full-SN:delayed,ECSN,add ECSN + 265 kick for NS ,no ECSN,add ECSN,3,Roman-Garza (2022),POSYDON
+RG21-noBHkick-SN:N20,RG21-noBHkick-SN:rapid,supernova,rapid SN,N20,rapid,3,Roman-Garza (2022),POSYDON
+RG21-noBHkick-SN:rapid,RG21-noBH-kick-SN:delayed,supernova,delayed SN,rapid,delayed,3,Roman-Garza (2022),POSYDON
+RG21-noBH-kick-SN:delayed,RG21-noBHkick-SN:N20,supernova,N20,delayed,N20,3,Roman-Garza (2022),POSYDON
+RG21-SN:N20,RG21-noBHkick-SN:N20,sigma,no BH kick,265.00,0.00,3,Roman-Garza (2022),POSYDON
+RG21-SN:rapid,RG21-noBHkick-SN:rapid,sigma,no BH kick,265.00,0.00,3,Roman-Garza (2022),POSYDON
+RG21-SN:delayed,RG21-noBH-kick-SN:delayed,sigma,no BH kick,265.00,0.00,3,Roman-Garza (2022),POSYDON
+DT22-M1,DT22-M2,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M3,DT22-M4,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M5,DT22-M6,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M7,DT22-M8,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M9,DT22-M10,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M11,DT22-M12,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M13,DT22-M14,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M15,DT22-M16,beta,$\beta \uparrow$ ,0.30,0.70,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M1,DT22-M5,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M2,DT22-M6,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M3,DT22-M7,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M4,DT22-M8,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M9,DT22-M13,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M10,DT22-M14,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M11,DT22-M15,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M12,DT22-M16,stability,"$\xi_{ad,rad} \uparrow$ ",4.00,7.50,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M1,DT22-M9,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M2,DT22-M10,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M3,DT22-M11,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M4,DT22-M12,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M5,DT22-M13,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M6,DT22-M14,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M7,DT22-M15,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M8,DT22-M16,CE gamma,$\gamma \downarrow$,2.50,1.00,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M1,DT22-M3,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M2,DT22-M4,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M5,DT22-M7,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M6,DT22-M8,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M9,DT22-M11,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M10,DT22-M12,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M13,DT22-M15,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+DT22-M14,DT22-M16,$T_{eff}$,$T_{eff}$,K,IT,4,Dorozsmai and Toonen (2022),SeBa
+van Son (2022),van Son (2022),fiducial,fiducial,none,none,5,van Son (2022) ,COMPAS
+Briel (2022) ,Briel (2022) - RAPID,supernova,rapid SN,BPASS,rapid,6,Briel (2022),BPASS
+Briel (2022) - RAPID,Briel (2022) - DELAYED,supernova,delayed SN,rapid,delayed,6,Briel (2022),BPASS
+Briel (2022) - DELAYED,Briel (2022) ,supernova,BPASS,delayed,BPASS,6,Briel (2022),BPASS
+Olejak21-M380 (fiducial),Olejak21-M480 (changedCEcriteria),stability,CE criteria changed,default,CE criteria changed,7,Olejak (2021) ,StarTrack
+Olejak21-M480 (changedCEcriteria),Olejak21-M481 (changedCEcriteria+switch),stability,switch added,default,switch added,7,Olejak (2021) ,StarTrack
+Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_1_beta0_5,beta,$\beta \uparrow$ ,0.25,0.50,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_1_beta0_75,beta,$\beta \uparrow$ ,0.50,0.75,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_0_5_beta0_5,beta,$\beta \uparrow$ ,0.25,0.50,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_0_5_beta0_75,beta,$\beta \uparrow$ ,0.50,0.75,8,Boesky (2024),COMPAS
+Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_2_beta0_5,beta,$\beta \uparrow$ ,0.25,0.50,8,Boesky (2024),COMPAS
+Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_2_beta0_75,beta,$\beta \uparrow$ ,0.50,0.75,8,Boesky (2024),COMPAS
+Boesky_alphaCE_10_beta0_25,Boesky_alphaCE_10_beta0_5,beta,$\beta \uparrow$ ,0.25,0.50,8,Boesky (2024),COMPAS
+Boesky_alphaCE_10_beta0_5,Boesky_alphaCE_10_beta0_75,beta,$\beta \uparrow$ ,0.50,0.75,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_5_beta0_25,alpha,$\alpha \uparrow$ ,0.1,0.5,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_2_beta0_25,alpha,$\alpha \uparrow$ ,0.5,2,8,Boesky (2024),COMPAS
+Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_10_beta0_25,alpha,$\alpha \uparrow$ ,2,10,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_5_beta0_5,alpha,$\alpha \uparrow$ ,0.1,0.5,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_2_beta0_5,alpha,$\alpha \uparrow$ ,0.5,2,8,Boesky (2024),COMPAS
+Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_10_beta0_5,alpha,$\alpha \uparrow$ ,2,10,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_1_beta0_75,Boesky_alphaCE_0_5_beta0_75,alpha,$\alpha \uparrow$ ,0.1,0.5,8,Boesky (2024),COMPAS
+Boesky_alphaCE_0_5_beta0_75,Boesky_alphaCE_2_beta0_75,alpha,$\alpha \uparrow$ ,0.5,2,8,Boesky (2024),COMPAS
+Boesky_alphaCE_2_beta0_75,Boesky_alphaCE_10_beta0_75,alpha,$\alpha \uparrow$ ,2,10,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_D,Boesky_sigma_30_RMP_M,supernova,MM SN,delayed,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_D,Boesky_sigma_30_RMP_R,supernova,rapid SN,delayed,rapid,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_R,Boesky_sigma_30_RMP_M,supernova,MM SN,rapid,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_D,Boesky_sigma_265_RMP_M,supernova,MM SN,delayed,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_D,Boesky_sigma_265_RMP_R,supernova,rapid SN,delayed,rapid,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_R,Boesky_sigma_265_RMP_M,supernova,MM SN,rapid,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_750_RMP_D,Boesky_sigma_750_RMP_M,supernova,MM SN,delayed,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_750_RMP_D,Boesky_sigma_750_RMP_R,supernova,rapid SN,delayed,rapid,8,Boesky (2024),COMPAS
+Boesky_sigma_750_RMP_R,Boesky_sigma_750_RMP_M,supernova,MM SN,rapid,MM SN,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_D,Boesky_sigma_265_RMP_D,sigma,$\sigma_{cc} \uparrow$,30.00,265.00,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_D,Boesky_sigma_750_RMP_D,sigma,$\sigma_{cc} \uparrow$,265.00,750.00,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_R,Boesky_sigma_265_RMP_R,sigma,$\sigma_{cc} \uparrow$,30.00,265.00,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_R,Boesky_sigma_750_RMP_R,sigma,$\sigma_{cc} \uparrow$,265.00,750.00,8,Boesky (2024),COMPAS
+Boesky_sigma_30_RMP_M,Boesky_sigma_265_RMP_M,sigma,$\sigma_{cc} \uparrow$,30.00,265.00,8,Boesky (2024),COMPAS
+Boesky_sigma_265_RMP_M,Boesky_sigma_750_RMP_M,sigma,$\sigma_{cc} \uparrow$,265.00,750.00,8,Boesky (2024),COMPAS
+Hendriks23,Hendriks23,fiducial,fiducial,none,none,10,Hendriks (2023),binary c
+R25-A-Fiducial,R25-B-RMAX,max radius,max radius,fiducial,limited ,11,Romagnolo (2025),StarTrack
+R25-C-Conv_ML1.5,R25-D-Conv_ML1.5_RMAX,max radius,max radius,fiducial,limited ,11,Romagnolo (2025),StarTrack
+R25-E-Conv_ML1.82_MLTpp,R25-E-Conv_ML1.82_MLTpp_RMAX,max radius,max radius,fiducial,limited ,11,Romagnolo (2025),StarTrack
+R25-A-Fiducial,R25-C-Conv_ML1.5,conv criteria,conv criteria,SSE,Klencki,11,Romagnolo (2025),StarTrack
+R25-A-Fiducial,R25-E-Conv_ML1.82_MLTpp,conv criteria,conv criteria,SSE,MESA,11,Romagnolo (2025),StarTrack
+R25-C-Conv_ML1.5,R25-E-Conv_ML1.82_MLTpp,conv criteria,conv criteria,Klencki,MESA,11,Romagnolo (2025),StarTrack
+R25-B-RMAX,R25-D-Conv_ML1.5_RMAX,conv criteria,conv criteria,SSE,Klencki,11,Romagnolo (2025),StarTrack
+R25-B-RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,conv criteria,conv criteria,SSE,MESA,11,Romagnolo (2025),StarTrack
+R25-D-Conv_ML1.5_RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,conv criteria,conv criteria,Klencki,MESA,11,Romagnolo (2025),StarTrack
+R23-A-Fiducial,R23-B-RMAX2,max radius,max radius,fiducial,Rmax METISSE BOOST ,12,Romagnolo (2023),StarTrack
+R23-A-Fiducial,R23-C-RMAX3,max radius,max radius,fiducial,Rmax METISSE MESA,12,Romagnolo (2023),StarTrack
+R23-A-Fiducial,R23-D-RMAX4,max radius,max radius,fiducial,Rmax MESA MLT+++,12,Romagnolo (2023),StarTrack
+R23-A-Fiducial,R23-E-RMAX4B,max radius,max radius,fiducial,Rmax MESA no MLT++,12,Romagnolo (2023),StarTrack
+R23-B-RMAX2,R23-C-RMAX3,max radius,max radius,Rmax METISSE BOOST ,Rmax METISSE MESA,12,Romagnolo (2023),StarTrack
+R23-B-RMAX2,R23-D-RMAX4,max radius,max radius,Rmax METISSE BOOST ,Rmax MESA MLT+++,12,Romagnolo (2023),StarTrack
+R23-B-RMAX2,R23-E-RMAX4B,max radius,max radius,Rmax METISSE BOOST ,Rmax MESA no MLT++,12,Romagnolo (2023),StarTrack
+R23-C-RMAX3,R23-D-RMAX4,max radius,max radius,Rmax METISSE MESA,Rmax MESA MLT+++,12,Romagnolo (2023),StarTrack
+R23-C-RMAX3,R23-E-RMAX4B,max radius,max radius,Rmax METISSE MESA,Rmax MESA no MLT++,12,Romagnolo (2023),StarTrack
+R23-D-RMAX4,R23-E-RMAX4B,max radius,max radius,Rmax MESA MLT+++,Rmax MESA no MLT++,12,Romagnolo (2023),StarTrack
+van Son (2023) ,van Son (2023) ,fiducial,fiducial,none,none,13,van Son (2023) ,COMPAS
+Li25-a,Li25-b,MT gamma,$\gamma$,-1.00,-2.00,14,Li (2025),MOBSE
+Li25-a,Li25-c,alpha,$\alpha \downarrow$ ,1.00,0.50,14,Li (2025),MOBSE
+Li25-a,Li25-d,alpha,$\alpha \uparrow$ ,1.00,2.00,14,Li (2025),MOBSE
+Li25-a,Li25-e,wind,$f_\rm{WR} \ \downarrow$,1.00,0.50,14,Li (2025),MOBSE
+Li25-a,Li25-f,wind,$f_\rm{WR} \ \uparrow$,1.00,2.00,14,Li (2025),MOBSE
+Li25-a,Li25-g,sigma,$\sigma_{cc} \downarrow$,265.00,45.00,14,Li (2025),MOBSE
+Li25-a,Li25-h,sigma,$\sigma_{cc} \uparrow$,265.00,750.00,14,Li (2025),MOBSE
+Li25-a,Li25-i,stability,qcrit change,$q_{\rm{c}}$,$q_{\rm{c}}$ Ge,14,Li (2025),MOBSE
+Sgalletta_alpha_1,Sgalletta_alpha_0_5,alpha,$\alpha \downarrow$ ,1.00,0.50,15,Sgalletta (2025) ,SEVN
+Sgalletta_alpha_1,Sgalletta_alpha_3,alpha,$\alpha \uparrow$ ,1.00,3.00,15,Sgalletta (2025) ,SEVN
+Sgalletta_alpha_3,Sgalletta_alpha_5,alpha,$\alpha \uparrow$ ,3.00,5.00,15,Sgalletta (2025) ,SEVN
+ShaoLi_rapid,ShaoLi_delayed,supernova,delayed,rapid,delayed,20,Shao and Li (2021),BSE
+ShaoLi_rapid,ShaoLi_stochastic ,supernova,MM SN,rapid,MM SN,20,Shao and Li (2021),BSE
+ShaoLi_delayed,ShaoLi_stochastic ,supernova,MM SN,delayed,MM SN,20,Shao and Li (2021),BSE
