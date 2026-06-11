@@ -34,7 +34,7 @@ raw = pd.read_csv(IBE_CSV, dtype=str).fillna("")
 raw["rate"] = pd.to_numeric(raw["rate_Gpc3yr"], errors="coerce")
 bhbh_named = raw[(raw["compact_object_type"] == "BH-BH") & (raw["submodel"] != "")]
 _rates = (
-    bhbh_named.groupby(["study_key", "submodel"])["rate"]
+    bhbh_named.groupby(["study_key", "submodel string"])["rate"]
     .median()
     .to_dict()
 )
@@ -212,15 +212,77 @@ add(SK, LBL, CODE,
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# 7.  Neijssel et al. (2019)  –  star formation history / SFRD model
+# 7.  Neijssel et al. (2019)  –  CE_pessimistic × SFRD (SFR × MZ × GSMF) grid
+#
+#     Two CE branches: "pess" (pessimistic CE, B) and "opt" (optimistic CE, A).
+#     Each branch has 19 SFRD configurations:
+#       - 1 "preferred" (fiducial COMPAS SFRD)
+#       - 18 = SFR{Madau,Strolger} × MZ{Ma,Langer,LangerOff} × GSMF{Panter,FurlSingle,FurlDouble}
+#     Submodel naming: Neijssel_{pess|opt}_{fiducial|preferred|SFR_MZ_GSMF}
 # ══════════════════════════════════════════════════════════════════════════════
 SK, LBL, CODE, C = "Neijssel_2019_COMPAS", "Neijssel et al. (2019)", "COMPAS", 7
 
-# B = BOSSA (Langer & Norman 2006; fiducial COMPAS)  |  A = power-law SFRD
-add(SK, LBL, CODE,
-    "B", "A",
-    "star formation history", "SFRD_model",
-    r"power-law SFR", "BOSSA SFR", "power-law SFR", C)
+SFR_VALS  = ["Madau", "Strolger"]
+MZ_VALS   = ["Ma", "Langer", "LangerOff"]
+GSMF_VALS = ["Panter", "FurlSingle", "FurlDouble"]
+
+SFR_LABEL  = {"Madau": "Madau SFR", "Strolger": "Strolger (2004) SFR"}
+MZ_LABEL   = {"Ma": "Ma (2004) MZ", "Langer": "Langer (2006) MZ",
+               "LangerOff": "Langer (2006) + offset MZ"}
+GSMF_LABEL = {"Panter": "Panter (2004) GSMF",
+               "FurlSingle": "Furlong (2015) single Schechter GSMF",
+               "FurlDouble": "Furlong (2015) double Schechter GSMF"}
+SFR_SHORT  = {"Madau": "Madau SFR", "Strolger": "Strolger SFR"}
+MZ_SHORT   = {"Ma": "Ma MZ", "Langer": "Langer MZ", "LangerOff": "Langer+offset MZ"}
+GSMF_SHORT = {"Panter": "Panter GSMF", "FurlSingle": "Furlong single GSMF",
+               "FurlDouble": "Furlong double GSMF"}
+
+def nname(branch, sfr, mz, gsmf):
+    return f"Neijssel_{branch}_{sfr}_{mz}_{gsmf}"
+
+# ── CE_pessimistic: pess ↔ opt, one relationship per SFRD config (19) ────────
+add(SK, LBL, CODE, "Neijssel_pess_fiducial", "Neijssel_opt_preferred",
+    "common envelope", "CE_pessimistic",
+    r"optimistic CE", "pessimistic", "optimistic", C)
+
+for sfr in SFR_VALS:
+    for mz in MZ_VALS:
+        for gsmf in GSMF_VALS:
+            add(SK, LBL, CODE,
+                nname("pess", sfr, mz, gsmf), nname("opt", sfr, mz, gsmf),
+                "common envelope", "CE_pessimistic",
+                r"optimistic CE", "pessimistic", "optimistic", C)
+
+# ── SFRD_model: one-change-at-a-time grid over SFR × MZ × GSMF (45/branch) ───
+MZ_PAIRS   = [("Ma", "Langer"), ("Ma", "LangerOff"), ("Langer", "LangerOff")]
+GSMF_PAIRS = [("Panter", "FurlSingle"), ("Panter", "FurlDouble"), ("FurlSingle", "FurlDouble")]
+
+for branch in ["pess", "opt"]:
+    # SFR ↔ SFR (9 edges): for every (MZ, GSMF) combo, Madau ↔ Strolger
+    for mz in MZ_VALS:
+        for gsmf in GSMF_VALS:
+            add(SK, LBL, CODE,
+                nname(branch, "Madau", mz, gsmf), nname(branch, "Strolger", mz, gsmf),
+                "star formation history", "SFRD_model",
+                SFR_SHORT["Strolger"], SFR_LABEL["Madau"], SFR_LABEL["Strolger"], C)
+
+    # MZ ↔ MZ (18 edges): for every (SFR, GSMF) combo, all 3 MZ pairs
+    for sfr in SFR_VALS:
+        for gsmf in GSMF_VALS:
+            for m1, m2 in MZ_PAIRS:
+                add(SK, LBL, CODE,
+                    nname(branch, sfr, m1, gsmf), nname(branch, sfr, m2, gsmf),
+                    "star formation history", "SFRD_model",
+                    MZ_SHORT[m2], MZ_LABEL[m1], MZ_LABEL[m2], C)
+
+    # GSMF ↔ GSMF (18 edges): for every (SFR, MZ) combo, all 3 GSMF pairs
+    for sfr in SFR_VALS:
+        for mz in MZ_VALS:
+            for g1, g2 in GSMF_PAIRS:
+                add(SK, LBL, CODE,
+                    nname(branch, sfr, mz, g1), nname(branch, sfr, mz, g2),
+                    "star formation history", "SFRD_model",
+                    GSMF_SHORT[g2], GSMF_LABEL[g1], GSMF_LABEL[g2], C)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
