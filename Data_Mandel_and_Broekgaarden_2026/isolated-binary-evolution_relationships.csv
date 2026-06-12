@@ -1,58 +1,58 @@
 study_key,label,code,from_submodel,to_submodel,parameter_family,parameter,travel_label,from_value,to_value,from_rate_Gpc3yr,to_rate_Gpc3yr,study_color_code
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_0_5,Sgalletta_alpha_1,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,255.6,296.4,1
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_1,Sgalletta_alpha_3,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,1.0,3.0,296.4,203.3,1
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_3,Sgalletta_alpha_5,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,3.0,5.0,203.3,144.0,1
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D (fiducial),common envelope,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.02,0.1,145.0,,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),D1.5,common envelope,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.1,1.5,,278.0,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),R,remnant mass prescription,supernova_engine,rapid SN,delayed,rapid,,155.0,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DHG,common envelope,HG_CE_treatment,HG CE on,no HG CE,HG CE,,572.0,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DK,natal kick,sigma_BH,$\sigma_{\rm BH} \downarrow$,~150 km/s (fallback),15 km/s (disrupted),,20.0,2
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_0_5,Sgalletta_alpha_1,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,255.6,296.4,1
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_1,Sgalletta_alpha_3,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,1,3,296.4,203.3,1
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_3,Sgalletta_alpha_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,3,5,203.3,144,1
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D (fiducial),common envelope efficiency,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.02,0.1,145,,2
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),D1.5,common envelope efficiency,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.1,1.5,,278,2
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),R,remnant mass prescription,supernova_engine,rapid SN,delayed,rapid,,155,2
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DHG,CE optimistic/pessimistic,CE optimistic/pessimistic,optimistic CE,pessimistic,optimistic,,572,2
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DK,natal kick,sigma_BH,$\sigma_{\rm BH} \downarrow$,~150 km/s (fallback),15 km/s (disrupted),,20,2
 Olejak_2021_Startrack,Olejak et al. (2021),StarTrack,M380.B,M480.B,mass transfer stability,CE_criterion,revised CE,standard RLOF,Pavlovskii+2017,61.7,88.4,3
 Olejak_2021_Startrack,Olejak et al. (2021),StarTrack,M480.B,M481.B,mass transfer stability,MT_timescale_switch,MT switch on,no switch,switch added,88.4,17.9,3
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,2,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1.0,50.0,43.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,3,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1.0,4.0,43.0,46.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,4,5,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1.0,61.0,52.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,5,6,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1.0,4.0,52.0,58.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,7,8,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1.0,68.0,75.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,8,9,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1.0,4.0,75.0,87.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,10,11,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1.0,80.0,86.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,11,12,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1.0,4.0,86.0,102.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,4,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,50.0,61.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,5,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,43.0,52.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,3,6,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,46.0,58.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,7,10,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,68.0,80.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,8,11,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,75.0,86.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,9,12,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,87.0,102.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,7,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,50.0,68.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,8,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,43.0,75.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,3,9,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,46.0,87.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,4,10,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,61.0,80.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,5,11,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,52.0,86.0,4
-Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,6,12,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,58.0,102.0,4
-Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,ref,CA,natal kick,kick_prescription,B\&E kicks,Hobbs (2005),Bray\&Eldridge (2018),149.0,310.0,5
-Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,ref,NK2A,natal kick,kick_prescription,NK2A kicks,Hobbs (2005),NK2A reduced,149.0,1072.0,5
-Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,CA,C+PA,mass transfer stability,HG_MT_stability,stable HG MT,CE for HG,stable MT (Pavlovskii),310.0,695.0,5
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,2,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1,50,43,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,3,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1,4,43,46,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,4,5,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1,61,52,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,5,6,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1,4,52,58,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,7,8,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1,68,75,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,8,9,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1,4,75,87,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,10,11,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1,80,86,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,11,12,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1,4,86,102,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,4,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,50,61,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,5,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,43,52,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,3,6,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,46,58,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,7,10,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,68,80,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,8,11,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,75,86,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,9,12,remnant mass prescription,PISN_mass_threshold,stronger PISN,90 $M_\odot$,45 $M_\odot$,87,102,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,7,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,50,68,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,2,8,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,43,75,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,3,9,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,46,87,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,4,10,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,61,80,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,5,11,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,52,86,4
+Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,6,12,common envelope,CE_criterion,revised CE,standard,Pavlovskii+2017,58,102,4
+Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,ref,CA,natal kick,kick_prescription,B\&E kicks,Hobbs (2005),Bray\&Eldridge (2018),149,310,5
+Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,ref,NK2A,natal kick,kick_prescription,NK2A kicks,Hobbs (2005),NK2A reduced,149,1072,5
+Chruslinska_2019_StarTrack,Chruslinska et al. (2019),StarTrack,CA,C+PA,mass transfer stability,HG_MT_stability,stable HG MT,CE for HG,stable MT (Pavlovskii),310,695,5
 Eldridge_2019_BPASS,Eldridge et al. (2019),BPASS,Table 1,Table 2,stellar tracks,BPASS_rate_method,Table 2,Table 1 method,Table 2 method,162.181,64.583,6
 Eldridge_2019_BPASS,Eldridge et al. (2019),BPASS,Table 1,with uncertainty,stellar tracks,stellar_uncertainty,+ uncertainty,no uncertainty,with stellar uncertainty,162.181,72.463,6
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_fiducial,Neijssel_opt_preferred,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,49.0,190.85,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_Panter,Neijssel_opt_Madau_Ma_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,63.07,291.23,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlSingle,Neijssel_opt_Madau_Ma_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,158.56,408.74,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlDouble,Neijssel_opt_Madau_Ma_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,174.71,431.55,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_Panter,Neijssel_opt_Madau_Langer_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,448.84,938.86,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_FurlSingle,Neijssel_opt_Madau_Langer_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,563.44,1002.87,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_FurlDouble,Neijssel_opt_Madau_Langer_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,589.13,1042.93,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_Panter,Neijssel_opt_Madau_LangerOff_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,59.17,190.7,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_FurlSingle,Neijssel_opt_Madau_LangerOff_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,151.84,317.64,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_FurlDouble,Neijssel_opt_Madau_LangerOff_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,167.64,335.02,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_Panter,Neijssel_opt_Strolger_Ma_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,101.98,361.59,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_FurlSingle,Neijssel_opt_Strolger_Ma_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,255.46,523.11,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_FurlDouble,Neijssel_opt_Strolger_Ma_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,271.91,547.87,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_Panter,Neijssel_opt_Strolger_Langer_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,574.91,1061.19,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_FurlSingle,Neijssel_opt_Strolger_Langer_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,688.91,1118.71,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_FurlDouble,Neijssel_opt_Strolger_Langer_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,714.15,1157.22,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_Panter,Neijssel_opt_Strolger_LangerOff_Panter,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,132.55,291.8,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_FurlSingle,Neijssel_opt_Strolger_LangerOff_FurlSingle,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,259.14,440.74,7
-Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_FurlDouble,Neijssel_opt_Strolger_LangerOff_FurlDouble,common envelope,CE_pessimistic,optimistic CE,pessimistic,optimistic,276.57,460.27,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_fiducial,Neijssel_opt_preferred,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,49,190.85,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_Panter,Neijssel_opt_Madau_Ma_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,63.07,291.23,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlSingle,Neijssel_opt_Madau_Ma_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,158.56,408.74,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlDouble,Neijssel_opt_Madau_Ma_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,174.71,431.55,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_Panter,Neijssel_opt_Madau_Langer_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,448.84,938.86,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_FurlSingle,Neijssel_opt_Madau_Langer_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,563.44,1002.87,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Langer_FurlDouble,Neijssel_opt_Madau_Langer_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,589.13,1042.93,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_Panter,Neijssel_opt_Madau_LangerOff_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,59.17,190.7,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_FurlSingle,Neijssel_opt_Madau_LangerOff_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,151.84,317.64,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_LangerOff_FurlDouble,Neijssel_opt_Madau_LangerOff_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,167.64,335.02,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_Panter,Neijssel_opt_Strolger_Ma_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,101.98,361.59,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_FurlSingle,Neijssel_opt_Strolger_Ma_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,255.46,523.11,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Ma_FurlDouble,Neijssel_opt_Strolger_Ma_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,271.91,547.87,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_Panter,Neijssel_opt_Strolger_Langer_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,574.91,1061.19,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_FurlSingle,Neijssel_opt_Strolger_Langer_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,688.91,1118.71,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_Langer_FurlDouble,Neijssel_opt_Strolger_Langer_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,714.15,1157.22,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_Panter,Neijssel_opt_Strolger_LangerOff_Panter,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,132.55,291.8,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_FurlSingle,Neijssel_opt_Strolger_LangerOff_FurlSingle,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,259.14,440.74,7
+Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Strolger_LangerOff_FurlDouble,Neijssel_opt_Strolger_LangerOff_FurlDouble,CE optimistic/pessimistic,CE_pessimistic,optimistic CE,pessimistic,optimistic,276.57,460.27,7
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_Panter,Neijssel_pess_Strolger_Ma_Panter,star formation history,SFRD_model,Strolger SFR,Madau SFR,Strolger (2004) SFR,63.07,101.98,7
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlSingle,Neijssel_pess_Strolger_Ma_FurlSingle,star formation history,SFRD_model,Strolger SFR,Madau SFR,Strolger (2004) SFR,158.56,255.46,7
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_pess_Madau_Ma_FurlDouble,Neijssel_pess_Strolger_Ma_FurlDouble,star formation history,SFRD_model,Strolger SFR,Madau SFR,Strolger (2004) SFR,174.71,271.91,7
@@ -143,9 +143,9 @@ Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_opt_Strolger_Langer_
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_opt_Strolger_LangerOff_Panter,Neijssel_opt_Strolger_LangerOff_FurlSingle,star formation history,SFRD_model,Furlong single GSMF,Panter (2004) GSMF,Furlong (2015) single Schechter GSMF,291.8,440.74,7
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_opt_Strolger_LangerOff_Panter,Neijssel_opt_Strolger_LangerOff_FurlDouble,star formation history,SFRD_model,Furlong double GSMF,Panter (2004) GSMF,Furlong (2015) double Schechter GSMF,291.8,460.27,7
 Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_opt_Strolger_LangerOff_FurlSingle,Neijssel_opt_Strolger_LangerOff_FurlDouble,star formation history,SFRD_model,Furlong double GSMF,Furlong (2015) single Schechter GSMF,Furlong (2015) double Schechter GSMF,440.74,460.27,7
-Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,M10,I1,initial conditions,initial_binary_distributions,Moe\&DiStefano,Sana+(2012),Moe\&DiStefano (2017),203.0,88.8,8
-Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,I1,I2,initial conditions,IMF,Z-dep IMF,$\alpha_3=2.3$,Z-dep $\alpha_3$,88.8,181.0,8
-Belczynski_2020_StarTrack,Belczynski et al. (2020),StarTrack,A,B,angular momentum,BH_spin_coupling,spin coupling on,no coupling (default),magnetic spin-down,579.0,43.8,9
+Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,M10,I1,initial conditions,initial_binary_distributions,Moe\&DiStefano,Sana+(2012),Moe\&DiStefano (2017),203,88.8,8
+Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,I1,I2,initial conditions,IMF,Z-dep IMF,$\alpha_3=2.3$,Z-dep $\alpha_3$,88.8,181,8
+Belczynski_2020_StarTrack,Belczynski et al. (2020),StarTrack,A,B,angular momentum,BH_spin_coupling,spin coupling on,no coupling (default),magnetic spin-down,579,43.8,9
 Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-B-RMAX2,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE boost,,,10
 Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-C-RMAX3,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE MESA,,,10
 Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX MESA MLT++,,,10
@@ -165,23 +165,23 @@ Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-C-Conv_ML1.5,R25-
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-D-Conv_ML1.5_RMAX,stellar tracks,convection_criterion,conv. criterion change,SSE,Klencki ML1.5,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,convection_criterion,conv. criterion change,SSE,MESA ML1.82,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-D-Conv_ML1.5_RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,convection_criterion,conv. criterion change,Klencki ML1.5,MESA ML1.82,,,11
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_1_beta0_5,common envelope,beta_MT,$\beta \uparrow$,0.25,0.5,71.587,96.209,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_1_beta0_75,common envelope,beta_MT,$\beta \uparrow$,0.5,0.75,96.209,124.177,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_0_5_beta0_5,common envelope,beta_MT,$\beta \uparrow$,0.25,0.5,80.321,108.068,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_0_5_beta0_75,common envelope,beta_MT,$\beta \uparrow$,0.5,0.75,108.068,135.444,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_2_beta0_5,common envelope,beta_MT,$\beta \uparrow$,0.25,0.5,154.495,177.395,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_2_beta0_75,common envelope,beta_MT,$\beta \uparrow$,0.5,0.75,177.395,226.725,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_25,Boesky_alphaCE_10_beta0_5,common envelope,beta_MT,$\beta \uparrow$,0.25,0.5,83.221,108.799,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_5,Boesky_alphaCE_10_beta0_75,common envelope,beta_MT,$\beta \uparrow$,0.5,0.75,108.799,138.816,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_5_beta0_25,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,71.587,80.321,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_2_beta0_25,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,80.321,154.495,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_10_beta0_25,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,154.495,83.221,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_5_beta0_5,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,96.209,108.068,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_2_beta0_5,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,108.068,177.395,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_10_beta0_5,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,177.395,108.799,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_75,Boesky_alphaCE_0_5_beta0_75,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,124.177,135.444,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_75,Boesky_alphaCE_2_beta0_75,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,135.444,226.725,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_75,Boesky_alphaCE_10_beta0_75,common envelope,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,226.725,138.816,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_1_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,71.587,96.209,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_1_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,96.209,124.177,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_0_5_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,80.321,108.068,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_0_5_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,108.068,135.444,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_2_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,154.495,177.395,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_2_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,177.395,226.725,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_25,Boesky_alphaCE_10_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,83.221,108.799,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_5,Boesky_alphaCE_10_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,108.799,138.816,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_5_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,71.587,80.321,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_2_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,80.321,154.495,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_10_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,154.495,83.221,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_5_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,96.209,108.068,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_2_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,108.068,177.395,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_10_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,177.395,108.799,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_75,Boesky_alphaCE_0_5_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,124.177,135.444,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_75,Boesky_alphaCE_2_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,135.444,226.725,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_75,Boesky_alphaCE_10_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,226.725,138.816,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_30_RMP_D,Boesky_sigma_265_RMP_D,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,30,265,237.992,95.315,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_265_RMP_D,Boesky_sigma_750_RMP_D,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,265,750,95.315,33.41,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_30_RMP_R,Boesky_sigma_265_RMP_R,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,30,265,182.85,139.387,12
@@ -197,44 +197,44 @@ Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_265_RMP_R,Boesky_sig
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_750_RMP_D,Boesky_sigma_750_RMP_R,remnant mass prescription,supernova_engine,rapid SN,Delayed,Rapid,33.41,82.639,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_750_RMP_D,Boesky_sigma_750_RMP_M,remnant mass prescription,supernova_engine,MM SN,Delayed,Müller+Mandel,33.41,0.599,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_750_RMP_R,Boesky_sigma_750_RMP_M,remnant mass prescription,supernova_engine,MM SN,Rapid,Müller+Mandel,82.639,0.599,12
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-b,angular momentum,gamma_AM,$\gamma \downarrow$,-1.0,-2.0,36.0,24.0,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-c,common envelope,alpha_CE,$\alpha_{\rm CE}\downarrow$,1.0,0.5,36.0,37.2,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-d,common envelope,alpha_CE,$\alpha_{\rm CE}\uparrow$,1.0,2.0,36.0,55.6,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-e,stellar winds,f_WR,$f_{\rm WR}\downarrow$,1.0,0.5,36.0,87.2,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-f,stellar winds,f_WR,$f_{\rm WR}\uparrow$,1.0,2.0,36.0,15.4,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-g,natal kick,sigma_kick,$\sigma\downarrow$,265,45,36.0,16.4,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-h,natal kick,sigma_kick,$\sigma\uparrow$,265,750,36.0,19.2,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-i,mass transfer stability,q_crit,$q_{\rm crit}$ change,default,Ge+2020,36.0,96.6,13
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.7,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,23.4,26.4,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,beta 0.7 IT,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,19.1,21.0,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-7-gamma1,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,33.4,30.2,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-IT,DT22-beta0-7-gamma1-IT,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,47.8,28.0,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5","beta 0.7, zeta 7.5",mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,67.3,100.9,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-7-zeta7-5-IT,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,59.5,88.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,70.3,93.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer,beta_MT,$\beta \uparrow$,0.3,0.7,89.6,101.7,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,"beta 0.3, zeta 7.5",mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,23.4,67.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,19.1,59.5,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,33.4,70.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-IT,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,47.8,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,"beta 0.7, zeta 7.5",mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,26.4,100.9,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,21.0,88.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,30.2,93.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4.0,7.5,28.0,101.7,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,23.4,33.4,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,19.1,47.8,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,67.3,70.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,59.5,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,26.4,30.2,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,21.0,28.0,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,100.9,93.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1.0,88.3,101.7,14
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-b,angular momentum,gamma_AM,$\gamma \downarrow$,-1,-2,36,24,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-c,common envelope efficiency,alpha_CE,$\alpha_{\rm CE}\downarrow$,1,0.5,36,37.2,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-d,common envelope efficiency,alpha_CE,$\alpha_{\rm CE}\uparrow$,1,2,36,55.6,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-e,stellar winds,f_WR,$f_{\rm WR}\downarrow$,1,0.5,36,87.2,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-f,stellar winds,f_WR,$f_{\rm WR}\uparrow$,1,2,36,15.4,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-g,natal kick,sigma_kick,$\sigma\downarrow$,265,45,36,16.4,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-h,natal kick,sigma_kick,$\sigma\uparrow$,265,750,36,19.2,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-i,mass transfer stability,q_crit,$q_{\rm crit}$ change,default,Ge+2020,36,96.6,13
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.7,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,23.4,26.4,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,beta 0.7 IT,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,19.1,21,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-7-gamma1,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,33.4,30.2,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-IT,DT22-beta0-7-gamma1-IT,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,47.8,28,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5","beta 0.7, zeta 7.5",mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,67.3,100.9,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-7-zeta7-5-IT,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,59.5,88.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,70.3,93.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.3,0.7,89.6,101.7,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,"beta 0.3, zeta 7.5",mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,23.4,67.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,19.1,59.5,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,33.4,70.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-IT,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,47.8,89.6,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,"beta 0.7, zeta 7.5",mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,26.4,100.9,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,21,88.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,30.2,93.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,28,101.7,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,23.4,33.4,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,19.1,47.8,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,67.3,70.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,59.5,89.6,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,26.4,30.2,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,21,28,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,100.9,93.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,88.3,101.7,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.3 IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),23.4,19.1,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),33.4,47.8,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),67.3,59.5,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),70.3,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,beta 0.7 IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),26.4,21.0,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),30.2,28.0,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,beta 0.7 IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),26.4,21,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),30.2,28,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),100.9,88.3,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),93.1,101.7,14
 Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,18,17,multi-parameter,multi-parameter,model variation,see paper,see paper,96.291,135.72,15
