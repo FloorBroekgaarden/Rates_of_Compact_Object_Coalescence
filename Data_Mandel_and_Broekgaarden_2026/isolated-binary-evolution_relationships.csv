@@ -159,12 +159,12 @@ Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-D-RMAX4,R23-E-RMA
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-B-RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,SSE (no RMAX),SSE+RMAX,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-C-Conv_ML1.5,R25-D-Conv_ML1.5_RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,Klencki (no RMAX),Klencki+RMAX,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-E-Conv_ML1.82_MLTpp,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,MESA (no RMAX),MESA+RMAX,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-C-Conv_ML1.5,stellar tracks,convection_criterion,conv. criterion change,SSE,Klencki ML1.5,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-E-Conv_ML1.82_MLTpp,stellar tracks,convection_criterion,conv. criterion change,SSE,MESA ML1.82,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-C-Conv_ML1.5,R25-E-Conv_ML1.82_MLTpp,stellar tracks,convection_criterion,conv. criterion change,Klencki ML1.5,MESA ML1.82,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-D-Conv_ML1.5_RMAX,stellar tracks,convection_criterion,conv. criterion change,SSE,Klencki ML1.5,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,convection_criterion,conv. criterion change,SSE,MESA ML1.82,,,11
-Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-D-Conv_ML1.5_RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,convection_criterion,conv. criterion change,Klencki ML1.5,MESA ML1.82,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-C-Conv_ML1.5,stellar tracks,convection_criterion,tracks,SSE,Klencki ML1.5,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-E-Conv_ML1.82_MLTpp,stellar tracks,convection_criterion,tracks,SSE,MESA ML1.82,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-C-Conv_ML1.5,R25-E-Conv_ML1.82_MLTpp,convective envelope criteria,convection_criterion,conv. criterion change,Klencki ML1.5,MESA ML1.82,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-D-Conv_ML1.5_RMAX,stellar tracks,convection_criterion,tracks,SSE,Klencki ML1.5,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-B-RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,convection_criterion,tracks,SSE,MESA ML1.82,,,11
+Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-D-Conv_ML1.5_RMAX,R25-E-Conv_ML1.82_MLTpp_RMAX,convective envelope criteria,convection_criterion,conv. criterion change,Klencki ML1.5,MESA ML1.82,,,11
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_1_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,71.587,96.209,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_1_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,96.209,124.177,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_0_5_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,80.321,108.068,12
@@ -221,22 +221,44 @@ Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,"beta 0.7, zeta 7.5
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,21,88.3,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,30.2,93.1,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,28,101.7,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,23.4,33.4,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,19.1,47.8,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,67.3,70.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,59.5,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,26.4,30.2,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,21,28,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,100.9,93.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,common envelope,gamma_CE,$\gamma \downarrow$,2.5,1,88.3,101.7,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.3 IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),23.4,19.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),33.4,47.8,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),67.3,59.5,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),70.3,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,beta 0.7 IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),26.4,21,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),30.2,28,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),100.9,88.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,RLOF_criterion,IT criterion,Kelvin (K),implicit T (IT),93.1,101.7,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,23.4,33.4,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,19.1,47.8,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,67.3,70.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,59.5,89.6,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,26.4,30.2,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,21,28,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,100.9,93.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,88.3,101.7,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.3 IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),23.4,19.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),33.4,47.8,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),67.3,59.5,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1-zeta7-5,DT22-beta0-3-gamma1-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),70.3,89.6,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,beta 0.7 IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),26.4,21,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),30.2,28,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),100.9,88.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),93.1,101.7,14
 Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,18,17,multi-parameter,multi-parameter,model variation,see paper,see paper,96.291,135.72,15
 Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,17,12,multi-parameter,multi-parameter,model variation,see paper,see paper,135.72,182.52,15
 Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,12,16,multi-parameter,multi-parameter,model variation,see paper,see paper,182.52,1138.41,15
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.27,vanSon_f_core_0.31,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.27,0.31,3.5,10,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.31,vanSon_f_core_0.34_fiducial,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.31,0.34,10,25.8,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.34_fiducial,vanSon_f_core_0.374,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.34,0.374,25.8,53.9,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.374,vanSon_f_core_0.408,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.374,0.408,53.9,87.3,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_zeta_eff_3.5,vanSon_zeta_eff_4.5,mass transfer stability,zeta_stability,$\zeta_{\rm eff} \uparrow$,3.5,4.5,0.9,4.6,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_zeta_eff_4.5,vanSon_zeta_eff_5.5,mass transfer stability,zeta_stability,$\zeta_{\rm eff} \uparrow$,4.5,5.5,4.6,16.7,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_zeta_eff_5.5,vanSon_zeta_eff_6_fiducial,mass transfer stability,zeta_stability,$\zeta_{\rm eff} \uparrow$,5.5,6,16.7,25.3,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_zeta_eff_6_fiducial,vanSon_zeta_eff_6.5,mass transfer stability,zeta_stability,$\zeta_{\rm eff} \uparrow$,6,6.5,25.3,35.9,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_beta_acc_0,vanSon_beta_acc_0.25,mass transfer efficiency,beta_MT,$\beta \uparrow$,0,0.25,10.1,17,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_beta_acc_0.25,vanSon_beta_acc_0.5_fiducial,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,17,25.3,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_beta_acc_0.5_fiducial,vanSon_beta_acc_0.75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,25.3,34,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_beta_acc_0.75,vanSon_beta_acc_1,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.75,1,34,39.6,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_0.5,vanSon_fmix_0.7,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,0.7,4.2,4.1,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_0.7,vanSon_fmix_1,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.7,1,4.1,5.5,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_1,vanSon_fmix_1.4,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1,1.4,5.5,6.8,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_1.4,vanSon_fmix_2,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,1.4,2,6.8,8,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_2,vanSon_fmix_2.8,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,2,2.8,8,9.2,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_fmix_2.8,vanSon_fmix_4,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,2.8,4,9.2,9.7,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0_fiducial,vanSon_f_disk_0.25,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0,0.25,26,118.4,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.25,vanSon_f_disk_0.5,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.25,0.5,118.4,12,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.5,vanSon_f_disk_0.75,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.5,0.75,12,0.1,16
+vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.75,vanSon_f_disk_1,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.75,1,0.1,0,16
