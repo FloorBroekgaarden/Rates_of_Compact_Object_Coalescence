@@ -21,7 +21,7 @@ NS-NS,observations-GWs,Abbott_2025_GWTC4,GWTC-4 (Abbott et al. 2025),LVK,2025,9,
 NS-NS,observations-GWs,Abbott_2025_GWTC4,GWTC-4 (Abbott et al. 2025),LVK,2025,9,,https://arxiv.org/abs/2508.18083,GWTC-4,credible_interval,250,upper,MERGED,MERGED analysis,TRUE
 BH-BH,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2026),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,27.5,lower,MERGED,MERGED analysis,FALSE
 BH-BH,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2026),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,49.4,upper,MERGED,MERGED analysis,FALSE
-NS-BH,observations-GWs,Abbott_2025_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,6.7,lower,MERGED,MERGED analysis,FALSE
-NS-BH,observations-GWs,Abbott_2025_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,32.8,upper,MERGED,MERGED analysis,FALSE
-NS-NS,observations-GWs,Abbott_2025_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,5.1,lower,MERGED,MERGED analysis,FALSE
-NS-NS,observations-GWs,Abbott_2025_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,154.7,upper,MERGED,MERGED analysis,FALSE
+NS-BH,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,6.7,lower,MERGED,MERGED analysis,FALSE
+NS-BH,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,32.8,upper,MERGED,MERGED analysis,FALSE
+NS-NS,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,5.1,lower,MERGED,MERGED analysis,FALSE
+NS-NS,observations-GWs,Abbott_2026_GWTC5,GWTC-5 (Abbott et al. 2025),LVK,2026,5,,https://arxiv.org/abs/2605.27226,GWTC-5,credible_interval,154.7,upper,MERGED,MERGED analysis,FALSE

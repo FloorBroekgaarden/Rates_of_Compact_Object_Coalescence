@@ -966,6 +966,13 @@ Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a0.5,D24-MTIII-SNE-k40
 Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a1,D24-MTIII-SNE-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,16.029,12.051,18
 Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a2,D24-MTIII-SNE-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,12.051,122.733,18
 Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a5,D24-MTIII-SNE-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,122.733,168.597,18
-Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-Fryer2012,remnant mass prescription,RMP,Fryer et al. (2012) delayed,Mandel & Muller (2020) stochastic,Fryer et al. (2012) delayed,39,285,19
+Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-Fryer2012,remnant mass prescription,RMP,Fryer et al. (2012) delayed,Mandel & Muller (2020) stochastic,Fryer et al. (2012) delayed,39,290,19
 Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-Schneider2021,remnant mass prescription,RMP,Schneider et al. (2021),Mandel & Muller (2020) stochastic,Schneider et al. (2021),39,4.7,19
 Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-MandelMuller2020-fWR0.2,stellar winds,f_WR,$f_{\rm WR}\downarrow$,1,0.2,39,47,19
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.5,S25-IMFconst-g0.85,delay-time distribution (DTD slope),DTD_gamma,$\gamma_{\rm DTD}\uparrow$,0.5,0.85,66,36,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.85,S25-IMFconst-g1.0,delay-time distribution (DTD slope),DTD_gamma,$\gamma_{\rm DTD}\uparrow$,0.85,1.0,36,22,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFrun-g0.5,S25-IMFrun-g0.85,delay-time distribution (DTD slope),DTD_gamma,$\gamma_{\rm DTD}\uparrow$,0.5,0.85,78,43,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFrun-g0.85,S25-IMFrun-g1.0,delay-time distribution (DTD slope),DTD_gamma,$\gamma_{\rm DTD}\uparrow$,0.85,1.0,43,27,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.5,S25-IMFrun-g0.5,initial conditions,IMF,running-slope IMF,"constant-slope ($\alpha=2.3,\,\beta=0.0$)","running-slope ($\alpha=2.3,\,\beta=0.3$)",66,78,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.85,S25-IMFrun-g0.85,initial conditions,IMF,running-slope IMF,"constant-slope ($\alpha=2.3,\,\beta=0.0$)","running-slope ($\alpha=2.3,\,\beta=0.3$)",36,43,20
+Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g1.0,S25-IMFrun-g1.0,initial conditions,IMF,running-slope IMF,"constant-slope ($\alpha=2.3,\,\beta=0.0$)","running-slope ($\alpha=2.3,\,\beta=0.3$)",22,27,20

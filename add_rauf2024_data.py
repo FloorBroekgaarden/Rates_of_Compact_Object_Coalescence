@@ -9,14 +9,16 @@ et al. (2023), recreated with the effective-factor rescaling method, for
 four COMPAS remnant-mass-prescription (RMP) / Wolf-Rayet wind-factor (f_WR)
 variants. Fiducial model (Table 1): RMP = Mandel & Muller (2020), f_WR = 1.
 
-Local (z=0) rates read off Fig. 3:
+Local (z=0) rates, read off the median (solid-line) curve of Fig. 3:
   - Mandel & Muller (2020)            (fiducial)   ~ 39   Gpc^-3 yr^-1
   - Mandel & Muller (2020), f_WR=0.2                ~ 47   Gpc^-3 yr^-1
-  - Fryer et al. (2012)                             ~ 280-290 Gpc^-3 yr^-1
+  - Fryer et al. (2012)                             ~ 290  Gpc^-3 yr^-1
   - Schneider et al. (2021)                         ~ 4.7  Gpc^-3 yr^-1
 
 Appends:
-  - 4 rows to isolated-binary-evolution.csv
+  - 4 rows to isolated-binary-evolution.csv, with plotting_style="range" so
+    that all 4 values are drawn (a single study_key with plotting_style=
+    "single_value" would only plot one point per draw_study() in plot_rates.py)
   - 3 relationship edges (fiducial -> each of the other 3 models): two
     "remnant mass prescription" (RMP) edges and one "stellar winds" (f_WR)
     edge, to isolated-binary-evolution_relationships.csv.
@@ -51,7 +53,8 @@ REL_COLUMNS = [
     "study_color_code",
 ]
 
-FIG3_NOTE = "Local (z=0) BBH merger rate read from Fig. 3 of Rauf et al. (2024)"
+FIG3_NOTE = ("Local (z=0) BBH merger rate, read from the median (solid line) "
+             "of Fig. 3 of Rauf et al. (2024)")
 
 
 def base_row(**overrides) -> dict:
@@ -66,8 +69,7 @@ def base_row(**overrides) -> dict:
         month="6",
         arxiv_url=ARXIV_URL,
         code="COMPAS",
-        plotting_style="single_value",
-        rate_type="single",
+        plotting_style="range",
         f_WR="1",
     ))
     row.update(overrides)
@@ -87,11 +89,11 @@ MODELS = {
     "fryer2012": base_row(
         submodel="Rauf24-Fryer2012",
         **{"submodel string": "Rauf24-Fryer2012"},
-        rate_Gpc3yr="285",
+        rate_Gpc3yr="290",
         RMP="Fryer et al. (2012) delayed",
         **{"submodel change 1": "remnant mass prescription"},
         notes=f"BPS variation: remnant mass prescription -> Fryer et al. (2012) delayed; "
-              f"{FIG3_NOTE}, band spans ~280-290 Gpc^-3 yr^-1.",
+              f"{FIG3_NOTE}.",
     ),
     "mm_fwr02": base_row(
         submodel="Rauf24-MandelMuller2020-fWR0.2",
