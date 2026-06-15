@@ -146,16 +146,16 @@ Neijssel_2019_COMPAS,Neijssel et al. (2019),COMPAS,Neijssel_opt_Strolger_LangerO
 Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,M10,I1,initial conditions,initial_binary_distributions,Moe\&DiStefano,Sana+(2012),Moe\&DiStefano (2017),203,88.8,8
 Klencki_2018_StarTrack,Klencki et al. (2018),StarTrack,I1,I2,initial conditions,IMF,Z-dep IMF,$\alpha_3=2.3$,Z-dep $\alpha_3$,88.8,181,8
 Belczynski_2020_StarTrack,Belczynski et al. (2020),StarTrack,A,B,angular momentum,BH_spin_coupling,spin coupling on,no coupling (default),magnetic spin-down,579,43.8,9
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-B-RMAX2,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE boost,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-C-RMAX3,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE MESA,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX MESA MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX MESA no-MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-C-RMAX3,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX METISSE MESA,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX MESA MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX MESA no-MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-C-RMAX3,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE MESA,RMAX MESA MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-C-RMAX3,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE MESA,RMAX MESA no-MLT++,,,10
-Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-D-RMAX4,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX MESA MLT++,RMAX MESA no-MLT++,,,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-B-RMAX2,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE boost,68.1,65.8,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-C-RMAX3,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX METISSE MESA,68.1,46.6,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX MESA MLT++,68.1,18.7,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-A-Fiducial,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,fiducial SSE,RMAX MESA no-MLT++,68.1,65.6,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-C-RMAX3,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX METISSE MESA,65.8,46.6,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX MESA MLT++,65.8,18.7,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-B-RMAX2,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE boost,RMAX MESA no-MLT++,65.8,65.6,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-C-RMAX3,R23-D-RMAX4,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE MESA,RMAX MESA MLT++,46.6,18.7,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-C-RMAX3,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX METISSE MESA,RMAX MESA no-MLT++,46.6,65.6,10
+Romagnolo_2023_StarTrack,Romagnolo et al. (2023),StarTrack,R23-D-RMAX4,R23-E-RMAX4B,stellar tracks,max_stellar_radius,$R_{\rm max}$ change,RMAX MESA MLT++,RMAX MESA no-MLT++,18.7,65.6,10
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-A-Fiducial,R25-B-RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,SSE (no RMAX),SSE+RMAX,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-C-Conv_ML1.5,R25-D-Conv_ML1.5_RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,Klencki (no RMAX),Klencki+RMAX,,,11
 Romagnolo_2025_StarTrack,Romagnolo et al. (2025),StarTrack,R25-E-Conv_ML1.82_MLTpp,R25-E-Conv_ML1.82_MLTpp_RMAX,stellar tracks,max_stellar_radius,$R_{\rm max}$ limited,MESA (no RMAX),MESA+RMAX,,,11
@@ -262,3 +262,710 @@ vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0_fiducial,v
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.25,vanSon_f_disk_0.5,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.25,0.5,118.4,12,16
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.5,vanSon_f_disk_0.75,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.5,0.75,12,0.1,16
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_disk_0.75,vanSon_f_disk_1,angular momentum,f_disk,$f_{\rm disk} \uparrow$,0.75,1,0.1,0,16
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M01-KK04_Ma16,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",91.2,60.6,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M01-PP04_Ma16,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",261.0,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M01-M09,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",171.0,124.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M01-KK04,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",116.0,75.4,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M01-PP04,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",359.0,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M01-T04,CE binding energy (lambda),lambda_CE,"lambda=1 (Claeys et al. 2014, full ionization)",0,"lambda=1 (Claeys et al. 2014, full ionization)",173.0,136.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M02-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",91.2,38.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M02-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",261.0,90.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M02-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",171.0,64.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M02-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",116.0,53.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M02-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",359.0,105.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M02-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.2, lambda=1","alpha=1, lambda=0","alpha=0.2, lambda=1",173.0,61.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M03-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",91.2,77.6,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M03-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",261.0,244.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M03-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",171.0,166.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M03-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",116.0,89.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M03-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",359.0,304.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M03-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=5.0, lambda=1","alpha=1, lambda=0","alpha=5.0, lambda=1",173.0,180.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M04-KK04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),91.2,42.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M04-PP04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),261.0,127.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M04-M09,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),171.0,79.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M04-KK04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),116.0,51.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M04-PP04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),359.0,162.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M04-T04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),173.0,84.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M05-KK04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),91.2,16.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M05-PP04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),261.0,46.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M05-M09,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),171.0,32.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M05-KK04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),116.0,24.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M05-PP04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),359.0,57.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M05-T04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),173.0,31.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M06-KK04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,91.2,69.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M06-PP04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,261.0,219.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M06-M09,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,171.0,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M06-KK04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,116.0,88.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M06-PP04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,359.0,258.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M06-T04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,173.0,140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M07-KK04_Ma16,CE efficiency (alpha),alpha_CE,0.1,1,0.1,91.2,292.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M07-PP04_Ma16,CE efficiency (alpha),alpha_CE,0.1,1,0.1,261.0,625.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M07-M09,CE efficiency (alpha),alpha_CE,0.1,1,0.1,171.0,461.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M07-KK04,CE efficiency (alpha),alpha_CE,0.1,1,0.1,116.0,403.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M07-PP04,CE efficiency (alpha),alpha_CE,0.1,1,0.1,359.0,717.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M07-T04,CE efficiency (alpha),alpha_CE,0.1,1,0.1,173.0,442.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M08-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",91.2,195.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M08-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",261.0,437.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M08-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",171.0,296.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M08-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",116.0,240.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M08-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",359.0,421.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M08-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",173.0,283.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M09-KK04_Ma16,CE efficiency (alpha),alpha_CE,0.2,1,0.2,91.2,483.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M09-PP04_Ma16,CE efficiency (alpha),alpha_CE,0.2,1,0.2,261.0,872.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M09-M09,CE efficiency (alpha),alpha_CE,0.2,1,0.2,171.0,675.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M09-KK04,CE efficiency (alpha),alpha_CE,0.2,1,0.2,116.0,632.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M09-PP04,CE efficiency (alpha),alpha_CE,0.2,1,0.2,359.0,1140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M09-T04,CE efficiency (alpha),alpha_CE,0.2,1,0.2,173.0,674.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M10-KK04_Ma16,CE efficiency (alpha),alpha_CE,0.3,1,0.3,91.2,280.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M10-PP04_Ma16,CE efficiency (alpha),alpha_CE,0.3,1,0.3,261.0,552.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M10-M09,CE efficiency (alpha),alpha_CE,0.3,1,0.3,171.0,402.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M10-KK04,CE efficiency (alpha),alpha_CE,0.3,1,0.3,116.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M10-PP04,CE efficiency (alpha),alpha_CE,0.3,1,0.3,359.0,612.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M10-T04,CE efficiency (alpha),alpha_CE,0.3,1,0.3,173.0,422.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M11-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",91.2,38.4,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M11-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",261.0,92.6,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M11-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",171.0,67.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M11-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",116.0,48.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M11-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",359.0,126.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M11-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",173.0,64.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M12-KK04_Ma16,CE efficiency (alpha),alpha_CE,0.5,1,0.5,91.2,73.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M12-PP04_Ma16,CE efficiency (alpha),alpha_CE,0.5,1,0.5,261.0,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M12-M09,CE efficiency (alpha),alpha_CE,0.5,1,0.5,171.0,141.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M12-KK04,CE efficiency (alpha),alpha_CE,0.5,1,0.5,116.0,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M12-PP04,CE efficiency (alpha),alpha_CE,0.5,1,0.5,359.0,231.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M12-T04,CE efficiency (alpha),alpha_CE,0.5,1,0.5,173.0,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M13-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",91.2,49.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M13-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",261.0,147.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M13-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",171.0,96.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M13-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",116.0,71.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M13-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",359.0,197.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M13-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",173.0,96.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M14-KK04_Ma16,CE efficiency (alpha),alpha_CE,2.0,1,2.0,91.2,126.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M14-PP04_Ma16,CE efficiency (alpha),alpha_CE,2.0,1,2.0,261.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M14-M09,CE efficiency (alpha),alpha_CE,2.0,1,2.0,171.0,240.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M14-KK04,CE efficiency (alpha),alpha_CE,2.0,1,2.0,116.0,157.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M14-PP04,CE efficiency (alpha),alpha_CE,2.0,1,2.0,359.0,439.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M14-T04,CE efficiency (alpha),alpha_CE,2.0,1,2.0,173.0,243.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M15-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",91.2,125.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M15-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",261.0,398.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M15-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",171.0,214.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M15-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",116.0,151.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M15-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",359.0,438.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M15-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",173.0,237.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M16-KK04_Ma16,CE efficiency (alpha),alpha_CE,3.0,1,3.0,91.2,112.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M16-PP04_Ma16,CE efficiency (alpha),alpha_CE,3.0,1,3.0,261.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M16-M09,CE efficiency (alpha),alpha_CE,3.0,1,3.0,171.0,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M16-KK04,CE efficiency (alpha),alpha_CE,3.0,1,3.0,116.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M16-PP04,CE efficiency (alpha),alpha_CE,3.0,1,3.0,359.0,401.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M16-T04,CE efficiency (alpha),alpha_CE,3.0,1,3.0,173.0,232.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M17-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",91.2,108.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M17-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",261.0,317.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M17-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",171.0,184.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M17-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",116.0,129.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M17-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",359.0,420.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M17-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",173.0,211.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M18-KK04_Ma16,CE efficiency (alpha),alpha_CE,5.0,1,5.0,91.2,74.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M18-PP04_Ma16,CE efficiency (alpha),alpha_CE,5.0,1,5.0,261.0,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M18-M09,CE efficiency (alpha),alpha_CE,5.0,1,5.0,171.0,158.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M18-KK04,CE efficiency (alpha),alpha_CE,5.0,1,5.0,116.0,95.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M18-PP04,CE efficiency (alpha),alpha_CE,5.0,1,5.0,359.0,299.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M18-T04,CE efficiency (alpha),alpha_CE,5.0,1,5.0,173.0,181.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M19-KK04_Ma16,CE efficiency (alpha),alpha_CE,10.0,1,10.0,91.2,45.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M19-PP04_Ma16,CE efficiency (alpha),alpha_CE,10.0,1,10.0,261.0,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M19-M09,CE efficiency (alpha),alpha_CE,10.0,1,10.0,171.0,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M19-KK04,CE efficiency (alpha),alpha_CE,10.0,1,10.0,116.0,55.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M19-PP04,CE efficiency (alpha),alpha_CE,10.0,1,10.0,359.0,177.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M19-T04,CE efficiency (alpha),alpha_CE,10.0,1,10.0,173.0,112.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M20-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",91.2,43.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M20-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",261.0,153.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M20-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",171.0,101.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M20-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",116.0,57.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M20-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",359.0,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M20-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",173.0,111.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M21-KK04_Ma16,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),91.2,293.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M21-PP04_Ma16,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),261.0,465.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M21-M09,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),171.0,362.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M21-KK04,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),116.0,342.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M21-PP04,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),359.0,571.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M21-T04,CE merger without core-envelope boundary,ce_mergeflag,ce_mergeflag=0 (no merger),default,ce_mergeflag=0 (no merger),173.0,367.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M22-KK04_Ma16,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",91.2,109.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M22-PP04_Ma16,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",261.0,319.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M22-M09,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",171.0,192.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M22-KK04,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",116.0,134.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M22-PP04,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",359.0,457.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M22-T04,CE initial orbital energy,ceflag,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",default,"ceflag=0 (core mass, Hurley et al. 2002 Eq. 70)",173.0,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M23-KK04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),91.2,83.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M23-PP04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),261.0,261.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M23-M09,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),171.0,170.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M23-KK04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),116.0,101.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M23-PP04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),359.0,310.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M23-T04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=0 (Hurley et al. 2002),default,qcflag=0 (Hurley et al. 2002),173.0,152.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M24-KK04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",91.2,79.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M24-PP04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",261.0,245.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M24-M09,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",171.0,153.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M24-KK04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",116.0,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M24-PP04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",359.0,326.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M24-T04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",default,"qcflag=1 (Hjellming and Webbink 1987 for GB/AGB donors, else Hurley et al. 2002)",173.0,154.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M25-KK04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",91.2,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M25-PP04_Ma16,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",261.0,299.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M25-M09,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",171.0,197.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M25-KK04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",116.0,127.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M25-PP04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",359.0,398.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M25-T04,CE onset critical mass ratio (q_crit),MT_stability,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",default,"qcflag=3 (Hjellming and Webbink 1987 for GB/AGB donors, else Claeys et al. 2014)",173.0,191.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M26-KK04_Ma16,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),91.2,99.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M26-PP04_Ma16,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),261.0,312.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M26-M09,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),171.0,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M26-KK04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),116.0,130.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M26-PP04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),359.0,379.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M26-T04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),173.0,181.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M27-KK04_Ma16,wind velocity factor (beta),beta_MT,0.125,-1,0.125,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M27-PP04_Ma16,wind velocity factor (beta),beta_MT,0.125,-1,0.125,261.0,291.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M27-M09,wind velocity factor (beta),beta_MT,0.125,-1,0.125,171.0,185.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M27-KK04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,116.0,130.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M27-PP04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,359.0,417.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M27-T04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,173.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M28-KK04_Ma16,wind velocity factor (beta),beta_MT,7,-1,7,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M28-PP04_Ma16,wind velocity factor (beta),beta_MT,7,-1,7,261.0,286.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M28-M09,wind velocity factor (beta),beta_MT,7,-1,7,171.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M28-KK04,wind velocity factor (beta),beta_MT,7,-1,7,116.0,139.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M28-PP04,wind velocity factor (beta),beta_MT,7,-1,7,359.0,356.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M28-T04,wind velocity factor (beta),beta_MT,7,-1,7,173.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M29-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",91.2,92.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M29-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",261.0,234.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M29-M09,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",171.0,143.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M29-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",116.0,119.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M29-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",359.0,307.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M29-T04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",173.0,162.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M30-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",91.2,96.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M30-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",261.0,267.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M30-M09,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",171.0,172.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M30-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",116.0,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M30-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",359.0,373.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M30-T04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",173.0,196.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M31-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",91.2,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M31-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",261.0,381.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M31-M09,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",171.0,251.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M31-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",116.0,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M31-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",359.0,514.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M31-T04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",173.0,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M32-KK04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,91.2,125.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M32-PP04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,261.0,369.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M32-M09,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,171.0,192.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M32-KK04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,116.0,155.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M32-PP04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,359.0,428.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M32-T04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,173.0,210.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M33-KK04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M33-PP04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,261.0,272.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M33-M09,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,171.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M33-KK04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,116.0,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M33-PP04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,359.0,415.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M33-T04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,173.0,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M34-KK04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),91.2,80.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M34-PP04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),261.0,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M34-M09,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),171.0,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M34-KK04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),116.0,103.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M34-PP04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),359.0,266.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M34-T04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),173.0,144.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M35-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),91.2,106.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M35-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),261.0,293.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M35-M09,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),171.0,187.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M35-KK04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),116.0,135.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M35-PP04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),359.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M35-T04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),173.0,191.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M36-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M36-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),261.0,302.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M36-M09,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),171.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M36-KK04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),116.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M36-PP04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),359.0,358.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M36-T04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),173.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M37-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),91.2,98.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M37-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),261.0,316.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M37-M09,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),171.0,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M37-KK04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),116.0,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M37-PP04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),359.0,400.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M37-T04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),173.0,201.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M38-KK04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),91.2,125.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M38-PP04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),261.0,382.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M38-M09,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),171.0,208.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M38-KK04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),116.0,156.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M38-PP04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),359.0,438.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M38-T04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),173.0,222.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M39-KK04_Ma16,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M39-PP04_Ma16,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),261.0,315.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M39-M09,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),171.0,203.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M39-KK04,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),116.0,147.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M39-PP04,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),359.0,424.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M39-T04,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),173.0,196.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M00-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,91.2,261.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M00-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,91.2,171.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M00-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,91.2,116.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M00-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,91.2,359.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M00-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,91.2,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M01-KK04_Ma16,S23-M01-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,60.6,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M01-KK04_Ma16,S23-M01-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,60.6,124.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M01-KK04_Ma16,S23-M01-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,60.6,75.4,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M01-KK04_Ma16,S23-M01-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,60.6,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M01-KK04_Ma16,S23-M01-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,60.6,136.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M02-KK04_Ma16,S23-M02-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,38.7,90.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M02-KK04_Ma16,S23-M02-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,38.7,64.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M02-KK04_Ma16,S23-M02-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,38.7,53.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M02-KK04_Ma16,S23-M02-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,38.7,105.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M02-KK04_Ma16,S23-M02-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,38.7,61.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M03-KK04_Ma16,S23-M03-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,77.6,244.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M03-KK04_Ma16,S23-M03-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,77.6,166.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M03-KK04_Ma16,S23-M03-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,77.6,89.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M03-KK04_Ma16,S23-M03-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,77.6,304.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M03-KK04_Ma16,S23-M03-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,77.6,180.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M04-KK04_Ma16,S23-M04-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,42.9,127.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M04-KK04_Ma16,S23-M04-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,42.9,79.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M04-KK04_Ma16,S23-M04-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,42.9,51.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M04-KK04_Ma16,S23-M04-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,42.9,162.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M04-KK04_Ma16,S23-M04-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,42.9,84.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M05-KK04_Ma16,S23-M05-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,16.9,46.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M05-KK04_Ma16,S23-M05-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,16.9,32.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M05-KK04_Ma16,S23-M05-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,16.9,24.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M05-KK04_Ma16,S23-M05-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,16.9,57.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M05-KK04_Ma16,S23-M05-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,16.9,31.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M06-KK04_Ma16,S23-M06-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,69.5,219.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M06-KK04_Ma16,S23-M06-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,69.5,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M06-KK04_Ma16,S23-M06-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,69.5,88.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M06-KK04_Ma16,S23-M06-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,69.5,258.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M06-KK04_Ma16,S23-M06-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,69.5,140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M07-KK04_Ma16,S23-M07-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,292.0,625.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M07-KK04_Ma16,S23-M07-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,292.0,461.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M07-KK04_Ma16,S23-M07-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,292.0,403.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M07-KK04_Ma16,S23-M07-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,292.0,717.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M07-KK04_Ma16,S23-M07-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,292.0,442.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M08-KK04_Ma16,S23-M08-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,195.0,437.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M08-KK04_Ma16,S23-M08-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,195.0,296.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M08-KK04_Ma16,S23-M08-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,195.0,240.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M08-KK04_Ma16,S23-M08-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,195.0,421.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M08-KK04_Ma16,S23-M08-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,195.0,283.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M09-KK04_Ma16,S23-M09-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,483.0,872.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M09-KK04_Ma16,S23-M09-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,483.0,675.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M09-KK04_Ma16,S23-M09-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,483.0,632.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M09-KK04_Ma16,S23-M09-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,483.0,1140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M09-KK04_Ma16,S23-M09-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,483.0,674.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M10-KK04_Ma16,S23-M10-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,280.0,552.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M10-KK04_Ma16,S23-M10-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,280.0,402.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M10-KK04_Ma16,S23-M10-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,280.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M10-KK04_Ma16,S23-M10-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,280.0,612.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M10-KK04_Ma16,S23-M10-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,280.0,422.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M11-KK04_Ma16,S23-M11-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,38.4,92.6,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M11-KK04_Ma16,S23-M11-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,38.4,67.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M11-KK04_Ma16,S23-M11-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,38.4,48.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M11-KK04_Ma16,S23-M11-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,38.4,126.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M11-KK04_Ma16,S23-M11-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,38.4,64.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M12-KK04_Ma16,S23-M12-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,73.3,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M12-KK04_Ma16,S23-M12-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,73.3,141.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M12-KK04_Ma16,S23-M12-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,73.3,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M12-KK04_Ma16,S23-M12-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,73.3,231.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M12-KK04_Ma16,S23-M12-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,73.3,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M13-KK04_Ma16,S23-M13-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,49.2,147.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M13-KK04_Ma16,S23-M13-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,49.2,96.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M13-KK04_Ma16,S23-M13-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,49.2,71.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M13-KK04_Ma16,S23-M13-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,49.2,197.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M13-KK04_Ma16,S23-M13-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,49.2,96.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M14-KK04_Ma16,S23-M14-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,126.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M14-KK04_Ma16,S23-M14-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,126.0,240.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M14-KK04_Ma16,S23-M14-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,126.0,157.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M14-KK04_Ma16,S23-M14-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,126.0,439.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M14-KK04_Ma16,S23-M14-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,126.0,243.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M15-KK04_Ma16,S23-M15-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,125.0,398.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M15-KK04_Ma16,S23-M15-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,125.0,214.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M15-KK04_Ma16,S23-M15-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,125.0,151.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M15-KK04_Ma16,S23-M15-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,125.0,438.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M15-KK04_Ma16,S23-M15-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,125.0,237.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M16-KK04_Ma16,S23-M16-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,112.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M16-KK04_Ma16,S23-M16-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,112.0,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M16-KK04_Ma16,S23-M16-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,112.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M16-KK04_Ma16,S23-M16-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,112.0,401.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M16-KK04_Ma16,S23-M16-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,112.0,232.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M17-KK04_Ma16,S23-M17-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,108.0,317.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M17-KK04_Ma16,S23-M17-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,108.0,184.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M17-KK04_Ma16,S23-M17-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,108.0,129.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M17-KK04_Ma16,S23-M17-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,108.0,420.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M17-KK04_Ma16,S23-M17-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,108.0,211.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M18-KK04_Ma16,S23-M18-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,74.7,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M18-KK04_Ma16,S23-M18-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,74.7,158.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M18-KK04_Ma16,S23-M18-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,74.7,95.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M18-KK04_Ma16,S23-M18-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,74.7,299.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M18-KK04_Ma16,S23-M18-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,74.7,181.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M19-KK04_Ma16,S23-M19-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,45.8,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M19-KK04_Ma16,S23-M19-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,45.8,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M19-KK04_Ma16,S23-M19-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,45.8,55.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M19-KK04_Ma16,S23-M19-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,45.8,177.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M19-KK04_Ma16,S23-M19-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,45.8,112.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M20-KK04_Ma16,S23-M20-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,43.2,153.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M20-KK04_Ma16,S23-M20-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,43.2,101.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M20-KK04_Ma16,S23-M20-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,43.2,57.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M20-KK04_Ma16,S23-M20-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,43.2,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M20-KK04_Ma16,S23-M20-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,43.2,111.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M21-KK04_Ma16,S23-M21-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,293.0,465.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M21-KK04_Ma16,S23-M21-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,293.0,362.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M21-KK04_Ma16,S23-M21-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,293.0,342.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M21-KK04_Ma16,S23-M21-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,293.0,571.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M21-KK04_Ma16,S23-M21-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,293.0,367.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M22-KK04_Ma16,S23-M22-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,109.0,319.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M22-KK04_Ma16,S23-M22-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,109.0,192.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M22-KK04_Ma16,S23-M22-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,109.0,134.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M22-KK04_Ma16,S23-M22-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,109.0,457.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M22-KK04_Ma16,S23-M22-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,109.0,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M23-KK04_Ma16,S23-M23-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,83.3,261.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M23-KK04_Ma16,S23-M23-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,83.3,170.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M23-KK04_Ma16,S23-M23-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,83.3,101.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M23-KK04_Ma16,S23-M23-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,83.3,310.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M23-KK04_Ma16,S23-M23-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,83.3,152.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M24-KK04_Ma16,S23-M24-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,79.1,245.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M24-KK04_Ma16,S23-M24-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,79.1,153.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M24-KK04_Ma16,S23-M24-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,79.1,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M24-KK04_Ma16,S23-M24-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,79.1,326.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M24-KK04_Ma16,S23-M24-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,79.1,154.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M25-KK04_Ma16,S23-M25-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,104.0,299.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M25-KK04_Ma16,S23-M25-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,104.0,197.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M25-KK04_Ma16,S23-M25-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,104.0,127.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M25-KK04_Ma16,S23-M25-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,104.0,398.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M25-KK04_Ma16,S23-M25-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,104.0,191.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M26-KK04_Ma16,S23-M26-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,99.0,312.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M26-KK04_Ma16,S23-M26-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,99.0,205.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M26-KK04_Ma16,S23-M26-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,99.0,130.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M26-KK04_Ma16,S23-M26-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,99.0,379.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M26-KK04_Ma16,S23-M26-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,99.0,181.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M27-KK04_Ma16,S23-M27-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,102.0,291.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M27-KK04_Ma16,S23-M27-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,102.0,185.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M27-KK04_Ma16,S23-M27-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,102.0,130.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M27-KK04_Ma16,S23-M27-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,102.0,417.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M27-KK04_Ma16,S23-M27-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,102.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M28-KK04_Ma16,S23-M28-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,102.0,286.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M28-KK04_Ma16,S23-M28-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,102.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M28-KK04_Ma16,S23-M28-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,102.0,139.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M28-KK04_Ma16,S23-M28-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,102.0,356.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M28-KK04_Ma16,S23-M28-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,102.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M29-KK04_Ma16,S23-M29-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,92.2,234.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M29-KK04_Ma16,S23-M29-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,92.2,143.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M29-KK04_Ma16,S23-M29-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,92.2,119.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M29-KK04_Ma16,S23-M29-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,92.2,307.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M29-KK04_Ma16,S23-M29-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,92.2,162.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M30-KK04_Ma16,S23-M30-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,96.7,267.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M30-KK04_Ma16,S23-M30-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,96.7,172.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M30-KK04_Ma16,S23-M30-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,96.7,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M30-KK04_Ma16,S23-M30-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,96.7,373.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M30-KK04_Ma16,S23-M30-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,96.7,196.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M31-KK04_Ma16,S23-M31-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,132.0,381.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M31-KK04_Ma16,S23-M31-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,132.0,251.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M31-KK04_Ma16,S23-M31-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,132.0,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M31-KK04_Ma16,S23-M31-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,132.0,514.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M31-KK04_Ma16,S23-M31-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,132.0,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M32-KK04_Ma16,S23-M32-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,125.0,369.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M32-KK04_Ma16,S23-M32-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,125.0,192.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M32-KK04_Ma16,S23-M32-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,125.0,155.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M32-KK04_Ma16,S23-M32-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,125.0,428.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M32-KK04_Ma16,S23-M32-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,125.0,210.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M33-KK04_Ma16,S23-M33-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,102.0,272.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M33-KK04_Ma16,S23-M33-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,102.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M33-KK04_Ma16,S23-M33-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,102.0,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M33-KK04_Ma16,S23-M33-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,102.0,415.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M33-KK04_Ma16,S23-M33-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,102.0,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M34-KK04_Ma16,S23-M34-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,80.9,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M34-KK04_Ma16,S23-M34-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,80.9,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M34-KK04_Ma16,S23-M34-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,80.9,103.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M34-KK04_Ma16,S23-M34-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,80.9,266.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M34-KK04_Ma16,S23-M34-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,80.9,144.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M35-KK04_Ma16,S23-M35-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,106.0,293.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M35-KK04_Ma16,S23-M35-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,106.0,187.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M35-KK04_Ma16,S23-M35-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,106.0,135.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M35-KK04_Ma16,S23-M35-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,106.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M35-KK04_Ma16,S23-M35-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,106.0,191.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M36-KK04_Ma16,S23-M36-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,102.0,302.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M36-KK04_Ma16,S23-M36-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,102.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M36-KK04_Ma16,S23-M36-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,102.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M36-KK04_Ma16,S23-M36-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,102.0,358.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M36-KK04_Ma16,S23-M36-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,102.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M37-KK04_Ma16,S23-M37-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,98.0,316.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M37-KK04_Ma16,S23-M37-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,98.0,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M37-KK04_Ma16,S23-M37-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,98.0,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M37-KK04_Ma16,S23-M37-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,98.0,400.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M37-KK04_Ma16,S23-M37-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,98.0,201.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M38-KK04_Ma16,S23-M38-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,125.0,382.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M38-KK04_Ma16,S23-M38-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,125.0,208.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M38-KK04_Ma16,S23-M38-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,125.0,156.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M38-KK04_Ma16,S23-M38-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,125.0,438.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M38-KK04_Ma16,S23-M38-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,125.0,222.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M39-KK04_Ma16,S23-M39-PP04_Ma16,star formation history,SFRD_model,Ma et al. (2016) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04_Ma16,102.0,315.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M39-KK04_Ma16,S23-M39-M09,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Mannucci et al. (2009) MZR,KK04_Ma16,M09,102.0,203.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M39-KK04_Ma16,S23-M39-KK04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Kobulnicky & Kewley (2004) MZR,KK04_Ma16,KK04,102.0,147.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M39-KK04_Ma16,S23-M39-PP04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Pettini & Pagel (2004) MZR,KK04_Ma16,PP04,102.0,424.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M39-KK04_Ma16,S23-M39-T04,star formation history,SFRD_model,Chruslinska & Nelemans (2019) fit for Tremonti et al. (2004) MZR,KK04_Ma16,T04,102.0,196.0,17
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20150-a0.1,D24-MTI-SNA-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,67.626,131.859,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20150-a0.5,D24-MTI-SNA-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,131.859,125.19,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20150-a1,D24-MTI-SNA-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,125.19,152.1,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20150-a2,D24-MTI-SNA-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,152.1,391.482,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20150-a5,D24-MTI-SNA-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,391.482,428.22,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20300-a0.1,D24-MTI-SNA-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,37.557,59.553,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20300-a0.5,D24-MTI-SNA-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,59.553,53.118,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20300-a1,D24-MTI-SNA-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,53.118,73.71,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20300-a2,D24-MTI-SNA-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,73.71,152.919,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k20300-a5,D24-MTI-SNA-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,152.919,146.484,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40150-a0.1,D24-MTI-SNA-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,64.116,126.009,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40150-a0.5,D24-MTI-SNA-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,126.009,119.691,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40150-a1,D24-MTI-SNA-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,119.691,154.323,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40150-a2,D24-MTI-SNA-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,154.323,387.153,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40150-a5,D24-MTI-SNA-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,387.153,427.635,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40300-a0.1,D24-MTI-SNA-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,34.983,56.277,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40300-a0.5,D24-MTI-SNA-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,56.277,49.959,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40300-a1,D24-MTI-SNA-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,49.959,71.838,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40300-a2,D24-MTI-SNA-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,71.838,147.888,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNA-k40300-a5,D24-MTI-SNA-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,147.888,144.846,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20150-a0.1,D24-MTI-SNB-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,80.847,146.952,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20150-a0.5,D24-MTI-SNB-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,146.952,147.186,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20150-a1,D24-MTI-SNB-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,147.186,184.392,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20150-a2,D24-MTI-SNB-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,184.392,463.203,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20150-a5,D24-MTI-SNB-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,463.203,497.484,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20300-a0.1,D24-MTI-SNB-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,54.288,83.304,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20300-a0.5,D24-MTI-SNB-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,83.304,82.134,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20300-a1,D24-MTI-SNB-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,82.134,110.565,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20300-a2,D24-MTI-SNB-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,110.565,248.274,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k20300-a5,D24-MTI-SNB-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,248.274,242.307,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40150-a0.1,D24-MTI-SNB-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,70.668,134.316,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40150-a0.5,D24-MTI-SNB-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,134.316,134.082,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40150-a1,D24-MTI-SNB-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,134.082,169.416,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40150-a2,D24-MTI-SNB-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,169.416,435.24,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40150-a5,D24-MTI-SNB-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,435.24,483.21,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40300-a0.1,D24-MTI-SNB-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,43.641,73.593,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40300-a0.5,D24-MTI-SNB-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,73.593,69.966,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40300-a1,D24-MTI-SNB-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,69.966,97.929,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40300-a2,D24-MTI-SNB-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,97.929,222.534,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNB-k40300-a5,D24-MTI-SNB-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,222.534,231.309,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20150-a0.1,D24-MTI-SNC-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,72.774,140.4,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20150-a0.5,D24-MTI-SNC-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,140.4,126.945,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20150-a1,D24-MTI-SNC-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,126.945,183.807,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20150-a2,D24-MTI-SNC-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,183.807,429.741,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20150-a5,D24-MTI-SNC-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,429.741,405.054,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20300-a0.1,D24-MTI-SNC-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,38.025,63.414,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20300-a0.5,D24-MTI-SNC-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,63.414,56.16,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20300-a1,D24-MTI-SNC-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,56.16,80.613,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20300-a2,D24-MTI-SNC-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,80.613,165.789,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k20300-a5,D24-MTI-SNC-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,165.789,142.506,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40150-a0.1,D24-MTI-SNC-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,68.328,135.954,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40150-a0.5,D24-MTI-SNC-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,135.954,122.616,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40150-a1,D24-MTI-SNC-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,122.616,179.01,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40150-a2,D24-MTI-SNC-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,179.01,422.838,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40150-a5,D24-MTI-SNC-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,422.838,400.959,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40300-a0.1,D24-MTI-SNC-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,35.568,59.319,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40300-a0.5,D24-MTI-SNC-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,59.319,53.937,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40300-a1,D24-MTI-SNC-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,53.937,76.752,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40300-a2,D24-MTI-SNC-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,76.752,160.992,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNC-k40300-a5,D24-MTI-SNC-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,160.992,142.857,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k20-a0.1,D24-MTI-SND-k20-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,56.277,98.982,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k20-a0.5,D24-MTI-SND-k20-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,98.982,93.834,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k20-a1,D24-MTI-SND-k20-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,93.834,83.772,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k20-a2,D24-MTI-SND-k20-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,83.772,321.048,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k20-a5,D24-MTI-SND-k20-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,321.048,263.952,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k40-a0.1,D24-MTI-SND-k40-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,56.043,97.461,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k40-a0.5,D24-MTI-SND-k40-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,97.461,91.845,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k40-a1,D24-MTI-SND-k40-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,91.845,84.942,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k40-a2,D24-MTI-SND-k40-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,84.942,321.165,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SND-k40-a5,D24-MTI-SND-k40-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,321.165,266.76,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20150-a0.1,D24-MTI-SNE-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,65.169,136.539,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20150-a0.5,D24-MTI-SNE-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,136.539,131.625,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20150-a1,D24-MTI-SNE-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,131.625,162.981,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20150-a2,D24-MTI-SNE-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,162.981,349.128,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20150-a5,D24-MTI-SNE-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,349.128,416.169,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20300-a0.1,D24-MTI-SNE-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,37.323,67.626,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20300-a0.5,D24-MTI-SNE-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,67.626,62.361,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20300-a1,D24-MTI-SNE-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,62.361,78.858,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20300-a2,D24-MTI-SNE-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,78.858,159.939,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k20300-a5,D24-MTI-SNE-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,159.939,163.566,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40150-a0.1,D24-MTI-SNE-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,60.723,130.689,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40150-a0.5,D24-MTI-SNE-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,130.689,126.009,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40150-a1,D24-MTI-SNE-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,126.009,158.301,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40150-a2,D24-MTI-SNE-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,158.301,345.384,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40150-a5,D24-MTI-SNE-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,345.384,415.818,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40300-a0.1,D24-MTI-SNE-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,34.164,61.893,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40300-a0.5,D24-MTI-SNE-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,61.893,58.032,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40300-a1,D24-MTI-SNE-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,58.032,74.295,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40300-a2,D24-MTI-SNE-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,74.295,153.972,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTI-SNE-k40300-a5,D24-MTI-SNE-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,153.972,160.056,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20150-a0.1,D24-MTII-SNA-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,76.986,410.787,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20150-a0.5,D24-MTII-SNA-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,410.787,306.891,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20150-a1,D24-MTII-SNA-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,306.891,245.583,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20150-a2,D24-MTII-SNA-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,245.583,406.809,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20150-a5,D24-MTII-SNA-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,406.809,575.055,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20300-a0.1,D24-MTII-SNA-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,45.864,269.451,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20300-a0.5,D24-MTII-SNA-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,269.451,191.997,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20300-a1,D24-MTII-SNA-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,191.997,153.621,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20300-a2,D24-MTII-SNA-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,153.621,209.313,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k20300-a5,D24-MTII-SNA-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,209.313,212.706,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40150-a0.1,D24-MTII-SNA-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,65.52,270.621,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40150-a0.5,D24-MTII-SNA-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,270.621,205.452,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40150-a1,D24-MTII-SNA-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,205.452,168.246,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40150-a2,D24-MTII-SNA-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,168.246,373.932,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40150-a5,D24-MTII-SNA-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,373.932,591.903,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40300-a0.1,D24-MTII-SNA-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,36.27,170.82,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40300-a0.5,D24-MTII-SNA-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,170.82,120.276,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40300-a1,D24-MTII-SNA-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,120.276,98.163,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40300-a2,D24-MTII-SNA-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,98.163,188.955,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNA-k40300-a5,D24-MTII-SNA-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,188.955,227.916,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20150-a0.1,D24-MTII-SNB-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,99.45,627.822,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20150-a0.5,D24-MTII-SNB-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,627.822,490.464,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20150-a1,D24-MTII-SNB-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,490.464,363.987,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20150-a2,D24-MTII-SNB-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,363.987,760.149,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20150-a5,D24-MTII-SNB-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,760.149,803.907,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20300-a0.1,D24-MTII-SNB-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,70.083,515.502,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20300-a0.5,D24-MTII-SNB-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,515.502,396.864,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20300-a1,D24-MTII-SNB-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,396.864,288.873,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20300-a2,D24-MTII-SNB-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,288.873,557.271,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k20300-a5,D24-MTII-SNB-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,557.271,472.68,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40150-a0.1,D24-MTII-SNB-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,79.794,404.352,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40150-a0.5,D24-MTII-SNB-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,404.352,316.485,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40150-a1,D24-MTII-SNB-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,316.485,244.062,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40150-a2,D24-MTII-SNB-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,244.062,617.175,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40150-a5,D24-MTII-SNB-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,617.175,800.046,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40300-a0.1,D24-MTII-SNB-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,54.522,319.995,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40300-a0.5,D24-MTII-SNB-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,319.995,248.742,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40300-a1,D24-MTII-SNB-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,248.742,191.529,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40300-a2,D24-MTII-SNB-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,191.529,447.642,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNB-k40300-a5,D24-MTII-SNB-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,447.642,479.583,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20150-a0.1,D24-MTII-SNC-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,83.07,432.9,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20150-a0.5,D24-MTII-SNC-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,432.9,330.642,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20150-a1,D24-MTII-SNC-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,330.642,268.281,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20150-a2,D24-MTII-SNC-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,268.281,501.345,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20150-a5,D24-MTII-SNC-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,501.345,572.364,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20300-a0.1,D24-MTII-SNC-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,45.396,285.597,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20300-a0.5,D24-MTII-SNC-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,285.597,209.898,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20300-a1,D24-MTII-SNC-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,209.898,166.023,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20300-a2,D24-MTII-SNC-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,166.023,235.17,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k20300-a5,D24-MTII-SNC-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,235.17,210.483,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40150-a0.1,D24-MTII-SNC-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,71.253,290.043,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40150-a0.5,D24-MTII-SNC-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,290.043,220.896,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40150-a1,D24-MTII-SNC-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,220.896,185.445,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40150-a2,D24-MTII-SNC-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,185.445,466.479,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40150-a5,D24-MTII-SNC-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,466.479,589.095,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40300-a0.1,D24-MTII-SNC-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,36.855,180.999,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40300-a0.5,D24-MTII-SNC-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,180.999,131.508,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40300-a1,D24-MTII-SNC-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,131.508,106.47,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40300-a2,D24-MTII-SNC-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,106.47,212.94,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNC-k40300-a5,D24-MTII-SNC-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,212.94,224.172,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k20-a0.1,D24-MTII-SND-k20-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,107.874,485.199,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k20-a0.5,D24-MTII-SND-k20-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,485.199,342.108,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k20-a1,D24-MTII-SND-k20-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,342.108,165.204,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k20-a2,D24-MTII-SND-k20-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,165.204,475.371,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k20-a5,D24-MTII-SND-k20-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,475.371,380.484,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k40-a0.1,D24-MTII-SND-k40-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,108.81,458.172,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k40-a0.5,D24-MTII-SND-k40-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,458.172,337.194,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k40-a1,D24-MTII-SND-k40-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,337.194,151.983,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k40-a2,D24-MTII-SND-k40-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,151.983,472.095,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SND-k40-a5,D24-MTII-SND-k40-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,472.095,385.632,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20150-a0.1,D24-MTII-SNE-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,69.849,383.175,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20150-a0.5,D24-MTII-SNE-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,383.175,318.591,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20150-a1,D24-MTII-SNE-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,318.591,284.193,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20150-a2,D24-MTII-SNE-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,284.193,440.154,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20150-a5,D24-MTII-SNE-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,440.154,544.284,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20300-a0.1,D24-MTII-SNE-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,44.928,274.482,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20300-a0.5,D24-MTII-SNE-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,274.482,222.534,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20300-a1,D24-MTII-SNE-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,222.534,214.344,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20300-a2,D24-MTII-SNE-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,214.344,300.222,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k20300-a5,D24-MTII-SNE-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,300.222,250.848,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40150-a0.1,D24-MTII-SNE-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,57.915,258.57,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40150-a0.5,D24-MTII-SNE-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,258.57,214.344,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40150-a1,D24-MTII-SNE-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,214.344,194.454,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40150-a2,D24-MTII-SNE-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,194.454,376.506,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40150-a5,D24-MTII-SNE-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,376.506,543.231,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40300-a0.1,D24-MTII-SNE-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,35.568,174.213,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40300-a0.5,D24-MTII-SNE-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,174.213,140.049,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40300-a1,D24-MTII-SNE-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,140.049,133.965,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40300-a2,D24-MTII-SNE-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,133.965,247.455,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTII-SNE-k40300-a5,D24-MTII-SNE-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,247.455,250.263,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20150-a0.1,D24-MTIII-SNA-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,64.818,39.312,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20150-a0.5,D24-MTIII-SNA-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,39.312,28.665,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20150-a1,D24-MTIII-SNA-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,28.665,24.921,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20150-a2,D24-MTIII-SNA-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,24.921,275.418,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20150-a5,D24-MTIII-SNA-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,275.418,377.442,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20300-a0.1,D24-MTIII-SNA-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,40.131,21.294,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20300-a0.5,D24-MTIII-SNA-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,21.294,13.221,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20300-a1,D24-MTIII-SNA-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,13.221,10.062,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20300-a2,D24-MTIII-SNA-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,10.062,167.427,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k20300-a5,D24-MTIII-SNA-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,167.427,176.67,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40150-a0.1,D24-MTIII-SNA-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,54.171,36.387,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40150-a0.5,D24-MTIII-SNA-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,36.387,26.793,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40150-a1,D24-MTIII-SNA-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,26.793,25.506,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40150-a2,D24-MTIII-SNA-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,25.506,238.68,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40150-a5,D24-MTIII-SNA-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,238.68,373.347,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40300-a0.1,D24-MTIII-SNA-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,32.526,19.188,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40300-a0.5,D24-MTIII-SNA-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,19.188,12.285,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40300-a1,D24-MTIII-SNA-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,12.285,9.594,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40300-a2,D24-MTIII-SNA-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,9.594,135.252,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNA-k40300-a5,D24-MTIII-SNA-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,135.252,171.522,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20150-a0.1,D24-MTIII-SNB-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,75.699,35.802,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20150-a0.5,D24-MTIII-SNB-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,35.802,28.782,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20150-a1,D24-MTIII-SNB-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,28.782,26.091,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20150-a2,D24-MTIII-SNB-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,26.091,297.063,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20150-a5,D24-MTIII-SNB-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,297.063,438.165,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20300-a0.1,D24-MTIII-SNB-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,55.575,21.879,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20300-a0.5,D24-MTIII-SNB-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,21.879,14.157,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20300-a1,D24-MTIII-SNB-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,14.157,12.402,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20300-a2,D24-MTIII-SNB-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,12.402,201.708,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k20300-a5,D24-MTIII-SNB-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,201.708,273.897,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40150-a0.1,D24-MTIII-SNB-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,60.021,33.93,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40150-a0.5,D24-MTIII-SNB-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,33.93,25.857,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40150-a1,D24-MTIII-SNB-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,25.857,25.272,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40150-a2,D24-MTIII-SNB-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,25.272,255.411,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40150-a5,D24-MTIII-SNB-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,255.411,428.337,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40300-a0.1,D24-MTIII-SNB-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,40.482,21.177,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40300-a0.5,D24-MTIII-SNB-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,21.177,13.455,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40300-a1,D24-MTIII-SNB-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,13.455,11.466,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40300-a2,D24-MTIII-SNB-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,11.466,169.65,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNB-k40300-a5,D24-MTIII-SNB-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,169.65,258.102,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20150-a0.1,D24-MTIII-SNC-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,72.072,41.886,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20150-a0.5,D24-MTIII-SNC-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,41.886,30.888,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20150-a1,D24-MTIII-SNC-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,30.888,28.08,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20150-a2,D24-MTIII-SNC-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,28.08,316.368,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20150-a5,D24-MTIII-SNC-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,316.368,377.91,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20300-a0.1,D24-MTIII-SNC-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,44.46,23.517,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20300-a0.5,D24-MTIII-SNC-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,23.517,14.508,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20300-a1,D24-MTIII-SNC-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,14.508,11.934,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20300-a2,D24-MTIII-SNC-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,11.934,181.935,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k20300-a5,D24-MTIII-SNC-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,181.935,183.924,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40150-a0.1,D24-MTIII-SNC-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,58.266,39.663,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40150-a0.5,D24-MTIII-SNC-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,39.663,28.782,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40150-a1,D24-MTIII-SNC-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,28.782,27.144,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40150-a2,D24-MTIII-SNC-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,27.144,272.025,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40150-a5,D24-MTIII-SNC-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,272.025,369.72,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40300-a0.1,D24-MTIII-SNC-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,34.632,21.177,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40300-a0.5,D24-MTIII-SNC-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,21.177,13.104,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40300-a1,D24-MTIII-SNC-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,13.104,10.881,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40300-a2,D24-MTIII-SNC-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,10.881,149.292,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNC-k40300-a5,D24-MTIII-SNC-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,149.292,174.915,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k20-a0.1,D24-MTIII-SND-k20-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,37.791,17.55,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k20-a0.5,D24-MTIII-SND-k20-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,17.55,11.232,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k20-a1,D24-MTIII-SND-k20-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,11.232,18.72,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k20-a2,D24-MTIII-SND-k20-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,18.72,267.228,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k20-a5,D24-MTIII-SND-k20-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,267.228,260.442,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k40-a0.1,D24-MTIII-SND-k40-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,37.323,18.018,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k40-a0.5,D24-MTIII-SND-k40-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,18.018,10.998,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k40-a1,D24-MTIII-SND-k40-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,10.998,18.837,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k40-a2,D24-MTIII-SND-k40-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,18.837,261.495,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SND-k40-a5,D24-MTIII-SND-k40-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,261.495,262.197,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20150-a0.1,D24-MTIII-SNE-k20150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,54.873,43.173,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20150-a0.5,D24-MTIII-SNE-k20150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,43.173,34.515,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20150-a1,D24-MTIII-SNE-k20150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,34.515,26.793,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20150-a2,D24-MTIII-SNE-k20150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,26.793,215.163,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20150-a5,D24-MTIII-SNE-k20150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,215.163,334.62,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20300-a0.1,D24-MTIII-SNE-k20300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,37.557,25.506,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20300-a0.5,D24-MTIII-SNE-k20300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,25.506,17.901,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20300-a1,D24-MTIII-SNE-k20300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,17.901,12.636,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20300-a2,D24-MTIII-SNE-k20300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,12.636,144.963,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k20300-a5,D24-MTIII-SNE-k20300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,144.963,174.681,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40150-a0.1,D24-MTIII-SNE-k40150-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,46.215,40.95,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40150-a0.5,D24-MTIII-SNE-k40150-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,40.95,32.292,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40150-a1,D24-MTIII-SNE-k40150-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,32.292,25.623,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40150-a2,D24-MTIII-SNE-k40150-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,25.623,189.306,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40150-a5,D24-MTIII-SNE-k40150-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,189.306,326.196,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a0.1,D24-MTIII-SNE-k40300-a0.5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,30.303,23.517,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a0.5,D24-MTIII-SNE-k40300-a1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,23.517,16.029,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a1,D24-MTIII-SNE-k40300-a2,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,16.029,12.051,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a2,D24-MTIII-SNE-k40300-a5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,12.051,122.733,18
+Deng_2024_BSE,Deng et al. (2024),BSE,D24-MTIII-SNE-k40300-a5,D24-MTIII-SNE-k40300-a10,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,122.733,168.597,18
+Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-Fryer2012,remnant mass prescription,RMP,Fryer et al. (2012) delayed,Mandel & Muller (2020) stochastic,Fryer et al. (2012) delayed,39,285,19
+Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-Schneider2021,remnant mass prescription,RMP,Schneider et al. (2021),Mandel & Muller (2020) stochastic,Schneider et al. (2021),39,4.7,19
+Rauf_2024_COMPAS,Rauf et al. (2024),COMPAS,Rauf24-MandelMuller2020,Rauf24-MandelMuller2020-fWR0.2,stellar winds,f_WR,$f_{\rm WR}\downarrow$,1,0.2,39,47,19
