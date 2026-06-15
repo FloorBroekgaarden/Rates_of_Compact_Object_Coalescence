@@ -1,0 +1,17 @@
+,,,,,,
+Rates obtained from https://arxiv.org/pdf/2209.03385 from Figure 3 & 4 ,,,,,,
+,,,,,,
+Category,Variation,CE channel R_0.2,Stable channel R_0.2,Total R_0.2,CE channel fraction,Stable channel fraction
+Width of metallicity dist.,Narrow ($\omega_0=0.70$),24.2,6.3,30.5,0.793442623,0.206557377
+Width of metallicity dist.,Fiducial ($\omega_0=1.13$),41.8,17.1,58.9,0.709677419,0.290322581
+Width of metallicity dist.,Wide ($\omega_0=2.00$),115,53.1,168.1,0.684116597,0.315883403
+Redshift evol. width of metallicity dist.,Flat width ($\omega_z=0.00$),37.7,12.4,50.1,0.75249501,0.24750499
+Redshift evol. width of metallicity dist.,Steep width ($\omega_z=0.10$),47.3,24.1,71.4,0.662464986,0.337535014
+Mean metallicity,low $\langle Z \rangle$ ($\mu_0=0.007$),144.1,65.4,209.5,0.687828162,0.312171838
+Mean metallicity,high $\langle Z \rangle$ ($\mu_0=0.035$),27.8,11.1,38.9,0.714652956,0.285347044
+Redshift evol. of mean metallicity,Flat ($\mu_z=0.0$),38.6,14,52.6,0.733840304,0.266159696
+Redshift evol. of mean metallicity,Steep ($\mu_z=-0.5$),74.8,55.4,130.2,0.574500768,0.425499232
+Skewness of metallicity dist.,Symmetric ($\alpha=0.0$),80.2,38.6,118.8,0.675084175,0.324915825
+Skewness of metallicity dist.,Skewed ($\alpha=-6$),32.6,12.2,44.8,0.727678571,0.272321429
+Overall SFR history,Madau & Fragos 2017,37.2,17.3,54.5,0.682568807,0.317431193
+Overall SFR history,Approx. to upper limit,114.4,55.6,170,0.672941176,0.327058824
