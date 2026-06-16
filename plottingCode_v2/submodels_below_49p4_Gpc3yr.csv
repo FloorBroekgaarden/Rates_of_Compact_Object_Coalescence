@@ -1,0 +1,165 @@
+panel,label,study_key,submodel,rate,is_fiducial
+Angular momentum \& winds,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_disk_0.75,0.1,False
+Natal kicks ($\sigma_{\rm kick}$),Boesky et al. (2024),Boesky_2024_COMPAS,Boesky_sigma_750_RMP_M,0.599,False
+MT stability,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_zeta_eff_3.5,0.9,False
+CE efficiency ($\alpha_{\rm CE}$),Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL01,1.19,False
+Remnant mass prescription,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL07,1.35,False
+Remnant mass prescription,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL03,1.75,False
+Stellar evolution tracks,Romagnolo et al. (2025),Romagnolo_2025_StarTrack,R25-D-Conv_ML1.5_RMAX,3.0,False
+CE criterion \& pessimistic/optimistic,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL15,3.16,False
+Remnant mass prescription,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL05,3.43,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_core_0.27,3.5,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_0.7,4.1,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_0.5,4.2,False
+CE criterion \& pessimistic/optimistic,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL21,4.29,False
+MT stability,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_zeta_eff_4.5,4.6,False
+Remnant mass prescription,Rauf et al. (2024),Rauf_2024_COMPAS,Rauf24-Schneider2021,4.7,False
+CE efficiency ($\alpha_{\rm CE}$),Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL11,5.22,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_1,5.5,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_1.4,6.8,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_2,8.0,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_2.8,9.2,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40300-a2,9.594,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_fmix_4,9.7,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_core_0.31,10.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20300-a2,10.062,False
+MT efficiency ($\beta$),van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_beta_acc_0,10.1,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40300-a2,10.881,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k40-a1,10.998,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k20-a1,11.232,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40300-a2,11.466,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20300-a2,11.934,False
+Angular momentum \& winds,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_disk_0.5,12.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40300-a2,12.051,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40300-a1,12.285,False
+Stellar evolution tracks,Romagnolo et al. (2025),Romagnolo_2025_StarTrack,R25-C-Conv_ML1.5,12.3,False
+Other,Chattaraj (2025; solar metallicity),Chattaraj_2025_POSYDON,Chattaraj25-MODEL10,12.33,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20300-a2,12.402,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20300-a2,12.636,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40300-a1,13.104,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20300-a1,13.221,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40300-a1,13.455,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20300-a1,14.157,False
+Angular momentum \& winds,Li et al. (2025),Li_2025_MOBSE,Li25-f,14.2,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20300-a1,14.508,False
+Natal kicks ($\sigma_{\rm kick}$),Li et al. (2025),Li_2025_MOBSE,Li25-g,15.4,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40300-a1,16.029,False
+MT stability,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_zeta_eff_5.5,16.7,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-KK04_Ma16,16.9,False
+MT efficiency ($\beta$),van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_beta_acc_0.25,17.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k20-a0.5,17.55,False
+MT stability,Olejak et al. (2021),Olejak_2021_Startrack,M481.B,17.9,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20300-a1,17.901,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k40-a0.5,18.018,False
+Angular momentum \& winds,Li et al. (2025),Li_2025_MOBSE,Li25-b,18.1,False
+Natal kicks ($\sigma_{\rm kick}$),Li et al. (2025),Li_2025_MOBSE,Li25-h,18.2,False
+Stellar evolution tracks,Romagnolo et al. (2023),Romagnolo_2023_StarTrack,R23-D-RMAX4,18.7,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k20-a2,18.72,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k40-a2,18.837,False
+Natal kicks ($\sigma_{\rm kick}$),Boesky et al. (2024),Boesky_2024_COMPAS,Boesky_sigma_265_RMP_M,19.019,False
+MT efficiency ($\beta$),Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.3 IT,19.1,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40300-a0.5,19.188,False
+Natal kicks ($\sigma_{\rm kick}$),Mapelli et al. (2017),Mapelli_2017_MOBSE,DK,20.0,False
+MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.7 IT,21.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40300-a0.5,21.177,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40300-a0.5,21.177,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20300-a0.5,21.294,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20300-a0.5,21.879,False
+Initial conditions,Smith \& Kaplinghat (2025),Smith_2025_SEVN,S25-IMFconst-g1.0,22.0,False
+MT efficiency ($\beta$),Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.3,23.4,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20300-a0.5,23.517,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40300-a0.5,23.517,False
+Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-KK04,24.8,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20150-a2,24.921,False
+CE efficiency ($\alpha_{\rm CE}$),Zhu et al. (2024),Zhu_2024_COMPAS,Zhu24-aCE10-sigma265,25.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40150-a2,25.272,False
+MT efficiency ($\beta$),van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_beta_acc_0.5_fiducial,25.3,True
+MT stability,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_zeta_eff_6_fiducial,25.3,True
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40150-a2,25.506,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20300-a0.5,25.506,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40150-a2,25.623,False
+Remnant mass prescription,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_core_0.34_fiducial,25.8,True
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40150-a1,25.857,False
+Angular momentum \& winds,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_f_disk_0_fiducial,26.0,True
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20150-a2,26.091,False
+MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.7,26.4,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40150-a1,26.793,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20150-a2,26.793,False
+Other,Smith \& Kaplinghat (2025),Smith_2025_SEVN,S25-IMFrun-g1.0,27.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40150-a2,27.144,False
+CE efficiency ($\alpha_{\rm CE}$),Zhu et al. (2024),Zhu_2024_COMPAS,Zhu24-aCE5-sigma265,28.0,False
+MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,DT22-beta0-7-gamma1-IT,28.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20150-a2,28.08,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20150-a1,28.665,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20150-a1,28.782,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40150-a1,28.782,False
+Star formation history,Levina et al. (2026),Levina_2026_COMPAS,Levina26-TNG300-1,29.34,False
+MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,DT22-beta0-7-gamma1,30.2,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40300-a0.1,30.303,False
+Star formation history,van Son et al. (2023),vanSon_2023_COMPAS,vanSon23_omega0_0.70,30.5,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20150-a1,30.888,False
+CE efficiency ($\alpha_{\rm CE}$),Li et al. (2025),Li_2025_MOBSE,Li25-c,31.2,False
+Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-T04,31.3,False
+Angular momentum \& winds,Li et al. (2025),Li_2025_MOBSE,Li25-a,31.7,False
+Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-M09,32.1,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40150-a1,32.292,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40300-a0.1,32.526,False
+MT efficiency ($\beta$),Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,DT22-beta0-3-gamma1,33.4,False
+Remnant mass prescription,Boesky et al. (2024),Boesky_2024_COMPAS,Boesky_sigma_750_RMP_D,33.41,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40150-a0.5,33.93,False
+MT efficiency ($\beta$),van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_beta_acc_0.75,34.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNE-k40300-a0.1,34.164,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20150-a1,34.515,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40300-a0.1,34.632,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNA-k40300-a0.1,34.983,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNC-k40300-a0.1,35.568,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNE-k40300-a0.1,35.568,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k20150-a0.5,35.802,False
+MT stability,van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_zeta_eff_6.5,35.9,False
+Other,Smith \& Kaplinghat (2025),Smith_2025_SEVN,S25-IMFconst-g0.85,36.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNA-k40300-a0.1,36.27,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40150-a0.5,36.387,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNC-k40300-a0.1,36.855,False
+CE efficiency ($\alpha_{\rm CE}$),Zhu et al. (2024),Zhu_2024_COMPAS,Zhu24-aCE2-sigma265,37.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNE-k20300-a0.1,37.323,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k40-a0.1,37.323,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNA-k20300-a0.1,37.557,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20300-a0.1,37.557,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SND-k20-a0.1,37.791,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNC-k20300-a0.1,38.025,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M11-KK04_Ma16,38.4,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M02-KK04_Ma16,38.7,False
+Star formation history,van Son et al. (2023),vanSon_2023_COMPAS,vanSon23_mu0_0.035,38.9,False
+Stellar evolution tracks,Romagnolo et al. (2025),Romagnolo_2025_StarTrack,R25-E-Conv_ML1.82_MLTpp_RMAX,38.9,False
+CE efficiency ($\alpha_{\rm CE}$),Zhu et al. (2024),Zhu_2024_COMPAS,Zhu24-aCE1-sigma265,39.0,False
+Remnant mass prescription,Rauf et al. (2024),Rauf_2024_COMPAS,Rauf24-MandelMuller2020,39.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20150-a0.5,39.312,False
+MT efficiency ($\beta$),van Son (2022) SMT only,vanSon_2022_SMT_COMPAS,vanSon_beta_acc_1,39.6,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40150-a0.5,39.663,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k20300-a0.1,40.131,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40300-a0.1,40.482,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40150-a0.5,40.95,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20150-a0.5,41.886,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M04-KK04_Ma16,42.9,False
+Star formation history,Levina et al. (2026),Levina_2026_COMPAS,Levina26-TNG100-1,42.91,False
+Other,Smith \& Kaplinghat (2025),Smith_2025_SEVN,S25-IMFrun-g0.85,43.0,False
+Remnant mass prescription,Olejak et al. (2022),Olejak_2022_Startrack,2,43.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k20150-a0.5,43.173,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M20-KK04_Ma16,43.2,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTI-SNB-k40300-a0.1,43.641,False
+Angular momentum \& winds,Belczynski et al. (2020),Belczynski_2020_StarTrack,B,43.8,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20300-a0.1,44.46,False
+Star formation history,van Son et al. (2023),vanSon_2023_COMPAS,vanSon23_alpha_-6,44.8,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNE-k20300-a0.1,44.928,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNC-k20300-a0.1,45.396,False
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M19-KK04_Ma16,45.8,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTII-SNA-k20300-a0.1,45.864,False
+Remnant mass prescription,Olejak et al. (2022),Olejak_2022_Startrack,3,46.0,False
+CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40150-a0.1,46.215,False
+Stellar evolution tracks,Romagnolo et al. (2023),Romagnolo_2023_StarTrack,R23-C-RMAX3,46.6,False
+Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-PP04_Ma16,46.9,False
+Angular momentum \& winds,Rauf et al. (2024),Rauf_2024_COMPAS,Rauf24-MandelMuller2020-fWR0.2,47.0,False
+MT efficiency ($\beta$),Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,DT22-beta0-3-gamma1-IT,47.8,False
+Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M11-KK04,48.9,False
+CE criterion \& pessimistic/optimistic,Neijssel et al. (2019),Neijssel_2019_COMPAS,Neijssel_pess_fiducial,49.0,True
+Star formation history,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M13-KK04_Ma16,49.2,False
