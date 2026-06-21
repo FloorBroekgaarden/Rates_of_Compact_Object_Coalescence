@@ -1051,3 +1051,30 @@ Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma100,Zhu24-aCE2-sigma265
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma100,Zhu24-aCE5-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,86,28,26
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE10-sigma100,Zhu24-aCE10-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,67,25,26
 ArcaSedda_2026_BPop,Arca Sedda et al. (2026),B-POP,ArcaSedda26-F-1g-IB,ArcaSedda26-F5-1g-IB,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,1,5,31,21,27
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta01,alpha1_beta02,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.1,0.2,10,20,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta02,alpha1_beta03,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.2,0.3,20,30,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta03,alpha1_beta04,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.3,0.4,30,45,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta04,alpha1_beta05,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.4,0.5,45,60,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta05,alpha1_beta06,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.5,0.6,60,70,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta06,alpha1_beta07,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.6,0.7,70,80,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta07,alpha1_beta08,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.7,0.8,80,90,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta08,alpha1_beta09,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.8,0.9,90,100,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta09,alpha1_beta10,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.9,1.0,100,110,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta01,alpha6_beta02,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.1,0.2,5,8,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta02,alpha6_beta03,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.2,0.3,8,10,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta03,alpha6_beta04,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.3,0.4,10,15,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta04,alpha6_beta05,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.4,0.5,15,20,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta05,alpha6_beta06,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.5,0.6,20,25,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta06,alpha6_beta07,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.6,0.7,25,30,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta07,alpha6_beta08,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.7,0.8,30,35,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta08,alpha6_beta09,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.8,0.9,35,40,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha6_beta09,alpha6_beta10,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.9,1.0,40,45,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta01,alpha10_beta02,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.1,0.2,2,3,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta02,alpha10_beta03,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.2,0.3,3,5,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta03,alpha10_beta04,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.3,0.4,5,7,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta04,alpha10_beta05,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.4,0.5,7,10,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta05,alpha10_beta06,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.5,0.6,10,12,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta06,alpha10_beta07,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.6,0.7,12,15,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta07,alpha10_beta08,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.7,0.8,15,18,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta08,alpha10_beta09,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.8,0.9,18,20,8
+Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta09,alpha10_beta10,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.9,1.0,20,23,8
