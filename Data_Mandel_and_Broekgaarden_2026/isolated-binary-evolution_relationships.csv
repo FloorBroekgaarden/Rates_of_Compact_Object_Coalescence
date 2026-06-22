@@ -1,9 +1,9 @@
 study_key,label,code,from_submodel,to_submodel,parameter_family,parameter,travel_label,from_value,to_value,from_rate_Gpc3yr,to_rate_Gpc3yr,study_color_code
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_0_5,Sgalletta_alpha_1,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,255.6,296.4,1
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_1,Sgalletta_alpha_3,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,1,3,296.4,203.3,1
-Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_3,Sgalletta_alpha_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,3,5,203.3,144,1
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D (fiducial),common envelope efficiency,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.02,0.1,145,,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),D1.5,common envelope efficiency,alpha_CE_lambda,$\alpha\lambda \uparrow$,0.1,1.5,,278,2
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_0_5,Sgalletta_alpha_1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,255.6,296.4,1
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_1,Sgalletta_alpha_3,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,3,296.4,203.3,1
+Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_3,Sgalletta_alpha_5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,3,5,203.3,144,1
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D (fiducial),common envelope efficiency (alpha_CE),alpha_CE_lambda,$\alpha\lambda \uparrow$,0.02,0.1,145,,2
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),D1.5,common envelope efficiency (alpha_CE),alpha_CE_lambda,$\alpha\lambda \uparrow$,0.1,1.5,,278,2
 Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),R,remnant mass prescription,supernova_engine,rapid SN,delayed,rapid,,155,2
 Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DHG,CE optimistic/pessimistic,CE optimistic/pessimistic,optimistic CE,pessimistic,optimistic,,572,2
 Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DK,natal kick,sigma_BH,$\sigma_{\rm BH} \downarrow$,~150 km/s (fallback),15 km/s (disrupted),,20,2
@@ -173,15 +173,15 @@ Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_2_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,177.395,226.725,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_25,Boesky_alphaCE_10_beta0_5,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.25,0.5,83.221,108.799,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_10_beta0_5,Boesky_alphaCE_10_beta0_75,mass transfer efficiency,beta_MT,$\beta \uparrow$,0.5,0.75,108.799,138.816,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_5_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,71.587,80.321,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_2_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,80.321,154.495,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_10_beta0_25,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,154.495,83.221,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_5_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,96.209,108.068,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_2_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,108.068,177.395,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_10_beta0_5,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,177.395,108.799,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_75,Boesky_alphaCE_0_5_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,124.177,135.444,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_75,Boesky_alphaCE_2_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,135.444,226.725,12
-Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_75,Boesky_alphaCE_10_beta0_75,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,226.725,138.816,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_25,Boesky_alphaCE_0_5_beta0_25,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,71.587,80.321,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_25,Boesky_alphaCE_2_beta0_25,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,80.321,154.495,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_25,Boesky_alphaCE_10_beta0_25,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,154.495,83.221,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_5,Boesky_alphaCE_0_5_beta0_5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,96.209,108.068,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_5,Boesky_alphaCE_2_beta0_5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,108.068,177.395,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_5,Boesky_alphaCE_10_beta0_5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,177.395,108.799,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_1_beta0_75,Boesky_alphaCE_0_5_beta0_75,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.1,0.5,124.177,135.444,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_0_5_beta0_75,Boesky_alphaCE_2_beta0_75,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,2,135.444,226.725,12
+Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_alphaCE_2_beta0_75,Boesky_alphaCE_10_beta0_75,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,10,226.725,138.816,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_30_RMP_D,Boesky_sigma_265_RMP_D,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,30,265,237.992,95.315,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_265_RMP_D,Boesky_sigma_750_RMP_D,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,265,750,95.315,33.41,12
 Boesky_2024_COMPAS,Boesky et al. (2024),COMPAS,Boesky_sigma_30_RMP_R,Boesky_sigma_265_RMP_R,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,30,265,182.85,139.387,12
@@ -213,14 +213,14 @@ Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,"beta 0.7, zeta 7.5
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,21,88.3,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-zeta7-5,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,30.2,93.1,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer stability,zeta_stability,$\xi \uparrow$,4,7.5,28,101.7,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,23.4,33.4,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,19.1,47.8,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,67.3,70.3,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,59.5,89.6,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,26.4,30.2,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,21,28,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,100.9,93.1,14
-Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,mass transfer AM,gamma_AM,$\gamma \downarrow$,2.5,1,88.3,101.7,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,DT22-beta0-3-gamma1,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,23.4,33.4,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3 IT,DT22-beta0-3-gamma1-IT,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,19.1,47.8,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-gamma1-zeta7-5,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,67.3,70.3,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-zeta7-5-IT,DT22-beta0-3-gamma1-zeta7-5-IT,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,59.5,89.6,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,DT22-beta0-7-gamma1,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,26.4,30.2,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7 IT,DT22-beta0-7-gamma1-IT,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,21,28,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-gamma1-zeta7-5,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,100.9,93.1,14
+Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-zeta7-5-IT,DT22-beta0-7-gamma1-zeta7-5-IT,angular momentum,gamma_AM,$\gamma \downarrow$,2.5,1,88.3,101.7,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.3,beta 0.3 IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),23.4,19.1,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-3-gamma1,DT22-beta0-3-gamma1-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),33.4,47.8,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.3, zeta 7.5",DT22-beta0-3-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),67.3,59.5,14
@@ -275,96 +275,96 @@ Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M04-M09,C
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M04-KK04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),116.0,51.1,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M04-PP04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),359.0,162.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M04-T04,CE onset critical mass ratio (q_crit),MT_stability,qcflag=4 (Belczynski et al. 2008),default,qcflag=4 (Belczynski et al. 2008),173.0,84.5,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M05-KK04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),91.2,16.9,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M05-PP04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),261.0,46.9,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M05-M09,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),171.0,32.1,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M05-KK04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),116.0,24.8,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M05-PP04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),359.0,57.1,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M05-T04,BH natal-kick scaling (v_BH),bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),173.0,31.3,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M06-KK04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,91.2,69.5,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M06-PP04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,261.0,219.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M06-M09,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,171.0,131.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M06-KK04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,116.0,88.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M06-PP04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,359.0,258.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M06-T04,BH remnant-mass prescription (M_NS-BH),RMP,F12 delayed,default,F12 delayed,173.0,140.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M07-KK04_Ma16,common envelope efficiency,alpha_CE,0.1,1,0.1,91.2,292.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M07-PP04_Ma16,common envelope efficiency,alpha_CE,0.1,1,0.1,261.0,625.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M07-M09,common envelope efficiency,alpha_CE,0.1,1,0.1,171.0,461.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M07-KK04,common envelope efficiency,alpha_CE,0.1,1,0.1,116.0,403.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M07-PP04,common envelope efficiency,alpha_CE,0.1,1,0.1,359.0,717.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M07-T04,common envelope efficiency,alpha_CE,0.1,1,0.1,173.0,442.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M05-KK04_Ma16,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),91.2,16.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M05-PP04_Ma16,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),261.0,46.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M05-M09,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),171.0,32.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M05-KK04,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),116.0,24.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M05-PP04,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),359.0,57.1,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M05-T04,natal kick,bhflag,bhflag=3 (kick not scaled by fallback),default,bhflag=3 (kick not scaled by fallback),173.0,31.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M06-KK04_Ma16,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,91.2,69.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M06-PP04_Ma16,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,261.0,219.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M06-M09,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,171.0,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M06-KK04,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,116.0,88.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M06-PP04,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,359.0,258.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M06-T04,remnant mass prescription,RMP,F12 delayed,default,F12 delayed,173.0,140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M07-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,91.2,292.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M07-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,261.0,625.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M07-M09,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,171.0,461.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M07-KK04,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,116.0,403.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M07-PP04,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,359.0,717.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M07-T04,common envelope efficiency (alpha_CE),alpha_CE,0.1,1,0.1,173.0,442.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M08-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",91.2,195.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M08-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",261.0,437.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M08-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",171.0,296.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M08-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",116.0,240.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M08-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",359.0,421.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M08-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.1, lambda=1","alpha=1, lambda=0","alpha=0.1, lambda=1",173.0,283.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M09-KK04_Ma16,common envelope efficiency,alpha_CE,0.2,1,0.2,91.2,483.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M09-PP04_Ma16,common envelope efficiency,alpha_CE,0.2,1,0.2,261.0,872.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M09-M09,common envelope efficiency,alpha_CE,0.2,1,0.2,171.0,675.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M09-KK04,common envelope efficiency,alpha_CE,0.2,1,0.2,116.0,632.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M09-PP04,common envelope efficiency,alpha_CE,0.2,1,0.2,359.0,1140.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M09-T04,common envelope efficiency,alpha_CE,0.2,1,0.2,173.0,674.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M10-KK04_Ma16,common envelope efficiency,alpha_CE,0.3,1,0.3,91.2,280.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M10-PP04_Ma16,common envelope efficiency,alpha_CE,0.3,1,0.3,261.0,552.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M10-M09,common envelope efficiency,alpha_CE,0.3,1,0.3,171.0,402.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M10-KK04,common envelope efficiency,alpha_CE,0.3,1,0.3,116.0,349.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M10-PP04,common envelope efficiency,alpha_CE,0.3,1,0.3,359.0,612.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M10-T04,common envelope efficiency,alpha_CE,0.3,1,0.3,173.0,422.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M09-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,91.2,483.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M09-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,261.0,872.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M09-M09,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,171.0,675.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M09-KK04,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,116.0,632.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M09-PP04,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,359.0,1140.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M09-T04,common envelope efficiency (alpha_CE),alpha_CE,0.2,1,0.2,173.0,674.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M10-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,91.2,280.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M10-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,261.0,552.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M10-M09,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,171.0,402.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M10-KK04,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,116.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M10-PP04,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,359.0,612.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M10-T04,common envelope efficiency (alpha_CE),alpha_CE,0.3,1,0.3,173.0,422.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M11-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",91.2,38.4,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M11-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",261.0,92.6,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M11-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",171.0,67.7,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M11-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",116.0,48.9,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M11-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",359.0,126.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M11-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.3, lambda=1","alpha=1, lambda=0","alpha=0.3, lambda=1",173.0,64.9,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M12-KK04_Ma16,common envelope efficiency,alpha_CE,0.5,1,0.5,91.2,73.3,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M12-PP04_Ma16,common envelope efficiency,alpha_CE,0.5,1,0.5,261.0,189.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M12-M09,common envelope efficiency,alpha_CE,0.5,1,0.5,171.0,141.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M12-KK04,common envelope efficiency,alpha_CE,0.5,1,0.5,116.0,104.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M12-PP04,common envelope efficiency,alpha_CE,0.5,1,0.5,359.0,231.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M12-T04,common envelope efficiency,alpha_CE,0.5,1,0.5,173.0,131.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M12-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,91.2,73.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M12-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,261.0,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M12-M09,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,171.0,141.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M12-KK04,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,116.0,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M12-PP04,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,359.0,231.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M12-T04,common envelope efficiency (alpha_CE),alpha_CE,0.5,1,0.5,173.0,131.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M13-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",91.2,49.2,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M13-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",261.0,147.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M13-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",171.0,96.7,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M13-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",116.0,71.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M13-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",359.0,197.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M13-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=0.5, lambda=1","alpha=1, lambda=0","alpha=0.5, lambda=1",173.0,96.5,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M14-KK04_Ma16,common envelope efficiency,alpha_CE,2.0,1,2.0,91.2,126.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M14-PP04_Ma16,common envelope efficiency,alpha_CE,2.0,1,2.0,261.0,377.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M14-M09,common envelope efficiency,alpha_CE,2.0,1,2.0,171.0,240.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M14-KK04,common envelope efficiency,alpha_CE,2.0,1,2.0,116.0,157.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M14-PP04,common envelope efficiency,alpha_CE,2.0,1,2.0,359.0,439.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M14-T04,common envelope efficiency,alpha_CE,2.0,1,2.0,173.0,243.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M14-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,91.2,126.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M14-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,261.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M14-M09,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,171.0,240.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M14-KK04,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,116.0,157.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M14-PP04,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,359.0,439.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M14-T04,common envelope efficiency (alpha_CE),alpha_CE,2.0,1,2.0,173.0,243.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M15-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",91.2,125.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M15-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",261.0,398.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M15-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",171.0,214.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M15-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",116.0,151.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M15-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",359.0,438.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M15-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=2.0, lambda=1","alpha=1, lambda=0","alpha=2.0, lambda=1",173.0,237.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M16-KK04_Ma16,common envelope efficiency,alpha_CE,3.0,1,3.0,91.2,112.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M16-PP04_Ma16,common envelope efficiency,alpha_CE,3.0,1,3.0,261.0,349.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M16-M09,common envelope efficiency,alpha_CE,3.0,1,3.0,171.0,186.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M16-KK04,common envelope efficiency,alpha_CE,3.0,1,3.0,116.0,132.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M16-PP04,common envelope efficiency,alpha_CE,3.0,1,3.0,359.0,401.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M16-T04,common envelope efficiency,alpha_CE,3.0,1,3.0,173.0,232.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M16-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,91.2,112.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M16-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,261.0,349.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M16-M09,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,171.0,186.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M16-KK04,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,116.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M16-PP04,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,359.0,401.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M16-T04,common envelope efficiency (alpha_CE),alpha_CE,3.0,1,3.0,173.0,232.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M17-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",91.2,108.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M17-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",261.0,317.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M17-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",171.0,184.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M17-KK04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",116.0,129.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M17-PP04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",359.0,420.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M17-T04,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=3.0, lambda=1","alpha=1, lambda=0","alpha=3.0, lambda=1",173.0,211.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M18-KK04_Ma16,common envelope efficiency,alpha_CE,5.0,1,5.0,91.2,74.7,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M18-PP04_Ma16,common envelope efficiency,alpha_CE,5.0,1,5.0,261.0,226.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M18-M09,common envelope efficiency,alpha_CE,5.0,1,5.0,171.0,158.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M18-KK04,common envelope efficiency,alpha_CE,5.0,1,5.0,116.0,95.3,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M18-PP04,common envelope efficiency,alpha_CE,5.0,1,5.0,359.0,299.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M18-T04,common envelope efficiency,alpha_CE,5.0,1,5.0,173.0,181.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M19-KK04_Ma16,common envelope efficiency,alpha_CE,10.0,1,10.0,91.2,45.8,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M19-PP04_Ma16,common envelope efficiency,alpha_CE,10.0,1,10.0,261.0,161.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M19-M09,common envelope efficiency,alpha_CE,10.0,1,10.0,171.0,104.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M19-KK04,common envelope efficiency,alpha_CE,10.0,1,10.0,116.0,55.5,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M19-PP04,common envelope efficiency,alpha_CE,10.0,1,10.0,359.0,177.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M19-T04,common envelope efficiency,alpha_CE,10.0,1,10.0,173.0,112.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M18-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,91.2,74.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M18-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,261.0,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M18-M09,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,171.0,158.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M18-KK04,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,116.0,95.3,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M18-PP04,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,359.0,299.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M18-T04,common envelope efficiency (alpha_CE),alpha_CE,5.0,1,5.0,173.0,181.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M19-KK04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,91.2,45.8,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M19-PP04_Ma16,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,261.0,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M19-M09,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,171.0,104.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M19-KK04,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,116.0,55.5,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M19-PP04,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,359.0,177.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M19-T04,common envelope efficiency (alpha_CE),alpha_CE,10.0,1,10.0,173.0,112.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M20-KK04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",91.2,43.2,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M20-PP04_Ma16,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",261.0,153.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M20-M09,CE efficiency & binding energy (alpha & lambda),alpha_CE & lambda_CE,"alpha=10.0, lambda=1","alpha=1, lambda=0","alpha=10.0, lambda=1",171.0,101.0,17
@@ -407,78 +407,78 @@ Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M26-M09,E
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M26-KK04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),116.0,130.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M26-PP04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),359.0,379.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M26-T04,Eddington-limit wind metallicity dependence (ML_edd),eddlimflag,eddlimflag=1 (Giacobbo et al. 2018),default,eddlimflag=1 (Giacobbo et al. 2018),173.0,181.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M27-KK04_Ma16,wind velocity factor (beta),beta_MT,0.125,-1,0.125,91.2,102.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M27-PP04_Ma16,wind velocity factor (beta),beta_MT,0.125,-1,0.125,261.0,291.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M27-M09,wind velocity factor (beta),beta_MT,0.125,-1,0.125,171.0,185.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M27-KK04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,116.0,130.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M27-PP04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,359.0,417.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M27-T04,wind velocity factor (beta),beta_MT,0.125,-1,0.125,173.0,188.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M28-KK04_Ma16,wind velocity factor (beta),beta_MT,7,-1,7,91.2,102.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M28-PP04_Ma16,wind velocity factor (beta),beta_MT,7,-1,7,261.0,286.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M28-M09,wind velocity factor (beta),beta_MT,7,-1,7,171.0,173.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M28-KK04,wind velocity factor (beta),beta_MT,7,-1,7,116.0,139.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M28-PP04,wind velocity factor (beta),beta_MT,7,-1,7,359.0,356.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M28-T04,wind velocity factor (beta),beta_MT,7,-1,7,173.0,198.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M29-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",91.2,92.2,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M29-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",261.0,234.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M29-M09,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",171.0,143.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M29-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",116.0,119.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M29-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",359.0,307.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M29-T04,natal-kick model (v_Kick),kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",173.0,162.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M30-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",91.2,96.7,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M30-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",261.0,267.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M30-M09,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",171.0,172.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M30-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",116.0,133.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M30-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",359.0,373.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M30-T04,natal-kick model (v_Kick),kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",173.0,196.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M31-KK04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",91.2,132.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M31-PP04_Ma16,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",261.0,381.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M31-M09,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",171.0,251.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M31-KK04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",116.0,161.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M31-PP04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",359.0,514.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M31-T04,natal-kick model (v_Kick),kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",173.0,226.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M32-KK04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,91.2,125.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M32-PP04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,261.0,369.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M32-M09,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,171.0,192.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M32-KK04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,116.0,155.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M32-PP04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,359.0,428.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M32-T04,SN natal-kick dispersion (sigma),sigma_kick,90,default,90,173.0,210.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M33-KK04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,91.2,102.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M33-PP04_Ma16,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,261.0,272.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M33-M09,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,171.0,173.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M33-KK04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,116.0,133.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M33-PP04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,359.0,415.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M33-T04,SN natal-kick dispersion (sigma),sigma_kick,530,default,530,173.0,193.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M34-KK04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),91.2,80.9,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M34-PP04_Ma16,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),261.0,193.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M34-M09,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),171.0,138.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M34-KK04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),116.0,103.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M34-PP04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),359.0,266.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M34-T04,BH natal-kick scaling (v_BH),bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),173.0,144.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M35-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),91.2,106.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M35-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),261.0,293.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M35-M09,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),171.0,187.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M35-KK04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),116.0,135.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M35-PP04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),359.0,377.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M35-T04,(P)PISN prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),173.0,191.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M36-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),91.2,102.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M36-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),261.0,302.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M36-M09,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),171.0,188.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M36-KK04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),116.0,132.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M36-PP04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),359.0,358.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M36-T04,(P)PISN prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),173.0,198.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M37-KK04_Ma16,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),91.2,98.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M37-PP04_Ma16,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),261.0,316.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M37-M09,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),171.0,189.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M37-KK04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),116.0,138.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M37-PP04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),359.0,400.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M37-T04,(P)PISN prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),173.0,201.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M38-KK04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),91.2,125.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M38-PP04_Ma16,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),261.0,382.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M38-M09,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),171.0,208.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M38-KK04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),116.0,156.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M38-PP04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),359.0,438.0,17
-Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M38-T04,BH remnant-mass prescription (M_NS-BH),RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),173.0,222.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M27-KK04_Ma16,stellar winds,beta_MT,0.125,-1,0.125,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M27-PP04_Ma16,stellar winds,beta_MT,0.125,-1,0.125,261.0,291.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M27-M09,stellar winds,beta_MT,0.125,-1,0.125,171.0,185.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M27-KK04,stellar winds,beta_MT,0.125,-1,0.125,116.0,130.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M27-PP04,stellar winds,beta_MT,0.125,-1,0.125,359.0,417.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M27-T04,stellar winds,beta_MT,0.125,-1,0.125,173.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M28-KK04_Ma16,stellar winds,beta_MT,7,-1,7,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M28-PP04_Ma16,stellar winds,beta_MT,7,-1,7,261.0,286.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M28-M09,stellar winds,beta_MT,7,-1,7,171.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M28-KK04,stellar winds,beta_MT,7,-1,7,116.0,139.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M28-PP04,stellar winds,beta_MT,7,-1,7,359.0,356.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M28-T04,stellar winds,beta_MT,7,-1,7,173.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M29-KK04_Ma16,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",91.2,92.2,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M29-PP04_Ma16,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",261.0,234.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M29-M09,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",171.0,143.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M29-KK04,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",116.0,119.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M29-PP04,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",359.0,307.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M29-T04,natal kick,kickflag,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",default,"kickflag=-3 (Bray and Eldridge 2016, Eq. 1)",173.0,162.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M30-KK04_Ma16,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",91.2,96.7,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M30-PP04_Ma16,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",261.0,267.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M30-M09,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",171.0,172.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M30-KK04,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",116.0,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M30-PP04,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",359.0,373.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M30-T04,natal kick,kickflag,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",default,"kickflag=-2 (Giacobbo and Mapelli 2020, Eq. 2)",173.0,196.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M31-KK04_Ma16,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",91.2,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M31-PP04_Ma16,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",261.0,381.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M31-M09,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",171.0,251.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M31-KK04,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",116.0,161.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M31-PP04,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",359.0,514.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M31-T04,natal kick,kickflag,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",default,"kickflag=-1 (Giacobbo and Mapelli 2020, Eq. 1)",173.0,226.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M32-KK04_Ma16,natal kick,sigma_kick,90,default,90,91.2,125.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M32-PP04_Ma16,natal kick,sigma_kick,90,default,90,261.0,369.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M32-M09,natal kick,sigma_kick,90,default,90,171.0,192.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M32-KK04,natal kick,sigma_kick,90,default,90,116.0,155.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M32-PP04,natal kick,sigma_kick,90,default,90,359.0,428.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M32-T04,natal kick,sigma_kick,90,default,90,173.0,210.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M33-KK04_Ma16,natal kick,sigma_kick,530,default,530,91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M33-PP04_Ma16,natal kick,sigma_kick,530,default,530,261.0,272.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M33-M09,natal kick,sigma_kick,530,default,530,171.0,173.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M33-KK04,natal kick,sigma_kick,530,default,530,116.0,133.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M33-PP04,natal kick,sigma_kick,530,default,530,359.0,415.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M33-T04,natal kick,sigma_kick,530,default,530,173.0,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M34-KK04_Ma16,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),91.2,80.9,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M34-PP04_Ma16,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),261.0,193.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M34-M09,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),171.0,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M34-KK04,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),116.0,103.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M34-PP04,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),359.0,266.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M34-T04,natal kick,bhflag,bhflag=2 (kick scaled by linear-momentum conservation),default,bhflag=2 (kick scaled by linear-momentum conservation),173.0,144.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M35-KK04_Ma16,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),91.2,106.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M35-PP04_Ma16,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),261.0,293.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M35-M09,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),171.0,187.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M35-KK04,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),116.0,135.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M35-PP04,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),359.0,377.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M35-T04,remnant mass prescription,PISN_prescription,pisn=-3 (Woosley 2019),default,pisn=-3 (Woosley 2019),173.0,191.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M36-KK04_Ma16,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),91.2,102.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M36-PP04_Ma16,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),261.0,302.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M36-M09,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),171.0,188.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M36-KK04,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),116.0,132.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M36-PP04,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),359.0,358.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M36-T04,remnant mass prescription,PISN_prescription,pisn=-1 (Spera and Mapelli 2017),default,pisn=-1 (Spera and Mapelli 2017),173.0,198.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M37-KK04_Ma16,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),91.2,98.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M37-PP04_Ma16,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),261.0,316.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M37-M09,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),171.0,189.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M37-KK04,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),116.0,138.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M37-PP04,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),359.0,400.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M37-T04,remnant mass prescription,PISN_prescription,pisn=0 (none),default,pisn=0 (none),173.0,201.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M38-KK04_Ma16,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),91.2,125.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M38-PP04_Ma16,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),261.0,382.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M38-M09,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),171.0,208.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04,S23-M38-KK04,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),116.0,156.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04,S23-M38-PP04,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),359.0,438.0,17
+Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-T04,S23-M38-T04,remnant mass prescription,RMP,Belczynski et al. (2008),default,Belczynski et al. (2008),173.0,222.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-KK04_Ma16,S23-M39-KK04_Ma16,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),91.2,102.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-PP04_Ma16,S23-M39-PP04_Ma16,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),261.0,315.0,17
 Srinivasan_2023_COSMIC,Srinivasan et al. (2023),COSMIC,S23-M00-M09,S23-M39-M09,tide prescription (Tide_ST),ST_tide,ST_tide=0 (Hurley et al. 2002),default,ST_tide=0 (Hurley et al. 2002),171.0,203.0,17
@@ -966,12 +966,12 @@ Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.5,S25-IMFrun-g0.
 Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g0.85,S25-IMFrun-g0.85,initial conditions,IMF,running-slope IMF,"constant-slope ($\alpha=2.3,\,\beta=0.0$)","running-slope ($\alpha=2.3,\,\beta=0.3$)",36,43,20
 Smith_2025_SEVN,Smith \& Kaplinghat (2025),SEVN,S25-IMFconst-g1.0,S25-IMFrun-g1.0,initial conditions,IMF,running-slope IMF,"constant-slope ($\alpha=2.3,\,\beta=0.0$)","running-slope ($\alpha=2.3,\,\beta=0.3$)",22,27,20
 Smith_2026_Massquerade,Smith et al. (2026),COMPAS/SEVN,Smith26-COMPAS,Smith26-SEVN,population synthesis code,BPS_code,SEVN,COMPAS,SEVN,90,200,21
-Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL11,common envelope efficiency,alpha_CE,$\alpha_{\rm CE}=3$,1,3,1.19,5.22,22
+Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL11,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE}=3$,1,3,1.19,5.22,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL03,remnant mass prescription,RMP,Patton & Sukhbold (2020),Sukhbold et al. (2016),Patton & Sukhbold (2020),1.19,1.75,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL05,remnant mass prescription,RMP,Fryer et al. (2012) delayed,Sukhbold et al. (2016),Fryer et al. (2012) delayed,1.19,3.43,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL07,remnant mass prescription,RMP,Fryer et al. (2012) rapid,Sukhbold et al. (2016),Fryer et al. (2012) rapid,1.19,1.35,22
-Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL02,natal kick prescription,kick_prescription,AsymEj (Janka 2017),Hobbs-Maxwellian,AsymEj,1.19,54.94,22
-Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL09,natal kick prescription,kick_prescription,$\sigma_{\rm CCSN}=20$ km/s,Hobbs-Maxwellian,Low Maxwellian,1.19,359.43,22
+Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL02,natal kick,kick_prescription,AsymEj (Janka 2017),Hobbs-Maxwellian,AsymEj,1.19,54.94,22
+Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL09,natal kick,kick_prescription,$\sigma_{\rm CCSN}=20$ km/s,Hobbs-Maxwellian,Low Maxwellian,1.19,359.43,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL15,CE treatment (post-CE mass loss),HG_CE_treatment,Windloss,Two Phases StableMT,Two Phases Windloss,1.19,3.16,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL01,Chattaraj25-MODEL21,CE treatment (post-CE mass loss),HG_CE_treatment,One Phase,Two Phases StableMT,One Phase,1.19,4.29,22
 Chattaraj_2025_POSYDON,Chattaraj (2025; solar metallicity),POSYDON,Chattaraj25-MODEL02,Chattaraj25-MODEL10,CE core-envelope boundary (H-fraction),lambda_CE,1% H-fraction,30% H-fraction,1% H-fraction,54.94,12.33,22
@@ -992,62 +992,62 @@ Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE1,Boco26-
 Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.00-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.10-aCE1,star formation history,nabla_FMR_0,"nabla_FMR,0=0.10","nabla_FMR,0=0.00","nabla_FMR,0=0.10",217.8,343.2,25
 Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.10-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,star formation history,nabla_FMR_0,"nabla_FMR,0=0.20","nabla_FMR,0=0.10","nabla_FMR,0=0.20 (fiducial)",343.2,476.2,25
 Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE1,star formation history,nabla_FMR_0,"nabla_FMR,0=0.30","nabla_FMR,0=0.20 (fiducial)","nabla_FMR,0=0.30",476.2,645.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1 (fiducial),345.8,476.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1 (fiducial),alpha_CE=10,476.2,132.8,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1 (fiducial),345.8,476.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1 (fiducial),alpha_CE=10,476.2,132.8,25
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-b,angular momentum,gamma_AM,$\gamma \downarrow$,-1,-2,31.7,18.1,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-c,common envelope efficiency,alpha_CE,$\alpha_{\rm CE}\downarrow$,1,0.5,31.7,31.2,13
-Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-d,common envelope efficiency,alpha_CE,$\alpha_{\rm CE}\uparrow$,1,2,31.7,49.6,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-c,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE}\downarrow$,1,0.5,31.7,31.2,13
+Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-d,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE}\uparrow$,1,2,31.7,49.6,13
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-e,stellar winds,f_WR,$f_{\rm WR}\downarrow$,1,0.5,31.7,85.3,13
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-f,stellar winds,f_WR,$f_{\rm WR}\uparrow$,1,2,31.7,14.2,13
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-g,natal kick,sigma_kick,$\sigma\downarrow$,265,45,31.7,15.4,13
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-h,natal kick,sigma_kick,$\sigma\uparrow$,265,750,31.7,18.2,13
 Li_2025_MOBSE,Li et al. (2025),MOBSE,Li25-a,Li25-i,mass transfer stability,q_crit,$q_{\rm crit}$ change,default,Ge+2020,31.7,92.4,13
 Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.20-aCE1-ZcalO,star formation history,metallicity_calibration,oxygen abundance (no [O/Fe] correction),iron abundance (fiducial),oxygen abundance,476.2,77.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,488.0,813.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,813.6,313.4,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,500.4,1024.4,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1024.4,503.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,487.8,925.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,925.6,405.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,499.4,1099.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1099.0,561.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,479.0,1080.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1080.2,541.4,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,489.4,1195.8,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1195.8,645.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,388.8,645.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,645.6,248.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,367.8,574.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,574.0,207.4,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,400.0,738.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,738.0,327.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,379.2,769.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,769.2,362.8,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,402.0,894.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,894.2,457.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,205.8,249.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,249.2,58.4,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,266.8,371.8,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,371.8,104.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,240.2,317.2,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,317.2,93.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,288.2,450.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,450.6,165.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,280.2,514.8,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,514.8,227.6,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE1,common envelope efficiency,alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,312.4,633.0,25
-Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE10,common envelope efficiency,alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,633.0,304.0,25
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE1-sigma100,Zhu24-aCE2-sigma100,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,149,153,26
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma100,Zhu24-aCE5-sigma100,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,153,86,26
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma100,Zhu24-aCE10-sigma100,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,86,67,26
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE1-sigma265,Zhu24-aCE2-sigma265,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,39,37,26
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma265,Zhu24-aCE5-sigma265,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,37,28,26
-Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma265,Zhu24-aCE10-sigma265,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,28,25,26
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,488.0,813.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.15-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,813.6,313.4,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,500.4,1024.4,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.15-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1024.4,503.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,487.8,925.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.30-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,925.6,405.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,499.4,1099.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.30-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1099.0,561.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,479.0,1080.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE1,Boco26-Z8.8-aMZR0.60-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1080.2,541.4,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,489.4,1195.8,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE1,Boco26-Z8.8-aMZR0.60-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,1195.8,645.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,388.8,645.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.15-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,645.6,248.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,367.8,574.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.30-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,574.0,207.4,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,400.0,738.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.30-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,738.0,327.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,379.2,769.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE1,Boco26-Z9.0-aMZR0.60-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,769.2,362.8,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,402.0,894.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE1,Boco26-Z9.0-aMZR0.60-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,894.2,457.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,205.8,249.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.15-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,249.2,58.4,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,266.8,371.8,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.15-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,371.8,104.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,240.2,317.2,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.30-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,317.2,93.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,288.2,450.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.30-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,450.6,165.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE0.1,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,280.2,514.8,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE1,Boco26-Z9.2-aMZR0.60-FMR0.20-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,514.8,227.6,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE0.1,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE1,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=1,alpha_CE=0.1,alpha_CE=1,312.4,633.0,25
+Boco_2026_SEVN,Boco et al. (2026),SEVN,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE1,Boco26-Z9.2-aMZR0.60-FMR0.30-aCE10,common envelope efficiency (alpha_CE),alpha_CE,alpha_CE=10,alpha_CE=1,alpha_CE=10,633.0,304.0,25
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE1-sigma100,Zhu24-aCE2-sigma100,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,149,153,26
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma100,Zhu24-aCE5-sigma100,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,153,86,26
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma100,Zhu24-aCE10-sigma100,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,86,67,26
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE1-sigma265,Zhu24-aCE2-sigma265,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,2,39,37,26
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma265,Zhu24-aCE5-sigma265,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,2,5,37,28,26
+Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma265,Zhu24-aCE10-sigma265,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,5,10,28,25,26
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE1-sigma100,Zhu24-aCE1-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,149,39,26
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE2-sigma100,Zhu24-aCE2-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,153,37,26
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE5-sigma100,Zhu24-aCE5-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,86,28,26
 Zhu_2024_COMPAS,Zhu et al. (2024),COMPAS,Zhu24-aCE10-sigma100,Zhu24-aCE10-sigma265,natal kick,sigma_kick,$\sigma_{\rm kick} \uparrow$,100,265,67,25,26
-ArcaSedda_2026_BPop,Arca Sedda et al. (2026),B-POP,ArcaSedda26-F-1g-IB,ArcaSedda26-F5-1g-IB,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,1,5,31,21,27
+ArcaSedda_2026_BPop,Arca Sedda et al. (2026),B-POP,ArcaSedda26-F-1g-IB,ArcaSedda26-F5-1g-IB,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \downarrow$,1,5,31,21,27
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta01,alpha1_beta02,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.1,0.2,10,20,8
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta02,alpha1_beta03,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.2,0.3,20,30,8
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha1_beta03,alpha1_beta04,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.3,0.4,30,45,8
@@ -1082,20 +1082,20 @@ Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,1,3,st
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,4,star formation rate density model,SFR,SFR constant $\downarrow$,2,1,25.27,11.47,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,5,remnant mass prescription,fallback_model,Delayed SN,rapid,delayed,25.27,15.33,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,16,remnant mass prescription,RMP,Fryer RMP,Brussels,Fryer,95.36,62.01,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,6,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,25.27,95.36,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,8,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,0.5,0.1,25.27,0.06,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,8,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,1.0,0.1,95.36,0.06,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,4,20,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,11.47,63.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,6,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,25.27,95.36,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,8,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \downarrow$,0.5,0.1,25.27,0.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,8,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \downarrow$,1.0,0.1,95.36,0.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,4,20,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,11.47,63.41,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,9,mass transfer efficiency,beta_MT,$\beta \downarrow$,1.0,0.5,25.27,25.27,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,10,mass transfer efficiency,beta_MT,$\beta \downarrow$,1.0,0.1,25.27,25.27,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,12,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,74.06,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,9,17,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,85.41,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,10,18,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,81.55,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,20,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,95.36,63.41,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,13,initial conditions (period),period_distribution,Period dist.,flat,alternative,25.27,20.24,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,14,supernova kicks (BH),BH_kicks,BH kicks off,on,off,25.27,190.71,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,14,15,neutron star natal kick,sigma_kick,NS kick $\downarrow$,450,265,190.71,225.81,9
-Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,21,22,angular momentum loss,ΔM_loss,ΔM loss variation,O',L_z,99.33,94.65,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,12,stellar winds,LBV_scenario,LBV phase off,on,off,25.27,74.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,9,17,stellar winds,LBV_scenario,LBV phase off,on,off,25.27,85.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,10,18,stellar winds,LBV_scenario,LBV phase off,on,off,25.27,81.55,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,20,stellar winds,LBV_scenario,LBV phase off,on,off,95.36,63.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,13,initial conditions,period_distribution,Period dist.,flat,alternative,25.27,20.24,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,14,natal kick,BH_kicks,natal kick off,on,off,25.27,190.71,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,14,15,natal kick,sigma_kick,NS kick $\downarrow$,450,265,190.71,225.81,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,21,22,angular momentum,ΔM_loss,ΔM loss variation,O',L_z,99.33,94.65,9
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,False,True,540.2,79.1,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,False,True,395.9666,636.3556,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,False,True,501.3056,559.6472,deMink_2015_StarTrack_BH-BH
@@ -1195,33 +1195,33 @@ deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N_A,initial
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_B,N_B,initial conditions,primary_mass,N-m1,N-m1,N,68.6841,80.9,deMink_2015_StarTrack_NS-NS
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N_A,initial conditions,primary_mass,N-m2,N-m2,N,30.4184,248.5,deMink_2015_StarTrack_NS-NS
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_B,N_B,initial conditions,primary_mass,N-m2,N-m2,N,173.5305,80.9,deMink_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,SFRD model,SFRD,low → high,low-end,high-end,28.0,36.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,SFRD model,SFRD,low → high,low-end,high-end,109.0,221.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,SFRD model,SFRD,low → high,low-end,high-end,14.0,24.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,SFRD model,SFRD,low → high,low-end,high-end,0.5,0.5,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,star formation history,SFRD,low → high,low-end,high-end,28.0,36.0,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,star formation history,SFRD,low → high,low-end,high-end,109.0,221.0,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,star formation history,SFRD,low → high,low-end,high-end,14.0,24.0,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,0.5,0.5,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE model,CE_optimization,OptimisticCE,standard,optimistic,28.0,109.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,supernova model,SN_engine,DelayedSN,rapid,delayed,28.0,14.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,BH kicks,BH_fallback,HighBHKicks,high,low,28.0,0.5,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,28.0,14.0,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,28.0,0.5,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE model,CE_optimization,OptimisticCE,standard,optimistic,36.0,221.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,supernova model,SN_engine,DelayedSN,rapid,delayed,36.0,24.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,BH kicks,BH_fallback,HighBHKicks,high,low,36.0,0.5,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,SFRD model,SFRD,low → high,low-end,high-end,2.8,3.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,SFRD model,SFRD,low → high,low-end,high-end,17.0,20.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,SFRD model,SFRD,low → high,low-end,high-end,1.0,2.4,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,SFRD model,SFRD,low → high,low-end,high-end,0.04,0.3,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,36.0,24.0,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,36.0,0.5,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,star formation history,SFRD,low → high,low-end,high-end,2.8,3.0,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,star formation history,SFRD,low → high,low-end,high-end,17.0,20.0,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,star formation history,SFRD,low → high,low-end,high-end,1.0,2.4,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,0.04,0.3,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE model,CE_optimization,OptimisticCE,standard,optimistic,2.8,17.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,supernova model,SN_engine,DelayedSN,rapid,delayed,2.8,1.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,BH kicks,BH_fallback,HighBHKicks,high,low,2.8,0.04,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,2.8,1.0,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,2.8,0.04,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE model,CE_optimization,OptimisticCE,standard,optimistic,3.0,20.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,supernova model,SN_engine,DelayedSN,rapid,delayed,3.0,2.4,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,BH kicks,BH_fallback,HighBHKicks,high,low,3.0,0.3,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,SFRD model,SFRD,low → high,low-end,high-end,61.0,52.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,SFRD model,SFRD,low → high,low-end,high-end,162.0,137.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,SFRD model,SFRD,low → high,low-end,high-end,67.0,60.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,SFRD model,SFRD,low → high,low-end,high-end,57.0,52.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,3.0,2.4,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,3.0,0.3,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,star formation history,SFRD,low → high,low-end,high-end,61.0,52.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,star formation history,SFRD,low → high,low-end,high-end,162.0,137.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,star formation history,SFRD,low → high,low-end,high-end,67.0,60.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,57.0,52.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE model,CE_optimization,OptimisticCE,standard,optimistic,61.0,162.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,supernova model,SN_engine,DelayedSN,rapid,delayed,61.0,67.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,BH kicks,BH_fallback,HighBHKicks,high,low,61.0,57.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,61.0,67.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,61.0,57.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE model,CE_optimization,OptimisticCE,standard,optimistic,52.0,137.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,supernova model,SN_engine,DelayedSN,rapid,delayed,52.0,60.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,BH kicks,BH_fallback,HighBHKicks,high,low,52.0,52.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,52.0,60.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,52.0,52.0,Dominik_2015_StarTrack_NS-NS
