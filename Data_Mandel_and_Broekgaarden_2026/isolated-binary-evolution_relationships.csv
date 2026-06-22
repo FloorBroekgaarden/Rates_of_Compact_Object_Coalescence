@@ -2,11 +2,6 @@ study_key,label,code,from_submodel,to_submodel,parameter_family,parameter,travel
 Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_0_5,Sgalletta_alpha_1,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1,255.6,296.4,1
 Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_1,Sgalletta_alpha_3,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,1,3,296.4,203.3,1
 Sgalletta_2025_SEVN,Sgalletta et al. (2025),SEVN,Sgalletta_alpha_3,Sgalletta_alpha_5,common envelope efficiency (alpha_CE),alpha_CE,$\alpha_{\rm CE} \uparrow$,3,5,203.3,144,1
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D (fiducial),common envelope efficiency (alpha_CE),alpha_CE_lambda,$\alpha\lambda \uparrow$,0.02,0.1,145,,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),D1.5,common envelope efficiency (alpha_CE),alpha_CE_lambda,$\alpha\lambda \uparrow$,0.1,1.5,,278,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),R,remnant mass prescription,supernova_engine,rapid SN,delayed,rapid,,155,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DHG,CE optimistic/pessimistic,CE optimistic/pessimistic,optimistic CE,pessimistic,optimistic,,572,2
-Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D (fiducial),DK,natal kick,sigma_BH,$\sigma_{\rm BH} \downarrow$,~150 km/s (fallback),15 km/s (disrupted),,20,2
 Olejak_2021_Startrack,Olejak et al. (2021),StarTrack,M380.B,M480.B,mass transfer stability,CE_criterion,revised CE,standard RLOF,Pavlovskii+2017,61.7,88.4,3
 Olejak_2021_Startrack,Olejak et al. (2021),StarTrack,M480.B,M481.B,mass transfer stability,MT_timescale_switch,MT switch on,no switch,switch added,88.4,17.9,3
 Olejak_2022_Startrack,Olejak et al. (2022),StarTrack,1,2,remnant mass prescription,fmix,$f_{\rm mix} \uparrow$,0.5,1,50,43,4
@@ -1096,19 +1091,19 @@ Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,13,i
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,14,natal kick,BH_kicks,natal kick off,on,off,25.27,190.71,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,14,15,natal kick,sigma_kick,NS kick $\downarrow$,450,265,190.71,225.81,9
 Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,21,22,angular momentum,ΔM_loss,ΔM loss variation,O',L_z,99.33,94.65,9
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,540.2,79.1,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,395.9666,636.3556,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,501.3056,559.6472,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,623.3908,383.0018,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,544.5216,526.1548,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,489.9614,458.0896,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,93.4546,2542.181,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,67.6305,109.3162,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,67.9469,88.5129,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,95.2364,56.161,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,81.0775,79.1,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,71.5064,66.9186,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,14.0798,340.4464,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,540.2,79.1,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,395.9666,636.3556,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,501.3056,559.6472,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,623.3908,383.0018,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,544.5216,526.1548,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,489.9614,458.0896,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,93.4546,2542.181,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,67.6305,109.3162,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,67.9469,88.5129,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,95.2364,56.161,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,81.0775,79.1,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,71.5064,66.9186,deMink_2015_StarTrack_BH-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,14.0798,340.4464,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N_A,initial conditions,period_distribution,N-p1,N-p1,N,623.3908,540.2,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_B,N_B,initial conditions,period_distribution,N-p1,N-p1,N,383.0018,79.1,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N_A,initial conditions,period_distribution,N-p2,N-p2,N,544.5216,540.2,deMink_2015_StarTrack_BH-BH
@@ -1129,19 +1124,19 @@ deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N_A,initial
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_B,N_B,initial conditions,primary_mass,N-m1,N-m1,N,66.9186,79.1,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N_A,initial conditions,primary_mass,N-m2,N-m2,N,14.0798,540.2,deMink_2015_StarTrack_BH-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_B,N_B,initial conditions,primary_mass,N-m2,N-m2,N,340.4464,79.1,deMink_2015_StarTrack_BH-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,31.1,11.9,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,22.0499,35.4851,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,30.9134,33.2148,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,33.1526,26.5905,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,30.9445,31.1622,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,28.1455,26.435,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,6.4999,128.7851,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,11.246,18.1,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,11.4,13.994,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,12.995,11.448,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,12.305,12.055,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,10.746,10.103,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,2.499,49.147,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,31.1,11.9,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,22.0499,35.4851,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,30.9134,33.2148,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,33.1526,26.5905,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,30.9445,31.1622,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,28.1455,26.435,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,6.4999,128.7851,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,11.246,18.1,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,11.4,13.994,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,12.995,11.448,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,12.305,12.055,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,10.746,10.103,deMink_2015_StarTrack_NS-BH
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,2.499,49.147,deMink_2015_StarTrack_NS-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N_A,initial conditions,period_distribution,N-p1,N-p1,N,33.1526,31.1,deMink_2015_StarTrack_NS-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_B,N_B,initial conditions,period_distribution,N-p1,N-p1,N,26.5905,11.9,deMink_2015_StarTrack_NS-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N_A,initial conditions,period_distribution,N-p2,N-p2,N,30.9445,31.1,deMink_2015_StarTrack_NS-BH
@@ -1162,19 +1157,19 @@ deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N_A,initial
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_B,N_B,initial conditions,primary_mass,N-m1,N-m1,N,10.103,11.9,deMink_2015_StarTrack_NS-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N_A,initial conditions,primary_mass,N-m2,N-m2,N,2.499,31.1,deMink_2015_StarTrack_NS-BH
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_B,N_B,initial conditions,primary_mass,N-m2,N-m2,N,49.147,11.9,deMink_2015_StarTrack_NS-BH
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,248.5,80.9,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,152.3305,245.518,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,242.039,253.47,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,304.9095,171.7135,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,259.931,241.045,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,224.8925,210.9765,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,90.454,538.9965,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,51.2097,82.5989,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,74.6707,81.3854,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,99.4261,53.4749,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,83.0843,77.0168,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,73.6999,68.6841,deMink_2015_StarTrack_NS-NS
-deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,pessimistic,optimistic,30.4184,173.5305,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N_A,N_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,248.5,80.9,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O_A,O_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,152.3305,245.518,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,O-f1_A,O-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,242.039,253.47,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N-p1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,304.9095,171.7135,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N-p2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,259.931,241.045,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q1_A,N-q1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,224.8925,210.9765,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-q2_A,N-q2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,90.454,538.9965,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e1_A,N-e1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,51.2097,82.5989,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-e2_A,N-e2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,74.6707,81.3854,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f1_A,N-f1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,99.4261,53.4749,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-f2_A,N-f2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,83.0843,77.0168,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m1_A,N-m1_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,73.6999,68.6841,deMink_2015_StarTrack_NS-NS
+deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-m2_A,N-m2_B,CE optimistic/pessimistic,CE_pessimistic,optimistic → pessimistic,optimistic,pessimistic,30.4184,173.5305,deMink_2015_StarTrack_NS-NS
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_A,N_A,initial conditions,period_distribution,N-p1,N-p1,N,304.9095,248.5,deMink_2015_StarTrack_NS-NS
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p1_B,N_B,initial conditions,period_distribution,N-p1,N-p1,N,171.7135,80.9,deMink_2015_StarTrack_NS-NS
 deMink_2015_StarTrack,de Mink and Belczynski (2015),StarTrack,N-p2_A,N_A,initial conditions,period_distribution,N-p2,N-p2,N,259.931,248.5,deMink_2015_StarTrack_NS-NS
@@ -1201,27 +1196,33 @@ Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_h
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,0.5,0.5,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,28.0,109.0,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,28.0,14.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,28.0,0.5,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,low,high,28.0,0.5,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,36.0,221.0,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,36.0,24.0,Dominik_2015_StarTrack_BH-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,36.0,0.5,Dominik_2015_StarTrack_BH-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,low,high,36.0,0.5,Dominik_2015_StarTrack_BH-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,star formation history,SFRD,low → high,low-end,high-end,2.8,3.0,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,star formation history,SFRD,low → high,low-end,high-end,17.0,20.0,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,star formation history,SFRD,low → high,low-end,high-end,1.0,2.4,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,0.04,0.3,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,2.8,17.0,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,2.8,1.0,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,2.8,0.04,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,low,high,2.8,0.04,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,3.0,20.0,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,3.0,2.4,Dominik_2015_StarTrack_NS-BH
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,3.0,0.3,Dominik_2015_StarTrack_NS-BH
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,low,high,3.0,0.3,Dominik_2015_StarTrack_NS-BH
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,Standard_high,star formation history,SFRD,low → high,low-end,high-end,61.0,52.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,OptimisticCE_low,OptimisticCE_high,star formation history,SFRD,low → high,low-end,high-end,162.0,137.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,DelayedSN_low,DelayedSN_high,star formation history,SFRD,low → high,low-end,high-end,67.0,60.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,HighBHKicks_low,HighBHKicks_high,star formation history,SFRD,low → high,low-end,high-end,57.0,52.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,OptimisticCE_low,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,61.0,162.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,DelayedSN_low,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,61.0,67.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,high,low,61.0,57.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_low,HighBHKicks_low,natal kick,BH_fallback,HighBHKicks,low,high,61.0,57.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,OptimisticCE_high,CE optimistic/pessimistic,CE_optimization,OptimisticCE,pessimistic,optimistic,52.0,137.0,Dominik_2015_StarTrack_NS-NS
 Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,DelayedSN_high,remnant mass prescription,SN_engine,DelayedSN,rapid,delayed,52.0,60.0,Dominik_2015_StarTrack_NS-NS
-Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,high,low,52.0,52.0,Dominik_2015_StarTrack_NS-NS
+Dominik_2015_StarTrack,Dominik et al. (2015),StarTrack,Standard_high,HighBHKicks_high,natal kick,BH_fallback,HighBHKicks,low,high,52.0,52.0,Dominik_2015_StarTrack_NS-NS
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D,R,remnant mass prescription,SN_engine,Delayed → Rapid,delayed,rapid,125.0,155.0,Mapelli_2017_MOBSE_BH-BH
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D,DHG,CE optimistic/pessimistic,HG_CE_treatment,new → DSE,pessimistic,optimistic,125.0,572.0,Mapelli_2017_MOBSE_BH-BH
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D,DK,natal kick,kick_prescription,F12 → H05,F12,H05,125.0,20.0,Mapelli_2017_MOBSE_BH-BH
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D,D0.02,common envelope efficiency (alpha_CE),alpha_CE,alpha: 1.0 → 0.2,1.0,0.2,125.0,145.0,Mapelli_2017_MOBSE_BH-BH
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D,D1.5,common envelope efficiency (alpha_CE),alpha_CE,alpha: 1.0 → 3.0,1.0,3.0,125.0,278.0,Mapelli_2017_MOBSE_BH-BH
+Mapelli_2017_MOBSE,Mapelli et al. (2017),MOBSE,D0.02,D1.5,binding energy lambda,lambda_CE,lambda: 0.1 → 0.5,0.1,0.5,145.0,278.0,Mapelli_2017_MOBSE_BH-BH
