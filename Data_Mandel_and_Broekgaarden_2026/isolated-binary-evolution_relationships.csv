@@ -229,9 +229,6 @@ Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,beta 0.7,beta 0.7 IT,convect
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1,DT22-beta0-7-gamma1-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),30.2,28,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,"beta 0.7, zeta 7.5",DT22-beta0-7-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),100.9,88.3,14
 Dorozsmai_2022_SeBa,Dorozsmai \& Toonen (2022),SeBa,DT22-beta0-7-gamma1-zeta7-5,DT22-beta0-7-gamma1-zeta7-5-IT,convective envelope criteria,$T_{eff}$,IT criterion,Kelvin (K),implicit T (IT),93.1,101.7,14
-Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,18,17,multi-parameter,multi-parameter,model variation,see paper,see paper,96.291,135.72,15
-Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,17,12,multi-parameter,multi-parameter,model variation,see paper,see paper,135.72,182.52,15
-Mennekens_2014_Brusselscode,Mennekens \& Vanbeveren (2014),Brussels code,12,16,multi-parameter,multi-parameter,model variation,see paper,see paper,182.52,1138.41,15
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.27,vanSon_f_core_0.31,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.27,0.31,3.5,10,16
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.31,vanSon_f_core_0.34_fiducial,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.31,0.34,10,25.8,16
 vanSon_2022_SMT_COMPAS,van Son (2022) SMT only,COMPAS,vanSon_f_core_0.34_fiducial,vanSon_f_core_0.374,remnant mass prescription,f_core,$f_{\rm core} \uparrow$,0.34,0.374,25.8,53.9,16
@@ -1078,3 +1075,24 @@ Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta06,alpha10_beta
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta07,alpha10_beta08,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.7,0.8,15,18,8
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta08,alpha10_beta09,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.8,0.9,18,20,8
 Bouffanais_2021_MOBSE,Bouffanais et al. (2021),MOBSE,alpha10_beta09,alpha10_beta10,mass transfer efficiency,f_MT,$f_{\rm MT} \uparrow$,0.9,1.0,20,23,8
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,1,2,electron capture supernovae,ECSN,ECSN on,off,on,0,25.27,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,3,4,electron capture supernovae,ECSN,ECSN on,off,on,0,11.47,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,7,electron capture supernovae,ECSN,ECSN off,on,off,95.36,0,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,1,3,star formation rate density model,SFR,SFR constant $\downarrow$,2,1,0,0,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,4,star formation rate density model,SFR,SFR constant $\downarrow$,2,1,25.27,11.47,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,5,remnant mass prescription,fallback_model,Delayed SN,rapid,delayed,25.27,15.33,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,16,remnant mass prescription,RMP,Fryer RMP,Brussels,Fryer,95.36,62.01,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,6,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,25.27,95.36,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,8,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,0.5,0.1,25.27,0.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,8,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \downarrow$,1.0,0.1,95.36,0.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,4,20,common envelope efficiency,alpha_CE,$\alpha_{\rm CE} \uparrow$,0.5,1.0,11.47,63.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,9,mass transfer efficiency,beta_MT,$\beta \downarrow$,1.0,0.5,25.27,25.27,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,10,mass transfer efficiency,beta_MT,$\beta \downarrow$,1.0,0.1,25.27,25.27,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,12,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,74.06,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,9,17,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,85.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,10,18,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,25.27,81.55,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,6,20,stellar wind mass loss (LBV),LBV_scenario,LBV phase off,on,off,95.36,63.41,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,13,initial conditions (period),period_distribution,Period dist.,flat,alternative,25.27,20.24,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,2,14,supernova kicks (BH),BH_kicks,BH kicks off,on,off,25.27,190.71,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,14,15,neutron star natal kick,sigma_kick,NS kick $\downarrow$,450,265,190.71,225.81,9
+Mennekens_2014_Brusselscode,Mennekens and Vanbeveren (2014),Brussels code,21,22,angular momentum loss,ΔM_loss,ΔM loss variation,O',L_z,99.33,94.65,9
