@@ -60,6 +60,7 @@ Natal kicks ($\sigma_{\rm kick}$),Boesky et al. (2024),Boesky_2024_COMPAS,Boesky
 MT efficiency ($\beta$),Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.3 IT,19.1,False
 CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNA-k40300-a0.5,19.188,False
 Natal kicks ($\sigma_{\rm kick}$),Mapelli et al. (2017),Mapelli_2017_MOBSE,DK,20.0,False
+CE efficiency ($\alpha_{\rm CE}$),Arca Sedda et al. (2026),ArcaSedda_2026_BPop,ArcaSedda26-F5-1g-IB,21.0,False
 MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,beta 0.7 IT,21.0,False
 CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNB-k40300-a0.5,21.177,False
 CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k40300-a0.5,21.177,False
@@ -98,6 +99,7 @@ MT stability,Dorozsmai \& Toonen (2022),Dorozsmai_2022_SeBa,DT22-beta0-7-gamma1,
 CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNE-k40300-a0.1,30.303,False
 Star formation history,van Son et al. (2023),vanSon_2023_COMPAS,vanSon23_omega0_0.70,30.5,False
 CE efficiency ($\alpha_{\rm CE}$),Deng et al. (2024),Deng_2024_BSE,D24-MTIII-SNC-k20150-a1,30.888,False
+CE efficiency ($\alpha_{\rm CE}$),Arca Sedda et al. (2026),ArcaSedda_2026_BPop,ArcaSedda26-F-1g-IB,31.0,False
 CE efficiency ($\alpha_{\rm CE}$),Li et al. (2025),Li_2025_MOBSE,Li25-c,31.2,False
 Other,Srinivasan et al. (2023),Srinivasan_2023_COSMIC,S23-M05-T04,31.3,False
 Angular momentum \& winds,Li et al. (2025),Li_2025_MOBSE,Li25-a,31.7,False
