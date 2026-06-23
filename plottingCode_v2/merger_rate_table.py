@@ -1,11 +1,17 @@
 import json
+import uuid
 import pandas as pd
 import numpy as np
 from IPython.display import display, HTML
 
 # ── Constants ────────────────────────────────────────────────────────────────
-LIMIT_GWTC5 = 49.4
-LIMIT_BOCO  = 20.0
+LIMIT_GWTC5 = {
+    "BH-BH": 49.4,
+    "NS-BH": 32.8,
+    "NS-NS": 154.7,
+}
+LIMIT_GWTC5_DEFAULT = 49.4
+LIMIT_BOCO = 20.0
 
 PANEL_DISPLAY_NAMES = {
     "common envelope efficiency (alpha_CE)":           "CE efficiency (α_CE)",
@@ -26,8 +32,23 @@ PANEL_DISPLAY_NAMES = {
     "tidal effects":                                    "Tidal effects",
 }
 
+DCO_COLORS = {
+    "NS-NS":   ("#c678dd", "rgba(198,120,221,0.15)", "rgba(198,120,221,0.4)"),
+    "NS-BH":   ("#61afef", "rgba(97,175,239,0.15)",  "rgba(97,175,239,0.4)"),
+    "BH-BH":   ("#e5c07b", "rgba(229,192,123,0.15)", "rgba(229,192,123,0.4)"),
+    "unknown": ("#6b7897", "rgba(107,120,151,0.15)", "rgba(107,120,151,0.4)"),
+}
+
+DCO_ALIASES = {
+    "BH-NS": "NS-BH",
+    "BHNS":  "NS-BH",
+    "BNS":   "NS-NS",
+    "BBH":   "BH-BH",
+}
+
 def make_merger_rate_table(
     df,
+    studies_df          = None,       # optional: studies catalog with study_key + arxiv_url
     label_col           = "label",
     family_col          = "parameter_family",
     parameter_col       = "parameter",
@@ -36,12 +57,15 @@ def make_merger_rate_table(
     to_value_col        = "to_value",
     from_rate_col       = "from_rate_Gpc3yr",
     to_rate_col         = "to_rate_Gpc3yr",
+    dco_type_col        = "compact_object_type",
+    arxiv_url_col       = "arxiv_url",
+    study_key_col       = "study_key",
     limit_gwtc5         = LIMIT_GWTC5,
     limit_boco          = LIMIT_BOCO,
     panel_display_names = PANEL_DISPLAY_NAMES,
-    title               = "NS-NS Merger Rate — Model Relationships",
+    title               = "DCO Merger Rate — Model Relationships",
     subtitle            = "Single-parameter variations across BPS studies · rates in Gpc⁻³ yr⁻¹",
-    output_file         = None,   # optional: path to save HTML file
+    output_file         = None,
 ):
     """
     Build and display an interactive HTML merger-rate table inside Jupyter.
@@ -49,15 +73,29 @@ def make_merger_rate_table(
     Parameters
     ----------
     df : pd.DataFrame
-        Must contain the columns named by the *_col arguments.
-    output_file : str or None
-        If given, also write the HTML to this path.
+        Relationships dataframe.
+    studies_df : pd.DataFrame, optional
+        Studies catalog containing study_key and arxiv_url. If provided and
+        df doesn't already have arxiv_url, it will be joined on study_key.
     """
+    if not isinstance(limit_gwtc5, dict):
+        limit_gwtc5 = {"BH-BH": limit_gwtc5, "NS-BH": limit_gwtc5, "NS-NS": limit_gwtc5}
 
-    # ── Prepare data ──────────────────────────────────────────────────────────
-    keep = [label_col, family_col, parameter_col, travel_label_col,
-            from_value_col, to_value_col, from_rate_col, to_rate_col]
-    data = df[keep].copy()
+    uid = "mrt_" + uuid.uuid4().hex[:8]
+
+    # ── Join arxiv_url from studies_df if needed ──────────────────────────────
+    data = df.copy()
+    if arxiv_url_col not in data.columns:
+        if studies_df is not None and study_key_col in data.columns and arxiv_url_col in studies_df.columns:
+            url_map = (
+                studies_df[[study_key_col, arxiv_url_col]]
+                .drop_duplicates(subset=[study_key_col])
+            )
+            data = data.merge(url_map, on=study_key_col, how="left")
+        else:
+            data[arxiv_url_col] = ""
+
+    # ── Prepare columns ───────────────────────────────────────────────────────
     data[from_rate_col] = pd.to_numeric(data[from_rate_col], errors="coerce")
     data[to_rate_col]   = pd.to_numeric(data[to_rate_col],   errors="coerce")
     data = data.dropna(subset=[from_rate_col, to_rate_col])
@@ -67,6 +105,15 @@ def make_merger_rate_table(
 
     rows = []
     for _, r in data.iterrows():
+        raw_dco = str(r[dco_type_col]) if dco_type_col in data.columns and pd.notna(r.get(dco_type_col)) else "unknown"
+        dco = DCO_ALIASES.get(raw_dco, raw_dco)
+        if dco not in ("NS-NS", "NS-BH", "BH-BH"):
+            dco = "unknown"
+
+        url = str(r[arxiv_url_col]) if pd.notna(r.get(arxiv_url_col)) else ""
+        if url in ("nan", "None", ""):
+            url = ""
+
         rows.append({
             "label":            str(r[label_col]),
             "parameter_family": str(r[family_col]),
@@ -77,16 +124,20 @@ def make_merger_rate_table(
             "from_rate":        float(r[from_rate_col]),
             "to_rate":          float(r[to_rate_col]),
             "factor":           float(r["_factor"]),
+            "dco_type":         dco,
+            "lim_gwtc5":        float(limit_gwtc5.get(dco, LIMIT_GWTC5_DEFAULT)),
+            "arxiv_url":        url,
         })
 
-    rows_json           = json.dumps(rows)
-    display_names_json  = json.dumps(panel_display_names)
+    rows_json          = json.dumps(rows)
+    display_names_json = json.dumps(panel_display_names)
+    dco_colors_json    = json.dumps(DCO_COLORS)
+    limit_gwtc5_json   = json.dumps(limit_gwtc5)
 
-    # ── HTML/CSS/JS ───────────────────────────────────────────────────────────
     html = f"""
-<div id="mrt-root">
+<div id="{uid}">
 <style>
-#mrt-root {{
+#{uid} {{
   --bg:        #0e1117;
   --surface:   #161b25;
   --border:    #252d3d;
@@ -107,90 +158,104 @@ def make_merger_rate_table(
   border-radius: 8px;
   margin-top: 10px;
 }}
-#mrt-root h2 {{
+#{uid} h2 {{
   font-size: 16px; font-weight: 600; letter-spacing: .02em;
   color: #e8ecf4; margin-bottom: 3px;
 }}
-#mrt-root .mrt-subtitle {{
+#{uid} .mrt-subtitle {{
   font-size: 11.5px; color: var(--muted); margin-bottom: 18px;
 }}
-#mrt-root .mrt-controls {{
-  display: flex; flex-wrap: wrap; gap: 10px 20px;
+#{uid} .mrt-controls {{
+  display: flex; flex-wrap: wrap; gap: 12px 24px;
   margin-bottom: 14px; align-items: flex-start;
 }}
-#mrt-root .mrt-cg {{ display: flex; flex-direction: column; gap: 4px; }}
-#mrt-root .mrt-clabel {{
+#{uid} .mrt-cg {{ display: flex; flex-direction: column; gap: 4px; }}
+#{uid} .mrt-clabel {{
   font-size: 10px; font-weight: 700; letter-spacing: .08em;
   text-transform: uppercase; color: var(--muted);
 }}
-#mrt-root .mrt-btn-row {{ display: flex; flex-wrap: wrap; gap: 4px; }}
-#mrt-root button {{
+#{uid} .mrt-btn-row {{ display: flex; flex-wrap: wrap; gap: 4px; }}
+#{uid} button {{
   background: var(--tag-bg); border: 1px solid var(--border);
   color: var(--text); border-radius: 4px; padding: 3px 10px;
   font-size: 11.5px; font-family: var(--font-body); cursor: pointer;
   transition: background .1s, border-color .1s, color .1s; white-space: nowrap;
 }}
-#mrt-root button:hover {{ border-color: var(--accent); color: #fff; }}
-#mrt-root button.mrt-active {{
+#{uid} button:hover {{ border-color: var(--accent); color: #fff; }}
+#{uid} button.mrt-active {{
   background: var(--accent); border-color: var(--accent);
   color: #fff; font-weight: 600;
 }}
-#mrt-root button.mrt-active.mrt-lim-gwtc5 {{
+#{uid} button.mrt-active.mrt-lim-gwtc5 {{
   background: var(--accent2); border-color: var(--accent2);
 }}
-#mrt-root button.mrt-active.mrt-lim-boco {{
+#{uid} button.mrt-active.mrt-lim-boco {{
   background: var(--accent3); border-color: var(--accent3); color: #0e1117;
 }}
-#mrt-root .mrt-stats {{
+#{uid} .mrt-divider {{
+  width: 1px; background: var(--border); align-self: stretch; margin: 0 4px;
+}}
+#{uid} .mrt-stats {{
   font-size: 11.5px; color: var(--muted); margin-bottom: 8px;
 }}
-#mrt-root .mrt-stats span {{ color: var(--text); font-weight: 600; }}
-#mrt-root .mrt-wrap {{
+#{uid} .mrt-stats span {{ color: var(--text); font-weight: 600; }}
+#{uid} .mrt-wrap {{
   overflow-x: auto; border: 1px solid var(--border); border-radius: 6px;
 }}
-#mrt-root table {{
+#{uid} table {{
   width: 100%; border-collapse: collapse; font-size: 12px;
 }}
-#mrt-root thead tr {{
+#{uid} thead tr {{
   background: var(--surface); border-bottom: 1px solid var(--border);
 }}
-#mrt-root th {{
+#{uid} th {{
   padding: 7px 11px; text-align: left; font-size: 10px; font-weight: 700;
   letter-spacing: .07em; text-transform: uppercase; color: var(--muted);
   white-space: nowrap; cursor: pointer; user-select: none;
 }}
-#mrt-root th:hover {{ color: var(--accent); }}
-#mrt-root th .sa {{ margin-left: 3px; opacity: .4; font-size: 10px; }}
-#mrt-root th.mrt-sorted .sa {{ opacity: 1; color: var(--accent); }}
-#mrt-root tbody tr {{ border-bottom: 1px solid var(--border); transition: background .07s; }}
-#mrt-root tbody tr:last-child {{ border-bottom: none; }}
-#mrt-root tbody tr:hover {{ background: var(--surface); }}
-#mrt-root td {{ padding: 6px 11px; vertical-align: middle; white-space: nowrap; }}
-#mrt-root .c-label  {{ font-family: var(--font-mono); font-size: 11px; color: #c4c9d6; max-width: 200px; white-space: normal; word-break: break-word; }}
-#mrt-root .c-family {{ max-width: 170px; white-space: normal; }}
-#mrt-root .c-param  {{ font-family: var(--font-mono); font-size: 11px; color: #a8b1c7; }}
-#mrt-root .c-travel {{ font-family: var(--font-mono); font-size: 11px; }}
-#mrt-root .c-rate   {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; }}
-#mrt-root .c-factor {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; font-weight: 600; }}
-#mrt-root .ftag {{
+#{uid} th:hover {{ color: var(--accent); }}
+#{uid} th .sa {{ margin-left: 3px; opacity: .4; font-size: 10px; }}
+#{uid} th.mrt-sorted .sa {{ opacity: 1; color: var(--accent); }}
+#{uid} tbody tr {{ border-bottom: 1px solid var(--border); transition: background .07s; }}
+#{uid} tbody tr:last-child {{ border-bottom: none; }}
+#{uid} tbody tr:hover {{ background: var(--surface); }}
+#{uid} td {{ padding: 6px 11px; vertical-align: middle; white-space: nowrap; }}
+#{uid} .c-label  {{ font-family: var(--font-mono); font-size: 11px; color: #c4c9d6; max-width: 220px; white-space: normal; word-break: break-word; }}
+#{uid} .c-family {{ max-width: 170px; white-space: normal; }}
+#{uid} .c-param  {{ font-family: var(--font-mono); font-size: 11px; color: #a8b1c7; }}
+#{uid} .c-travel {{ font-family: var(--font-mono); font-size: 11px; }}
+#{uid} .c-rate   {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; }}
+#{uid} .c-factor {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; font-weight: 600; }}
+#{uid} .c-dco    {{ text-align: center; }}
+#{uid} .ftag {{
   display: inline-block; background: var(--tag-bg);
   border: 1px solid var(--border); border-radius: 3px;
   padding: 1px 6px; font-size: 11px; color: var(--text); white-space: nowrap;
 }}
-#mrt-root .r-high {{ color: var(--accent2); }}
-#mrt-root .r-mid  {{ color: var(--text); }}
-#mrt-root .r-low  {{ color: var(--accent3); }}
-#mrt-root .f-high {{ color: var(--accent2); }}
-#mrt-root .f-mid  {{ color: var(--text); }}
-#mrt-root .f-low  {{ color: var(--accent3); }}
-#mrt-root .badge {{
+#{uid} .r-high {{ color: var(--accent2); }}
+#{uid} .r-mid  {{ color: var(--text); }}
+#{uid} .r-low  {{ color: var(--accent3); }}
+#{uid} .f-high {{ color: var(--accent2); }}
+#{uid} .f-mid  {{ color: var(--text); }}
+#{uid} .f-low  {{ color: var(--accent3); }}
+#{uid} .badge {{
   display: inline-block; border-radius: 3px; padding: 1px 5px;
   font-size: 9.5px; font-weight: 700; margin-left: 4px; vertical-align: middle;
 }}
-#mrt-root .b-gwtc5 {{ background: rgba(224,108,117,.18); color: var(--accent2); border: 1px solid rgba(224,108,117,.4); }}
-#mrt-root .b-boco  {{ background: rgba(152,195,121,.15); color: var(--accent3); border: 1px solid rgba(152,195,121,.4); }}
-#mrt-root .arrow   {{ color: var(--muted); margin: 0 3px; }}
-#mrt-root .mrt-empty {{
+#{uid} .b-gwtc5 {{ background: rgba(224,108,117,.18); color: var(--accent2); border: 1px solid rgba(224,108,117,.4); }}
+#{uid} .b-boco  {{ background: rgba(152,195,121,.15); color: var(--accent3); border: 1px solid rgba(152,195,121,.4); }}
+#{uid} .dco-pill {{
+  display: inline-block; border-radius: 3px; padding: 1px 7px;
+  font-size: 10.5px; font-weight: 700; font-family: var(--font-mono); white-space: nowrap;
+}}
+#{uid} .arrow {{ color: var(--muted); margin: 0 3px; }}
+#{uid} .c-label a {{
+  color: inherit; text-decoration: none;
+  border-bottom: 1px dashed var(--muted);
+  transition: color .1s, border-color .1s;
+}}
+#{uid} .c-label a:hover {{ color: var(--accent); border-color: var(--accent); }}
+#{uid} .mrt-empty {{
   text-align: center; padding: 36px 20px; color: var(--muted); font-size: 12.5px;
 }}
 </style>
@@ -200,56 +265,88 @@ def make_merger_rate_table(
 
 <div class="mrt-controls">
   <div class="mrt-cg">
-    <div class="mrt-clabel">Rate filter (to_rate must be below)</div>
+    <div class="mrt-clabel">DCO type</div>
+    <div class="mrt-btn-row" id="{uid}_dco_btns"></div>
+  </div>
+  <div class="mrt-divider"></div>
+  <div class="mrt-cg">
+    <div class="mrt-clabel">Rate filter (to_rate &lt; limit)</div>
     <div class="mrt-btn-row">
-      <button id="mrt-ball"   class="mrt-active"         onclick="mrtSetLimit('all')">Show all</button>
-      <button id="mrt-bgwtc5" class="mrt-lim-gwtc5"      onclick="mrtSetLimit('gwtc5')">GWTC-5 ≤ {limit_gwtc5}</button>
-      <button id="mrt-bboco"  class="mrt-lim-boco"       onclick="mrtSetLimit('boco')">Boco ≤ {limit_boco}</button>
+      <button id="{uid}_ball"   class="mrt-active"    onclick="{uid}_setLimit('all')">Show all</button>
+      <button id="{uid}_bgwtc5" class="mrt-lim-gwtc5" onclick="{uid}_setLimit('gwtc5')">GWTC-5 upper limit</button>
+      <button id="{uid}_bboco"  class="mrt-lim-boco"  onclick="{uid}_setLimit('boco')">&lt; 20 Gpc\u207b\u00b3 yr\u207b\u00b9</button>
     </div>
   </div>
+  <div class="mrt-divider"></div>
   <div class="mrt-cg">
     <div class="mrt-clabel">Parameter family</div>
-    <div class="mrt-btn-row" id="mrt-fam-btns"></div>
+    <div class="mrt-btn-row" id="{uid}_fam_btns"></div>
   </div>
 </div>
 
-<div class="mrt-stats" id="mrt-stats"></div>
+<div class="mrt-stats" id="{uid}_stats"></div>
 
 <div class="mrt-wrap">
-  <table id="mrt-table">
+  <table id="{uid}_table">
     <thead><tr>
-      <th onclick="mrtSort('label')"            data-col="label">          Study / label         <span class="sa">↕</span></th>
-      <th onclick="mrtSort('parameter_family')" data-col="parameter_family">Parameter family      <span class="sa">↕</span></th>
-      <th onclick="mrtSort('parameter')"        data-col="parameter">      Parameter              <span class="sa">↕</span></th>
-      <th onclick="mrtSort('travel_label')"     data-col="travel_label">   Change                 <span class="sa">↕</span></th>
-      <th onclick="mrtSort('from_rate')"        data-col="from_rate">      From rate              <span class="sa">↕</span></th>
-      <th onclick="mrtSort('to_rate')"          data-col="to_rate">        To rate                <span class="sa">↕</span></th>
-      <th onclick="mrtSort('factor')"           data-col="factor">         Reduction factor       <span class="sa">↕</span></th>
+      <th onclick="{uid}_sort('dco_type')"         data-col="dco_type">        Type                   <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('label')"            data-col="label">           Study / label           <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('parameter_family')" data-col="parameter_family">Parameter family        <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('parameter')"        data-col="parameter">       Parameter               <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('travel_label')"     data-col="travel_label">    Change                  <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('from_rate')"        data-col="from_rate">       From rate               <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('to_rate')"          data-col="to_rate">         To rate                 <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('factor')"           data-col="factor">          Reduction factor        <span class="sa">\u2195</span></th>
     </tr></thead>
-    <tbody id="mrt-tbody"></tbody>
+    <tbody id="{uid}_tbody"></tbody>
   </table>
-  <div class="mrt-empty" id="mrt-empty" style="display:none">No rows match the current filters.</div>
+  <div class="mrt-empty" id="{uid}_empty" style="display:none">No rows match the current filters.</div>
 </div>
 </div>
 
 <script>
 (function() {{
-  const ROWS  = {rows_json};
-  const NAMES = {display_names_json};
-  const LIM_GWTC5 = {limit_gwtc5};
-  const LIM_BOCO  = {limit_boco};
+  const ROWS       = {rows_json};
+  const NAMES      = {display_names_json};
+  const DCO_COLORS = {dco_colors_json};
+  const LIM_GWTC5  = {limit_gwtc5_json};
+  const LIM_BOCO   = {limit_boco};
+  const ROOT       = document.getElementById('{uid}');
 
+  function q(id) {{ return document.getElementById(id); }}
   function dn(k) {{ return NAMES[k] || k; }}
 
-  const families = ['all', ...new Set(ROWS.map(r => r.parameter_family))];
+  const DCO_ORDER   = ["NS-NS", "NS-BH", "BH-BH", "unknown"];
+  const presentDCOs = DCO_ORDER.filter(t => ROWS.some(r => r.dco_type === t));
+  const dcoTypes    = ['all', ...presentDCOs];
+  const families    = ['all', ...new Set(ROWS.map(r => r.parameter_family))];
 
   let curLimit  = 'all';
   let curFamily = 'all';
+  let curDCO    = 'all';
   let sortCol   = 'factor';
   let sortAsc   = false;
 
-  // Build family buttons
-  const fbContainer = document.getElementById('mrt-fam-btns');
+  // ── DCO buttons ───────────────────────────────────────────────────────────
+  const dcoContainer = q('{uid}_dco_btns');
+  dcoTypes.forEach(t => {{
+    const btn = document.createElement('button');
+    if (t === 'all') {{
+      btn.textContent = 'All types';
+      btn.classList.add('mrt-active');
+    }} else {{
+      const lim = LIM_GWTC5[t];
+      btn.textContent = lim !== undefined ? `${{t}} (GWTC-5 \u2264 ${{lim}})` : t;
+      const c = DCO_COLORS[t];
+      if (c) {{ btn.style.borderColor = c[0]; btn.style.color = c[0]; }}
+    }}
+    btn.dataset.dco = t;
+    btn.onclick = () => {{ curDCO = t; render(); }};
+    dcoContainer.appendChild(btn);
+  }});
+
+  // ── Family buttons ────────────────────────────────────────────────────────
+  const fbContainer = q('{uid}_fam_btns');
   families.forEach(fam => {{
     const btn = document.createElement('button');
     btn.textContent = fam === 'all' ? 'All families' : dn(fam);
@@ -259,16 +356,18 @@ def make_merger_rate_table(
     fbContainer.appendChild(btn);
   }});
 
+  // ── Filter & sort ─────────────────────────────────────────────────────────
   function filter(data) {{
     return data.filter(d => {{
-      if (curLimit === 'gwtc5' && d.to_rate >= LIM_GWTC5) return false;
-      if (curLimit === 'boco'  && d.to_rate >= LIM_BOCO)  return false;
-      if (curFamily !== 'all'  && d.parameter_family !== curFamily) return false;
+      if (curDCO    !== 'all'   && d.dco_type         !== curDCO)     return false;
+      if (curLimit  === 'gwtc5' && d.to_rate          >= d.lim_gwtc5) return false;
+      if (curLimit  === 'boco'  && d.to_rate          >= LIM_BOCO)    return false;
+      if (curFamily !== 'all'   && d.parameter_family !== curFamily)  return false;
       return true;
     }});
   }}
 
-  function sort(data) {{
+  function sortRows(data) {{
     return [...data].sort((a, b) => {{
       let va = a[sortCol], vb = b[sortCol];
       if (typeof va === 'string') {{ va = va.toLowerCase(); vb = vb.toLowerCase(); }}
@@ -278,66 +377,81 @@ def make_merger_rate_table(
     }});
   }}
 
-  function rCls(v)  {{ return v > LIM_GWTC5 ? 'r-high' : v > LIM_BOCO ? 'r-mid' : 'r-low'; }}
-  function fCls(v)  {{ return v >= 5 ? 'f-high' : v >= 2 ? 'f-mid' : 'f-low'; }}
-  function fmt(v)   {{ return v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2); }}
+  function rCls(v, lim) {{ return v > lim ? 'r-high' : v > LIM_BOCO ? 'r-mid' : 'r-low'; }}
+  function fCls(v)      {{ return v >= 5 ? 'f-high' : v >= 2 ? 'f-mid' : 'f-low'; }}
+  function fmt(v)       {{ return v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2); }}
 
-  function badges(d) {{
-    if (d.to_rate < LIM_BOCO)   return '<span class="badge b-boco">Boco</span>';
-    if (d.to_rate < LIM_GWTC5)  return '<span class="badge b-gwtc5">GWTC-5</span>';
+  function limitBadge(d) {{
+    if (d.to_rate < LIM_BOCO)    return '<span class="badge b-boco">&lt;20</span>';
+    if (d.to_rate < d.lim_gwtc5) return '<span class="badge b-gwtc5">GWTC-5</span>';
     return '';
   }}
 
-  function render() {{
-    const visible = sort(filter(ROWS));
+  function dcoPill(t) {{
+    const c = DCO_COLORS[t] || DCO_COLORS['unknown'];
+    return `<span class="dco-pill" style="color:${{c[0]}};background:${{c[1]}};border:1px solid ${{c[2]}}">${{t}}</span>`;
+  }}
 
-    // limit buttons
-    ['all','gwtc5','boco'].forEach(k => {{
-      const btn = document.getElementById('mrt-b' + k);
-      btn.classList.toggle('mrt-active', curLimit === k);
+  function render() {{
+    const visible = sortRows(filter(ROWS));
+
+    // DCO buttons
+    dcoContainer.querySelectorAll('button').forEach(btn => {{
+      const isActive = btn.dataset.dco === curDCO;
+      btn.classList.toggle('mrt-active', isActive);
+      const t = btn.dataset.dco;
+      const c = DCO_COLORS[t];
+      if (t !== 'all' && c) {{
+        btn.style.background  = isActive ? c[0] : '';
+        btn.style.borderColor = c[0];
+        btn.style.color       = isActive ? '#0e1117' : c[0];
+        btn.style.fontWeight  = isActive ? '700' : '';
+      }}
     }});
 
-    // family buttons
+    ['all','gwtc5','boco'].forEach(k => {{
+      q('{uid}_b' + k).classList.toggle('mrt-active', curLimit === k);
+    }});
+
     fbContainer.querySelectorAll('button').forEach(btn => {{
       btn.classList.toggle('mrt-active', btn.dataset.fam === curFamily);
     }});
 
-    // sort arrows
-    document.querySelectorAll('#mrt-root th[data-col]').forEach(th => {{
+    ROOT.querySelectorAll('th[data-col]').forEach(th => {{
       th.classList.toggle('mrt-sorted', th.dataset.col === sortCol);
-      const arrow = th.querySelector('.sa');
-      arrow.textContent = th.dataset.col === sortCol ? (sortAsc ? '↑' : '↓') : '↕';
+      th.querySelector('.sa').textContent =
+        th.dataset.col === sortCol ? (sortAsc ? '\u2191' : '\u2193') : '\u2195';
     }});
 
-    // stats
-    document.getElementById('mrt-stats').innerHTML =
+    q('{uid}_stats').innerHTML =
       `Showing <span>${{visible.length}}</span> of <span>${{ROWS.length}}</span> relationships`;
 
-    // rows
-    const tbody = document.getElementById('mrt-tbody');
+    const tbody = q('{uid}_tbody');
     tbody.innerHTML = '';
     visible.forEach(d => {{
       const tr = document.createElement('tr');
+      const labelCell = d.arxiv_url
+        ? `<a href="${{d.arxiv_url}}" target="_blank" rel="noopener">${{d.label}}</a>`
+        : d.label;
       tr.innerHTML = `
-        <td class="c-label">${{d.label}}${{badges(d)}}</td>
+        <td class="c-dco">${{dcoPill(d.dco_type)}}</td>
+        <td class="c-label">${{labelCell}}${{limitBadge(d)}}</td>
         <td class="c-family"><span class="ftag">${{dn(d.parameter_family)}}</span></td>
         <td class="c-param">${{d.parameter}}</td>
-        <td class="c-travel">${{d.from_value}}<span class="arrow">→</span>${{d.to_value}}</td>
-        <td class="c-rate ${{rCls(d.from_rate)}}">${{fmt(d.from_rate)}}</td>
-        <td class="c-rate ${{rCls(d.to_rate)}}">${{fmt(d.to_rate)}}</td>
-        <td class="c-factor ${{fCls(d.factor)}}">&times;${{fmt(d.factor)}}</td>
+        <td class="c-travel">${{d.from_value}}<span class="arrow">\u2192</span>${{d.to_value}}</td>
+        <td class="c-rate ${{rCls(d.from_rate, d.lim_gwtc5)}}">${{fmt(d.from_rate)}}</td>
+        <td class="c-rate ${{rCls(d.to_rate,   d.lim_gwtc5)}}">${{fmt(d.to_rate)}}</td>
+        <td class="c-factor ${{fCls(d.factor)}}">\u00d7${{fmt(d.factor)}}</td>
       `;
       tbody.appendChild(tr);
     }});
 
-    const empty = document.getElementById('mrt-empty');
-    const table = document.getElementById('mrt-table');
-    empty.style.display = visible.length === 0 ? 'block' : 'none';
-    table.style.display = visible.length === 0 ? 'none'  : '';
+    q('{uid}_empty').style.display = visible.length === 0 ? 'block' : 'none';
+    q('{uid}_table').style.display = visible.length === 0 ? 'none'  : '';
   }}
 
-  window.mrtSetLimit = function(k) {{ curLimit = k; render(); }};
-  window.mrtSort     = function(col) {{
+  window['{uid}_setLimit'] = k   => {{ curLimit = k;  render(); }};
+  window['{uid}_sort']     = col => {{
     if (sortCol === col) sortAsc = !sortAsc;
     else {{ sortCol = col; sortAsc = false; }}
     render();
