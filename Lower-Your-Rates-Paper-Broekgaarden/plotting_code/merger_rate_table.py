@@ -241,7 +241,7 @@ def make_merger_rate_table(
 #{uid} .c-label  {{ font-family: var(--font-mono); font-size: 11px; color: var(--text); max-width: 220px; white-space: normal; word-break: break-word; }}
 #{uid} .c-family {{ max-width: 170px; white-space: normal; }}
 #{uid} .c-param  {{ font-family: var(--font-mono); font-size: 11px; color: var(--muted); }}
-#{uid} .c-travel {{ font-family: var(--font-mono); font-size: 11px; }}
+#{uid} .c-travel {{ font-family: var(--font-mono); font-size: 11px; max-width: 150px; white-space: normal; word-break: break-word; overflow-wrap: anywhere; }}
 #{uid} .c-rate   {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; }}
 #{uid} .c-factor {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; font-weight: 600; }}
 #{uid} .c-dco    {{ text-align: center; }}
