@@ -138,15 +138,15 @@ def make_merger_rate_table(
 <div id="{uid}">
 <style>
 #{uid} {{
-  --bg:        #0e1117;
-  --surface:   #161b25;
-  --border:    #252d3d;
-  --accent:    #5b8dee;
-  --accent2:   #e06c75;
-  --accent3:   #98c379;
-  --text:      #cdd3de;
+  --bg:        #ffffff;
+  --surface:   #f4f6fa;
+  --border:    #d0d6e2;
+  --accent:    #3b6fd4;
+  --accent2:   #c0392b;
+  --accent3:   #2e7d32;
+  --text:      #1a1f2e;
   --muted:     #6b7897;
-  --tag-bg:    #1e2638;
+  --tag-bg:    #edf0f7;
   --font-mono: "JetBrains Mono","Fira Mono","Courier New",monospace;
   --font-body: "Inter","Segoe UI",sans-serif;
   background: var(--bg);
@@ -158,9 +158,20 @@ def make_merger_rate_table(
   border-radius: 8px;
   margin-top: 10px;
 }}
+#{uid}.dark {{
+  --bg:        #0e1117;
+  --surface:   #161b25;
+  --border:    #252d3d;
+  --accent:    #5b8dee;
+  --accent2:   #e06c75;
+  --accent3:   #98c379;
+  --text:      #cdd3de;
+  --muted:     #6b7897;
+  --tag-bg:    #1e2638;
+}}
 #{uid} h2 {{
   font-size: 16px; font-weight: 600; letter-spacing: .02em;
-  color: #e8ecf4; margin-bottom: 3px;
+  color: var(--text); margin-bottom: 3px;
 }}
 #{uid} .mrt-subtitle {{
   font-size: 11.5px; color: var(--muted); margin-bottom: 18px;
@@ -190,7 +201,7 @@ def make_merger_rate_table(
   background: var(--accent2); border-color: var(--accent2);
 }}
 #{uid} button.mrt-active.mrt-lim-boco {{
-  background: var(--accent3); border-color: var(--accent3); color: #0e1117;
+  background: var(--accent3); border-color: var(--accent3); color: var(--bg);
 }}
 #{uid} .mrt-divider {{
   width: 1px; background: var(--border); align-self: stretch; margin: 0 4px;
@@ -220,9 +231,9 @@ def make_merger_rate_table(
 #{uid} tbody tr:last-child {{ border-bottom: none; }}
 #{uid} tbody tr:hover {{ background: var(--surface); }}
 #{uid} td {{ padding: 6px 11px; vertical-align: middle; white-space: nowrap; }}
-#{uid} .c-label  {{ font-family: var(--font-mono); font-size: 11px; color: #c4c9d6; max-width: 220px; white-space: normal; word-break: break-word; }}
+#{uid} .c-label  {{ font-family: var(--font-mono); font-size: 11px; color: var(--text); max-width: 220px; white-space: normal; word-break: break-word; }}
 #{uid} .c-family {{ max-width: 170px; white-space: normal; }}
-#{uid} .c-param  {{ font-family: var(--font-mono); font-size: 11px; color: #a8b1c7; }}
+#{uid} .c-param  {{ font-family: var(--font-mono); font-size: 11px; color: var(--muted); }}
 #{uid} .c-travel {{ font-family: var(--font-mono); font-size: 11px; }}
 #{uid} .c-rate   {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; }}
 #{uid} .c-factor {{ font-family: var(--font-mono); font-size: 11.5px; text-align: right; font-weight: 600; }}
@@ -258,6 +269,14 @@ def make_merger_rate_table(
 #{uid} .mrt-empty {{
   text-align: center; padding: 36px 20px; color: var(--muted); font-size: 12.5px;
 }}
+#{uid} .mrt-theme-btn {{
+  margin-left: auto; align-self: center;
+  background: var(--tag-bg); border: 1px solid var(--border);
+  color: var(--muted); border-radius: 4px; padding: 4px 12px;
+  font-size: 11px; font-family: var(--font-body); cursor: pointer;
+  transition: background .15s, color .15s;
+}}
+#{uid} .mrt-theme-btn:hover {{ color: var(--text); border-color: var(--accent); }}
 </style>
 
 <h2>{title}</h2>
@@ -282,6 +301,7 @@ def make_merger_rate_table(
     <div class="mrt-clabel">Parameter family</div>
     <div class="mrt-btn-row" id="{uid}_fam_btns"></div>
   </div>
+  <button class="mrt-theme-btn" id="{uid}_theme_btn" onclick="{uid}_toggleTheme()">🌙 Dark</button>
 </div>
 
 <div class="mrt-stats" id="{uid}_stats"></div>
@@ -404,7 +424,7 @@ def make_merger_rate_table(
       if (t !== 'all' && c) {{
         btn.style.background  = isActive ? c[0] : '';
         btn.style.borderColor = c[0];
-        btn.style.color       = isActive ? '#0e1117' : c[0];
+        btn.style.color       = isActive ? 'var(--bg)' : c[0];
         btn.style.fontWeight  = isActive ? '700' : '';
       }}
     }});
@@ -455,6 +475,11 @@ def make_merger_rate_table(
     if (sortCol === col) sortAsc = !sortAsc;
     else {{ sortCol = col; sortAsc = false; }}
     render();
+  }};
+
+  window['{uid}_toggleTheme'] = () => {{
+    const isDark = ROOT.classList.toggle('dark');
+    q('{uid}_theme_btn').textContent = isDark ? '☀ Light' : '🌙 Dark';
   }};
 
   render();
