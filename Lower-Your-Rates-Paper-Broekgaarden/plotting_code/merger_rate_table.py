@@ -102,6 +102,12 @@ def make_merger_rate_table(
     data = data[data[from_rate_col] > 0]
     data = data[data[to_rate_col]   > 0]
     data["_factor"] = data[from_rate_col] / data[to_rate_col]
+    # Magnitude of change, direction-independent (>= 1). Used for sorting so a
+    # 138x reduction and a 138x increase sort together, since the chosen
+    # direction of a relationship is somewhat arbitrary.
+    data["_factor_mag"] = np.where(
+        data["_factor"] >= 1.0, data["_factor"], 1.0 / data["_factor"]
+    )
 
     rows = []
     for _, r in data.iterrows():
@@ -124,6 +130,7 @@ def make_merger_rate_table(
             "from_rate":        float(r[from_rate_col]),
             "to_rate":          float(r[to_rate_col]),
             "factor":           float(r["_factor"]),
+            "factor_mag":       float(r["_factor_mag"]),
             "dco_type":         dco,
             "lim_gwtc5":        float(limit_gwtc5.get(dco, LIMIT_GWTC5_DEFAULT)),
             "arxiv_url":        url,
@@ -316,7 +323,7 @@ def make_merger_rate_table(
       <th onclick="{uid}_sort('travel_label')"     data-col="travel_label">    Change                  <span class="sa">\u2195</span></th>
       <th onclick="{uid}_sort('from_rate')"        data-col="from_rate">       From rate               <span class="sa">\u2195</span></th>
       <th onclick="{uid}_sort('to_rate')"          data-col="to_rate">         To rate                 <span class="sa">\u2195</span></th>
-      <th onclick="{uid}_sort('factor')"           data-col="factor">          Reduction factor        <span class="sa">\u2195</span></th>
+      <th onclick="{uid}_sort('factor')"           data-col="factor">          Change factor           <span class="sa">\u2195</span></th>
     </tr></thead>
     <tbody id="{uid}_tbody"></tbody>
   </table>
@@ -388,8 +395,10 @@ def make_merger_rate_table(
   }}
 
   function sortRows(data) {{
+    // Sort the factor column by direction-independent magnitude.
+    const key = sortCol === 'factor' ? 'factor_mag' : sortCol;
     return [...data].sort((a, b) => {{
-      let va = a[sortCol], vb = b[sortCol];
+      let va = a[key], vb = b[key];
       if (typeof va === 'string') {{ va = va.toLowerCase(); vb = vb.toLowerCase(); }}
       if (va < vb) return sortAsc ? -1 :  1;
       if (va > vb) return sortAsc ?  1 : -1;
@@ -398,8 +407,15 @@ def make_merger_rate_table(
   }}
 
   function rCls(v, lim) {{ return v > lim ? 'r-high' : v > LIM_BOCO ? 'r-mid' : 'r-low'; }}
-  function fCls(v)      {{ return v >= 5 ? 'f-high' : v >= 2 ? 'f-mid' : 'f-low'; }}
+  function fCls(m)      {{ return m >= 5 ? 'f-high' : m >= 2 ? 'f-mid' : 'f-low'; }}
   function fmt(v)       {{ return v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2); }}
+
+  // Direction-independent factor label: "×138" for a reduction (from > to),
+  // ":10" for an increase (to > from). Magnitude is always >= 1.
+  function factorLabel(d) {{
+    const sym = d.factor >= 1 ? '×' : ':';
+    return sym + fmt(d.factor_mag);
+  }}
 
   function limitBadge(d) {{
     if (d.to_rate < LIM_BOCO)    return '<span class="badge b-boco">&lt;20</span>';
@@ -461,7 +477,7 @@ def make_merger_rate_table(
         <td class="c-travel">${{d.from_value}}<span class="arrow">\u2192</span>${{d.to_value}}</td>
         <td class="c-rate ${{rCls(d.from_rate, d.lim_gwtc5)}}">${{fmt(d.from_rate)}}</td>
         <td class="c-rate ${{rCls(d.to_rate,   d.lim_gwtc5)}}">${{fmt(d.to_rate)}}</td>
-        <td class="c-factor ${{fCls(d.factor)}}">\u00d7${{fmt(d.factor)}}</td>
+        <td class="c-factor ${{fCls(d.factor_mag)}}">${{factorLabel(d)}}</td>
       `;
       tbody.appendChild(tr);
     }});
